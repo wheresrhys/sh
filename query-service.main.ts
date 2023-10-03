@@ -1,14 +1,13 @@
-import express from "express";
+import express, { NextFunction, Request, Response } from "express";
 import { getDBConnection } from "./db";
+import knex from "knex";
 
 /**
  * This file has little structure and doesn't represent production quality code.
  * Feel free to refactor it or add comments on what could be improved.
  *
- * We specifically avoided any use of sequelize ORM features for simplicity and used plain SQL queries.
- * Sequelize's data mapping is used to get nice JavaScript objects from the database rows.
+ * Feel free to use knex's query builder or just plain sql using `knexDb.raw()`.
  *
- * You can switch to using the ORM features or continue using SQL.
  */
 
 const app = express();
@@ -17,26 +16,91 @@ app.set("port", process.env.PORT || 3000);
 
 app.use(express.json());
 
+type SpendStatsResponse = {
+  unique_buyers: number;
+  transaction_count: number;
+  unique_suppliers: number;
+};
+
 /**
- * This endpoint implements basic way to paginate through the search results.
- * It returns a `endOfResults` flag which is true when there are no more records to fetch.
+ * This operation exposes basic high level stats of the transaction database.
  */
 app.get("/api/stats", async (_req, res) => {
-  const knexDb = getDBConnection();
+  const knexDb = await getDBConnection();
 
-  const uniqueCounts = await knexDb
-    .countDistinct({
-      unique_buyers: "buyer_name",
-      unique_suppliers: "supplier_name",
-    })
-    .from("spend_transactions");
+  const result = await knexDb("spend_transactions").select(
+    knexDb.raw("COUNT(*) AS transaction_count"),
+    knexDb.raw("COUNT(DISTINCT supplier_name) as unique_suppliers"),
+    knexDb.raw("COUNT(DISTINCT buyer_name) as unique_buyers")
+  );
 
-  const totalCount = await knexDb("spend_transactions").count({ count: "*" });
+  const response: SpendStatsResponse = {
+    unique_buyers: result[0].unique_buyers,
+    unique_suppliers: result[0].unique_suppliers,
+    transaction_count: result[0].transaction_count,
+  };
 
-  res.json({
-    unique_buyers: uniqueCounts[0].unique_buyers,
-    unique_suppliers: uniqueCounts[0].unique_suppliers,
-    transaction_count: totalCount[0].count,
+  res.json(response);
+});
+
+type SupplierStatsRequest = {
+  supplier_name: string;
+};
+
+type SupplierStatsResponse = {
+  unique_buyers: number;
+  transaction_count: number;
+  total_transaction_value: number;
+};
+
+/**
+ * This operation returns stats for a specific supplier.
+ */
+app.post("/api/supplier_stats", async (req, res, next) => {
+  try {
+    const knexDb = await getDBConnection();
+    const requestPayload = req.body as SupplierStatsRequest;
+    if (!requestPayload.supplier_name) {
+      throw new Error("`supplier_name` must be specified.");
+    }
+
+    const result = await knexDb("spend_transactions")
+      .where({ supplier_name: requestPayload.supplier_name })
+      .select(
+        knexDb.raw("COUNT(*) AS transaction_count"),
+        knexDb.raw("SUM(amount) as total_value"),
+        knexDb.raw("COUNT(DISTINCT buyer_name) as unique_buyers")
+      );
+
+    console.log(JSON.stringify(result));
+    const response: SupplierStatsResponse = {
+      unique_buyers: result[0].unique_buyers,
+      total_transaction_value: result[0].total_value,
+      transaction_count: result[0].transaction_count,
+    };
+
+    res.json(response);
+  } catch (err) {
+    next(err);
+  }
+});
+
+app.post("/api/top_suppliers", async (_req, _res, next) => {
+  try {
+    // TODO: Implement top suppliers API
+    throw new Error("Not implemented");
+  } catch (err) {
+    next(err);
+  }
+});
+
+/**
+ * Simple error handling
+ */
+app.use((err: unknown, _req: Request, res: Response, next: NextFunction) => {
+  console.error(err);
+  res.status(500).json({
+    error: err instanceof Error ? err.message : "Unknown error occured",
   });
 });
 
