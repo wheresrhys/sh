@@ -22,6 +22,16 @@ type SpendStatsResponse = {
   unique_suppliers: number;
 };
 
+app.get("/", (_req, res) => {
+  // route documentation here
+  res.send(`
+    <h1>API Routes</h1>
+    <p>GET <a href="/api/stats">/api/stats</a> - This operation exposes basic high level stats of the transaction database.</p>
+    <p>POST /api/supplier_stats - This operation returns stats for a specific supplier.</p>
+    <p>POST /api/top_suppliers - This operation returns the top suppliers by transaction value.</p>
+  `);
+});
+
 /**
  * This operation exposes basic high level stats of the transaction database.
  */
