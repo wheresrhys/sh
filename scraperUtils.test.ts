@@ -11,4 +11,13 @@ describe("parseAmount", () => {
     expect(parseAmount("12,345")).toEqual(12345);
     expect(parseAmount("1,234.5")).toEqual(1234.5);
   });
+  it("should handle numbers with currency", () => {
+    expect(parseAmount("£12,345")).toEqual(12345);
+    expect(parseAmount("£1,234.5")).toEqual(1234.5);
+  });
+
+  it("should handle negative numbers ", () => {
+    expect(parseAmount("-12345")).toEqual(-12345);
+    expect(parseAmount("-1234.5")).toEqual(-1234.5);
+  });
 });

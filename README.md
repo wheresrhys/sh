@@ -72,11 +72,11 @@ You can run `ts-node` to execute each of these or use scripts defined in package
 
 ```bash
 # Starts the query service with --watch so it auto-reloads
-npm run dev dev-query-service
+npm run dev-query-service
 # Runs the scraper
-npm run dev dev-fetch-transaction-data
+npm run dev-fetch-transaction-data
 # Runs the file loader
-npm run dev dev-load-file
+npm run dev-load-file
 ```
 
 The first time you run any script that accesses the db (calls `getDBConnection()`),
