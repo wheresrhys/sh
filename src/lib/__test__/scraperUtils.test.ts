@@ -1,4 +1,4 @@
-import { parseAmount } from "./scraperUtils";
+import { parseAmount } from "../scraperUtils";
 
 describe("parseAmount", () => {
   it("should handle simple number formats", () => {

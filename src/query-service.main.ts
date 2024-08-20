@@ -1,5 +1,5 @@
 import express, { NextFunction, Request, Response } from "express";
-import { getDBConnection } from "./db";
+import { getDBConnection } from "./lib/db";
 import knex from "knex";
 
 /**
