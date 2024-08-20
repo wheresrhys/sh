@@ -121,6 +121,8 @@ app.post("/api/top_suppliers", async (req, res, next) => {
   try {
     const knexDb = await getDBConnection();
     const requestPayload = req.body as TopSuppliersRequest;
+    // In prod I'd probably use a schema based validator such as zod to
+    // avoid having to write repetitive validation code
     if (!requestPayload.buyer_name) {
       throw new Error("`buyer_name` must be specified.");
     }

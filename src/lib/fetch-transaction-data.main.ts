@@ -85,10 +85,6 @@ async function ingestTransactions(document: GovUkDocument) {
   });
 }
 
-// const response = await fetch(
-
-// );
-
 async function ingestDataSource(url: string) {
   // Note: splitting into a 2 stage process sacrifices some parallelisation in favour
   // of comprehensibility. Doubtless it's possible to do get the best of both worlds

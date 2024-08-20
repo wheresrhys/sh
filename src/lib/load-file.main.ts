@@ -87,7 +87,7 @@ export async function saveCSVToDb(csvContent: string) {
         const isoTsp = DateTime.fromFormat(
           spendDataRow["Date"],
           // For now I've just replaced the old bad format with the one actually used
-          // In the data. But if it wasn't jsut an exercise I'd probably assume the old
+          // in the data. But if it wasn't just an exercise I'd probably assume the old
           // format was there for a good reason and recaftor to support both formats
           "dd/MM/yyyy",
         ).toISO();
@@ -120,6 +120,7 @@ export async function saveCSVToDb(csvContent: string) {
     .filter((row: SpendTransaction | null): row is SpendTransaction =>
       Boolean(row),
     );
+
   console.log(transactions.length);
   await knexDb.batchInsert("spend_transactions", transactions, 100);
 
