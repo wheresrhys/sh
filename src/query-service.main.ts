@@ -38,6 +38,9 @@ app.get("/", (_req, res) => {
   `);
 });
 
+
+// To productionise I woudl split this into a /controllers directory
+
 /**
  * This operation exposes basic high level stats of the transaction database.
  */
@@ -104,6 +107,8 @@ app.post("/api/supplier_stats", async (req, res, next) => {
 
 type TopSuppliersRequest = {
   buyer_name: string;
+  // would be good to use the ISO check as a type guard and have a new type
+  // ISO that extends string
   from_date: string;
   to_date: string;
 }
@@ -140,6 +145,10 @@ app.post("/api/top_suppliers", async (req, res, next) => {
       .groupBy("supplier_name")
       .orderBy('total_value', 'desc');
 
+    // this avoids ugly repeating 99999's as a result of some calculations
+    result.forEach(result => {
+      result.total_value = Math.round(100 * result.total_value) / 100
+    })
     res.json({
       top_suppliers: result
     })
@@ -147,14 +156,6 @@ app.post("/api/top_suppliers", async (req, res, next) => {
     next(err);
   }
 });
-
-
-
-
-
-
-
-
 
 /**
  * Simple error handling

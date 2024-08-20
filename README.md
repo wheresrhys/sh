@@ -99,4 +99,7 @@ If you just want to disable strict type checking, modify `tsconfig.json` accordi
 
 # Candidate's notes
 
-TODO: Add your notes here
+- I've left quite a few comments in the code
+- I generally run eslint and prettier in `--fix` mode on any projects I set up, and rely on that to fix indentation, consistent quote marks etc. Hence there are probably a few messy bits in my solution (hopefully not too illegible though!)
+- Final data result for the exercise saved as result.json
+

@@ -14,9 +14,9 @@ import { parseAmount } from "./scraperUtils";
 // Common data format of _some_ of the spend files.
 // Might have to support other formats in the future but this is ok for HMRC & DfT
 // Productionising I think I would probably use something like zod to author types
-// and to validate input against a range of schemas, adn switch to handle each
+// and to validate input against a range of schemas, switching to handle each
 // instance with its own transformer - feels like a nice declarative & maintainable
-// way to scale to handle more varaieties of input data in future
+// way to scale to handle more varieties of input data in future
 type GovUKData = {
   "Department family": string;
   Entity: string;
@@ -68,8 +68,9 @@ export async function saveCSVToDb(csvContent: string) {
   // continue to write as much good data as possible, which is what I've implemented
   // here
 
-  // Note: Having completed the task I would consider refactoring so that converting csvData to rows 
-  // is done by one function, and writing those rows to the DB is done by another
+  // Having completed the task I would consider refactoring so that converting
+  // csvData to rows is done by one function, and writing those rows to the DB
+  // is done by another
   // This would give more flexibility when managing DB load
   const transactions = csvData.data.map(row => {
     try {
@@ -86,6 +87,9 @@ export async function saveCSVToDb(csvContent: string) {
       // See https://moment.github.io/luxon/#/parsing
       const isoTsp = DateTime.fromFormat(
         spendDataRow["Date"],
+        // For now I've just replaced the old bad format with the one actually used
+        // In the data. But if it wasn't jsut an exercise I'd probably assume the old
+        // format was there for a good reason and recaftor to support both formats
         "dd/MM/yyyy"
       ).toISO();
       if (!isoTsp) {
