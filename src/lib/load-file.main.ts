@@ -121,7 +121,6 @@ export async function saveCSVToDb(csvContent: string) {
       Boolean(row),
     );
 
-  console.log(transactions.length);
   await knexDb.batchInsert("spend_transactions", transactions, 100);
 
   console.log("Finished writing to the DB.");

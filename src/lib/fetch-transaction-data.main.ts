@@ -90,7 +90,7 @@ async function ingestDataSource(url: string) {
   // of comprehensibility. Doubtless it's possible to do get the best of both worlds
   // but erring on the side of comprehensibility for now
   const documents = await fetchDocuments(
-    "https://www.gov.uk/api/content/government/collections/spending-over-25-000",
+    url,
   );
 
   await documents.map(ingestTransactions);

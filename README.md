@@ -100,7 +100,7 @@ If you just want to disable strict type checking, modify `tsconfig.json` accordi
 # Candidate's notes
 
 - I've left quite a few comments in the code
-- Final data result for the exercise saved as result.json - I sorted it from highest to lowest (the task didn't explicitly ask for this, but it seemed sensible). In case unsorted is preferred, I also have this in result-unsorted.json
+- Final data result for the exercise saved as result.json - I sorted it from highest to lowest (the task didn't explicitly ask for this, but it seemed sensible)
 
 ## Notes on testing
 
@@ -111,7 +111,7 @@ More important for this application - which is going to encounter more and more 
 ```
 {
    err: Error,
-   record: Any,//the json object currently being worked on
+   record: object,//the json object currently being worked on
    url: String
 }
 ```
