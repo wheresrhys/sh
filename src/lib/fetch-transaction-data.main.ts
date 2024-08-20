@@ -1,45 +1,75 @@
-import { saveCSVToDb } from './load-file'
+import { pRateLimit }  from 'p-ratelimit';
+
+const limit = pRateLimit({
+  interval: 1000,             
+  rate: 30,                   
+});
+
+// TODO define proper typings for all these gov data structures
+type GovUkDocument = {
+  details: {
+    attachments: {
+      url: string
+    }[]
+  }
+}
+
+type GovUkCollection = {
+  links: {
+    documents: {
+      api_url: string
+    }[]
+  }
+}
+
+import { saveCSVToDb } from './load-file.main'
 // Assumption: It's better to log an error and continue with as much good data as we can
 // than to fail for everything if a single request fails
 // Implication: I'm just logging errors and returning null in general, avoiding 
 // implementing any more complex flows
-// TODO define proper typings for all these gov data structures
 // TODO might be worth abstracting some of this and the next function into a utility that
 // takes a url and something like an xpath to recursively fetch data
-async function fetchDocuments (collectionUrl) {
+async function fetchDocuments (collectionUrl: string) {
   const collectionResponse = await fetch(
     collectionUrl
   );
-  const collectionData = await collectionResponse.json();
-  const documentPromises = collectionData.links.documents.slice(0, 1).map(async ({ api_url }) => {
+  const collectionData: GovUkCollection = await collectionResponse.json();
+  console.log('successfully fetched collection', collectionUrl)
+  const documentPromises = collectionData.links.documents.map(async ({ api_url }) => {
     try {
       const documentResponse = await fetch(api_url);
       if (documentResponse.ok) {
-        return documentResponse.json();
+        const json = await documentResponse.json();
+        console.log('successfully fetched document', api_url)
+        return json
       } else {
         throw new Error(documentResponse.statusText)
       }
     } catch (err) {
-      console.error('Failed to load a document', err);
+      console.error('Failed to fetch document', api_url, err);
       return null
     }
   })
   return Promise.all(documentPromises)
 }
 
-async function ingestTransactions(document) {
+
+
+async function ingestTransactions(document: GovUkDocument) {
   const attachments = document.details.attachments.filter(({url}) => url.endsWith('csv')).map(({url}) => url);
   return attachments.map(async url => {
     try {
       const csvResponse = await fetch(url);
       if (csvResponse.ok) {
-        const csv = csvResponse.text();
-        return saveCSVToDb(csv)
+        const csv = await csvResponse.text();
+        console.log('successfully fetched csv', url)
+        await limit(() => saveCSVToDb(csv))
+        console.log('successfully saved csv', url)
       } else {
         throw new Error(csvResponse.statusText)
       }
     } catch (err) {
-      console.error('Failed to load a document', err);
+      console.error('Failed to fetch csv', url, err);
       return null
     }
   })
@@ -55,24 +85,9 @@ async function main() {
   // of comprehensibility. Doubtless it's possible to do get the best of both worlds
   // but erring on the side of comprehensibility for now
   const documents = await fetchDocuments("https://www.gov.uk/api/content/government/collections/spending-over-25-000");
-  // Having said that, I'm processing each CSV file (fetch + write to DB) in its entirety in one step
-  // to avoid fetching all the CSV files and then pummelling the DB by writing them all at once.
-  // Combining fetch and write flattens the spike a bit. In prod I would probably use something like https://www.npmjs.com/package/p-ratelimit
-  // to flatten it further.
-  documents.map(ingestTransactions);
 
-  const csvFiles = ingestTransactions(documents) = await collectionData.links.documents.slice(0,1).map(async ({api_url}) => {
-    const request = await fetch(api_url);
-    if (request.ok) {
-      const documentData = await request.json();
-    }
-  });
-
-
-
-  // TODO: Implement scraping spend data from gov.uk websites
-
-  throw new Error("Not implemented");
+  return documents.map(ingestTransactions);
+  console.log("done ingesting");
 }
 
 main();
