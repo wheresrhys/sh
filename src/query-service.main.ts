@@ -109,9 +109,10 @@ type TopSuppliersRequest = {
 }
 
 type TopSuppliersResponse = {
-  unique_buyers: number;
-  transaction_count: number;
-  total_transaction_value: number;
+  top_suppliers: {
+    name: string;
+    total_amount: number;
+  }[];
 };
 
 app.post("/api/top_suppliers", async (req, res, next) => {
@@ -130,23 +131,18 @@ app.post("/api/top_suppliers", async (req, res, next) => {
       throw new Error("`from_date` must be specified using a valid ISO string.");
     }
 
-    // const result = await knexDb("spend_transactions")
-    //   .where({ supplier_name: requestPayload.supplier_name })
-    //   .select(
-    //     knexDb.raw("COUNT(*) AS transaction_count"),
-    //     knexDb.raw("SUM(amount) as total_value"),
-    //     knexDb.raw("COUNT(DISTINCT buyer_name) as unique_buyers")
-    //   );
+    const result = await knexDb("spend_transactions")
+      .where({ buyer_name: requestPayload.buyer_name })
+      .select(
+        knexDb.raw("supplier_name as name"),
+        knexDb.raw("SUM(amount) as total_value"),
+      )
+      .groupBy("supplier_name")
+      .orderBy('total_value', 'desc');
 
-    // console.log(JSON.stringify(result));
-    // const response: SupplierStatsResponse = {
-    //   unique_buyers: result[0].unique_buyers,
-    //   total_transaction_value: result[0].total_value,
-    //   transaction_count: result[0].transaction_count,
-    // };
-
-    // res.json(response);
-    res.json({})
+    res.json({
+      top_suppliers: result
+    })
   } catch (err) {
     next(err);
   }
@@ -154,28 +150,6 @@ app.post("/api/top_suppliers", async (req, res, next) => {
 
 
 
-
-
-
-
-
-
-// /api/top_suppliers
-
-// Sample request:
-// {
-//    "buyer_name": "HMRC",
-//    "from_date": "20210101",
-//    "to_date": "20210131",
-// }
-
-// Sample response:
-// {
-//    "top_suppliers": [
-//       { "name": "Stotles", "total_amount": 1234567.0 },
-//       ...
-//    ]
-// }
 
 
 
