@@ -1,7 +1,7 @@
 import express, { NextFunction, Request, Response } from "express";
 import { getDBConnection } from "./lib/db";
 import knex from "knex";
-import moment from 'moment'
+import moment from "moment";
 
 /**
  * This file has little structure and doesn't represent production quality code.
@@ -11,10 +11,9 @@ import moment from 'moment'
  *
  */
 
-function isValidDateTime (input: string) {
-  return moment(input, moment.ISO_8601, true).isValid()
+function isValidDateTime(input: string) {
+  return moment(input, moment.ISO_8601, true).isValid();
 }
-
 
 const app = express();
 
@@ -38,7 +37,6 @@ app.get("/", (_req, res) => {
   `);
 });
 
-
 // To productionise I woudl split this into a /controllers directory
 
 /**
@@ -50,7 +48,7 @@ app.get("/api/stats", async (_req, res) => {
   const result = await knexDb("spend_transactions").select(
     knexDb.raw("COUNT(*) AS transaction_count"),
     knexDb.raw("COUNT(DISTINCT supplier_name) as unique_suppliers"),
-    knexDb.raw("COUNT(DISTINCT buyer_name) as unique_buyers")
+    knexDb.raw("COUNT(DISTINCT buyer_name) as unique_buyers"),
   );
 
   const response: SpendStatsResponse = {
@@ -61,7 +59,6 @@ app.get("/api/stats", async (_req, res) => {
 
   res.json(response);
 });
-
 
 type SupplierStatsRequest = {
   supplier_name: string;
@@ -89,7 +86,7 @@ app.post("/api/supplier_stats", async (req, res, next) => {
       .select(
         knexDb.raw("COUNT(*) AS transaction_count"),
         knexDb.raw("SUM(amount) as total_value"),
-        knexDb.raw("COUNT(DISTINCT buyer_name) as unique_buyers")
+        knexDb.raw("COUNT(DISTINCT buyer_name) as unique_buyers"),
       );
 
     console.log(JSON.stringify(result));
@@ -111,7 +108,7 @@ type TopSuppliersRequest = {
   // ISO that extends string
   from_date: string;
   to_date: string;
-}
+};
 
 type TopSuppliersResponse = {
   top_suppliers: {
@@ -121,19 +118,26 @@ type TopSuppliersResponse = {
 };
 
 app.post("/api/top_suppliers", async (req, res, next) => {
- try {
+  try {
     const knexDb = await getDBConnection();
     const requestPayload = req.body as TopSuppliersRequest;
     if (!requestPayload.buyer_name) {
       throw new Error("`buyer_name` must be specified.");
     }
 
-    if (!requestPayload.from_date || !isValidDateTime(requestPayload.from_date)) {
-      throw new Error("`from_date` must be specified using a valid ISO string.");
+    if (
+      !requestPayload.from_date ||
+      !isValidDateTime(requestPayload.from_date)
+    ) {
+      throw new Error(
+        "`from_date` must be specified using a valid ISO string.",
+      );
     }
 
     if (!requestPayload.to_date || !isValidDateTime(requestPayload.from_date)) {
-      throw new Error("`from_date` must be specified using a valid ISO string.");
+      throw new Error(
+        "`from_date` must be specified using a valid ISO string.",
+      );
     }
 
     const result = await knexDb("spend_transactions")
@@ -143,15 +147,15 @@ app.post("/api/top_suppliers", async (req, res, next) => {
         knexDb.raw("SUM(amount) as total_value"),
       )
       .groupBy("supplier_name")
-      .orderBy('total_value', 'desc');
+      .orderBy("total_value", "desc");
 
     // this avoids ugly repeating 99999's as a result of some calculations
-    result.forEach(result => {
-      result.total_value = Math.round(100 * result.total_value) / 100
-    })
+    result.forEach((result) => {
+      result.total_value = Math.round(100 * result.total_value) / 100;
+    });
     res.json({
-      top_suppliers: result
-    })
+      top_suppliers: result,
+    });
   } catch (err) {
     next(err);
   }

@@ -39,13 +39,11 @@ type SpendTransaction = {
 };
 
 async function loadFileFromPath(csvPath: string) {
-
   console.log(`Reading ${csvPath}.`);
   const csvContent = fs.readFileSync(csvPath, { encoding: "utf8" });
   return saveCSVToDb(csvContent);
 }
 export async function saveCSVToDb(csvContent: string) {
-
   const csvData = Papa.parse(csvContent, {
     header: true,
     skipEmptyLines: true, // some files have empty newlines at the end
@@ -72,53 +70,58 @@ export async function saveCSVToDb(csvContent: string) {
   // csvData to rows is done by one function, and writing those rows to the DB
   // is done by another
   // This would give more flexibility when managing DB load
-  const transactions = csvData.data.map(row => {
-    try {
-      // Add more validation in the future?
-      const spendDataRow = row as GovUKData;
+  const transactions = csvData.data
+    .map((row) => {
+      try {
+        // Add more validation in the future?
+        const spendDataRow = row as GovUKData;
 
-      // Some files have hundreds of rows with no data at the end, just commas.
-      // It's safe to skip these.
-      if (spendDataRow.Entity === "") {
-        return null
-      }
+        // Some files have hundreds of rows with no data at the end, just commas.
+        // It's safe to skip these.
+        if (spendDataRow.Entity === "") {
+          return null;
+        }
 
-      // TODO: We might have to support other date formats in the future
-      // See https://moment.github.io/luxon/#/parsing
-      const isoTsp = DateTime.fromFormat(
-        spendDataRow["Date"],
-        // For now I've just replaced the old bad format with the one actually used
-        // In the data. But if it wasn't jsut an exercise I'd probably assume the old
-        // format was there for a good reason and recaftor to support both formats
-        "dd/MM/yyyy"
-      ).toISO();
-      if (!isoTsp) {
-        throw new Error(
-          `Invalid transaction timestamp ${spendDataRow["Date"]}.`
+        // TODO: We might have to support other date formats in the future
+        // See https://moment.github.io/luxon/#/parsing
+        const isoTsp = DateTime.fromFormat(
+          spendDataRow["Date"],
+          // For now I've just replaced the old bad format with the one actually used
+          // In the data. But if it wasn't jsut an exercise I'd probably assume the old
+          // format was there for a good reason and recaftor to support both formats
+          "dd/MM/yyyy",
+        ).toISO();
+        if (!isoTsp) {
+          throw new Error(
+            `Invalid transaction timestamp ${spendDataRow["Date"]}.`,
+          );
+        }
+
+        /**
+         * Note that we're not specifying `id` here which will be automatically generated,
+         * but knex complains about sqlite not supporting default values.
+         * It's ok to ignore that warning.
+         */
+        return {
+          buyer_name: spendDataRow["Entity"],
+          supplier_name: spendDataRow["Supplier"],
+          amount: parseAmount(spendDataRow["Amount"]),
+          transaction_timestamp: isoTsp,
+        };
+      } catch (error) {
+        // Re-throw all errors, but log some useful info
+        console.error(
+          `Failed to process row ${rowNum}: ${JSON.stringify(row)}`,
+          error,
         );
+        return null;
       }
-
-      /**
-       * Note that we're not specifying `id` here which will be automatically generated,
-       * but knex complains about sqlite not supporting default values.
-       * It's ok to ignore that warning.
-       */
-      return {
-        buyer_name: spendDataRow["Entity"],
-        supplier_name: spendDataRow["Supplier"],
-        amount: parseAmount(spendDataRow["Amount"]),
-        transaction_timestamp: isoTsp,
-      };
-
-    } catch (error) {
-      // Re-throw all errors, but log some useful info
-      console.error(`Failed to process row ${rowNum}: ${JSON.stringify(row)}`, error);
-      return null
-    }
-  }).filter((row:(SpendTransaction | null)): row is SpendTransaction => Boolean(row))
+    })
+    .filter((row: SpendTransaction | null): row is SpendTransaction =>
+      Boolean(row),
+    );
   console.log(transactions.length);
-  await knexDb
-    .batchInsert('spend_transactions', transactions, 100)
+  await knexDb.batchInsert("spend_transactions", transactions, 100);
 
   console.log("Finished writing to the DB.");
   await knexDb.destroy();

@@ -33,7 +33,7 @@ export async function getDBConnection(): Promise<Knex> {
         console.log(`Running ${migrationFile}`);
         const migrationSql = fs.readFileSync(
           path.join(MIGRATION_DIR, migrationFile),
-          { encoding: "utf8" }
+          { encoding: "utf8" },
         );
         await knexDb.raw(migrationSql);
       }
