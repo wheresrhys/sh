@@ -34,9 +34,7 @@ type SpendTransaction = {
   transaction_timestamp: string; // should be iso format
 };
 
-async function main() {
-  // TODO: Pass this as an argument?
-  const csvPath = "./sample_data/Transparency_DfE_Spend_July_2023__1_.csv";
+async function loadSingleFile(csvPath: string) {
 
   console.log(`Reading ${csvPath}.`);
   const csvContent = fs.readFileSync(csvPath, { encoding: "utf8" });
@@ -99,4 +97,7 @@ async function main() {
   await knexDb.destroy();
 }
 
-main();
+
+
+loadSingleFile("./sample_data/HMRC_spending_over_25000_for_August_2023.csv");
+loadSingleFile("./sample_data/Transparency_DfE_Spend_July_2023__1_.csv");
