@@ -30,24 +30,6 @@ type GovUKData = {
   "Supplier Postcode": string;
 };
 
-//  {
-//   "Department family":"HMRC",
-//   "Entity":"HMRC",
-//   "Date":"01/08/2023",
-//   "Expense type":"PROJECT Mandays Supp",
-//   "Expense area":"CDIO - Core",
-//   "Supplier":"CREDERA LTD",
-//   "Transaction number":"5100026112",
-//   "Amount":"22,393.75",
-//   "Description":"PROJECT Mandays Supp",
-//   "Supplier Postcode":"SE1 0SW",
-//   "Supplier Type":"",
-//   "Contract Number":"",
-//   "Project Code":"",
-//   "Expenditure Type":""
-// }
-
-
 // Corresponds to the spend_transactions table in the database
 type SpendTransaction = {
   buyer_name: string;
@@ -76,7 +58,7 @@ export async function saveCSVToDb(csvContent: string) {
 
   let rowNum = 1;
 
-  // Note that I'm aware of the fact error handling is different now: before it
+  // Note: I'm aware of the fact error handling is different now: before it
   // would write lots of successful records, then exit on the first error, now
   // it writes nothing unless no rows error.
   // To avoid getting bogged down I've opted not to spend time on implementing
@@ -85,6 +67,10 @@ export async function saveCSVToDb(csvContent: string) {
   // My gut feel is the right behaviour would be to log and alert on errors, but
   // continue to write as much good data as possible, which is what I've implemented
   // here
+
+  // Note: Having completed the task I would consider refactoring so that converting csvData to rows 
+  // is done by one function, and writing those rows to the DB is done by another
+  // This would give more flexibility when managing DB load
   const transactions = csvData.data.map(row => {
     try {
       // Add more validation in the future?
@@ -126,7 +112,7 @@ export async function saveCSVToDb(csvContent: string) {
       return null
     }
   }).filter((row:(SpendTransaction | null)): row is SpendTransaction => Boolean(row))
-
+  console.log(transactions.length);
   await knexDb
     .batchInsert('spend_transactions', transactions, 100)
 

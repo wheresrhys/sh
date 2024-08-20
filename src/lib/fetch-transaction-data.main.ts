@@ -2,7 +2,7 @@ import { pRateLimit }  from 'p-ratelimit';
 
 const limit = pRateLimit({
   interval: 1000,             
-  rate: 30,                   
+  rate: 1, // Set to 1 as I kept getting SQLITE_BUSY errors. Woudl tune it properly for prod
 });
 
 // TODO define proper typings for all these gov data structures
@@ -39,9 +39,13 @@ async function fetchDocuments (collectionUrl: string) {
     try {
       const documentResponse = await fetch(api_url);
       if (documentResponse.ok) {
-        const json = await documentResponse.json();
+        const document = await documentResponse.json();
         console.log('successfully fetched document', api_url)
-        return json
+        if (new Date(document.first_published_at) < new Date('2020-01-01')) {
+          console.log('discarding document published before 2020', api_url)
+          return null;
+        };
+        return document
       } else {
         throw new Error(documentResponse.statusText)
       }
@@ -50,7 +54,8 @@ async function fetchDocuments (collectionUrl: string) {
       return null
     }
   })
-  return Promise.all(documentPromises)
+  const documents = await Promise.all(documentPromises);
+  return documents.filter(doc => Boolean(doc))
 }
 
 
