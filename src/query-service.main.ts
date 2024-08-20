@@ -1,6 +1,7 @@
 import express, { NextFunction, Request, Response } from "express";
 import { getDBConnection } from "./lib/db";
 import knex from "knex";
+import moment from 'moment'
 
 /**
  * This file has little structure and doesn't represent production quality code.
@@ -9,6 +10,11 @@ import knex from "knex";
  * Feel free to use knex's query builder or just plain sql using `knexDb.raw()`.
  *
  */
+
+function isValidDateTime (input: string) {
+  return moment(input, moment.ISO_8601, true).isValid()
+}
+
 
 const app = express();
 
@@ -53,6 +59,7 @@ app.get("/api/stats", async (_req, res) => {
   res.json(response);
 });
 
+
 type SupplierStatsRequest = {
   supplier_name: string;
 };
@@ -95,14 +102,85 @@ app.post("/api/supplier_stats", async (req, res, next) => {
   }
 });
 
-app.post("/api/top_suppliers", async (_req, _res, next) => {
-  try {
-    // TODO: Implement top suppliers API
-    throw new Error("Not implemented");
+type TopSuppliersRequest = {
+  buyer_name: string;
+  from_date: string;
+  to_date: string;
+}
+
+type TopSuppliersResponse = {
+  unique_buyers: number;
+  transaction_count: number;
+  total_transaction_value: number;
+};
+
+app.post("/api/top_suppliers", async (req, res, next) => {
+ try {
+    const knexDb = await getDBConnection();
+    const requestPayload = req.body as TopSuppliersRequest;
+    if (!requestPayload.buyer_name) {
+      throw new Error("`buyer_name` must be specified.");
+    }
+
+    if (!requestPayload.from_date || !isValidDateTime(requestPayload.from_date)) {
+      throw new Error("`from_date` must be specified using a valid ISO string.");
+    }
+
+    if (!requestPayload.to_date || !isValidDateTime(requestPayload.from_date)) {
+      throw new Error("`from_date` must be specified using a valid ISO string.");
+    }
+
+    // const result = await knexDb("spend_transactions")
+    //   .where({ supplier_name: requestPayload.supplier_name })
+    //   .select(
+    //     knexDb.raw("COUNT(*) AS transaction_count"),
+    //     knexDb.raw("SUM(amount) as total_value"),
+    //     knexDb.raw("COUNT(DISTINCT buyer_name) as unique_buyers")
+    //   );
+
+    // console.log(JSON.stringify(result));
+    // const response: SupplierStatsResponse = {
+    //   unique_buyers: result[0].unique_buyers,
+    //   total_transaction_value: result[0].total_value,
+    //   transaction_count: result[0].transaction_count,
+    // };
+
+    // res.json(response);
+    res.json({})
   } catch (err) {
     next(err);
   }
 });
+
+
+
+
+
+
+
+
+
+// /api/top_suppliers
+
+// Sample request:
+// {
+//    "buyer_name": "HMRC",
+//    "from_date": "20210101",
+//    "to_date": "20210131",
+// }
+
+// Sample response:
+// {
+//    "top_suppliers": [
+//       { "name": "Stotles", "total_amount": 1234567.0 },
+//       ...
+//    ]
+// }
+
+
+
+
+
 
 /**
  * Simple error handling
