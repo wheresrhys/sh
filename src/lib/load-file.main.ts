@@ -13,6 +13,10 @@ import { parseAmount } from "./scraperUtils";
 
 // Common data format of _some_ of the spend files.
 // Might have to support other formats in the future but this is ok for HMRC & DfT
+// Productionising I think I would probably use something like zod to author types
+// and to validate input against a range of schemas, adn switch to handle each
+// instance with its own transformer - feels like a nice declarative & maintainable
+// way to scale to handle more varaieties of input data in future
 type GovUKData = {
   "Department family": string;
   Entity: string;
@@ -25,6 +29,24 @@ type GovUKData = {
   Description: string;
   "Supplier Postcode": string;
 };
+
+//  {
+//   "Department family":"HMRC",
+//   "Entity":"HMRC",
+//   "Date":"01/08/2023",
+//   "Expense type":"PROJECT Mandays Supp",
+//   "Expense area":"CDIO - Core",
+//   "Supplier":"CREDERA LTD",
+//   "Transaction number":"5100026112",
+//   "Amount":"22,393.75",
+//   "Description":"PROJECT Mandays Supp",
+//   "Supplier Postcode":"SE1 0SW",
+//   "Supplier Type":"",
+//   "Contract Number":"",
+//   "Project Code":"",
+//   "Expenditure Type":""
+// }
+
 
 // Corresponds to the spend_transactions table in the database
 type SpendTransaction = {
@@ -64,7 +86,7 @@ async function loadSingleFile(csvPath: string) {
       // See https://moment.github.io/luxon/#/parsing
       const isoTsp = DateTime.fromFormat(
         spendDataRow["Date"],
-        "dd-MM-yyyy"
+        "dd/MM/yyyy"
       ).toISO();
       if (!isoTsp) {
         throw new Error(
