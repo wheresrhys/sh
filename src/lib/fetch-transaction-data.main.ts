@@ -22,6 +22,11 @@ type GovUkCollection = {
   }
 }
 
+const dataSources = [
+  "https://www.gov.uk/api/content/government/collections/spending-over-25-000",
+  "https://www.gov.uk/api/content/government/collections/dfe-department-and-executive-agency-spend-over-25-000"
+]
+
 import { saveCSVToDb } from './load-file.main'
 // Assumption: It's better to log an error and continue with as much good data as we can
 // than to fail for everything if a single request fails
@@ -81,18 +86,22 @@ async function ingestTransactions(document: GovUkDocument) {
 }
 
 // const response = await fetch(
-//   "https://www.gov.uk/api/content/government/collections/spending-over-25-000"
-//   // "https://www.gov.uk/api/content/government/collections/dfe-department-and-executive-agency-spend-over-25-000"
+  
 // );
 
-async function main() {
+async function ingestDataSource(url: string) {
   // Note: splitting into a 2 stage process sacrifices some parallelisation in favour
   // of comprehensibility. Doubtless it's possible to do get the best of both worlds
   // but erring on the side of comprehensibility for now
   const documents = await fetchDocuments("https://www.gov.uk/api/content/government/collections/spending-over-25-000");
 
-  return documents.map(ingestTransactions);
-  console.log("done ingesting");
+  await documents.map(ingestTransactions);
+  console.log("done ingesting data source", url);
+}
+
+async function main() {
+  await Promise.all(dataSources.map(ingestDataSource))
+  console.log("done ingest");
 }
 
 main();
