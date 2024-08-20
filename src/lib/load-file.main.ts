@@ -56,10 +56,14 @@ type SpendTransaction = {
   transaction_timestamp: string; // should be iso format
 };
 
-async function loadSingleFile(csvPath: string) {
+async function loadFileFromPath(csvPath: string) {
 
   console.log(`Reading ${csvPath}.`);
   const csvContent = fs.readFileSync(csvPath, { encoding: "utf8" });
+  return saveCSVToDb(csvContent);
+}
+export async function saveCSVToDb(csvContent: string) {
+
   const csvData = Papa.parse(csvContent, {
     header: true,
     skipEmptyLines: true, // some files have empty newlines at the end
@@ -129,6 +133,3 @@ async function loadSingleFile(csvPath: string) {
   console.log("Finished writing to the DB.");
   await knexDb.destroy();
 }
-
-loadSingleFile("./sample_data/HMRC_spending_over_25000_for_August_2023.csv");
-loadSingleFile("./sample_data/Transparency_DfE_Spend_July_2023__1_.csv");
