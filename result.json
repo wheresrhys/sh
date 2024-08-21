@@ -2,1575 +2,1427 @@
     "top_suppliers": [
         {
             "name": "CAPGEMINI",
-            "total_value": 2316077595.9
+            "total_value": 1712548755.99
         },
         {
             "name": "FUJITSU SERVICES LTD",
-            "total_value": 1805364218.22
+            "total_value": 1375805756.81
         },
         {
             "name": "ACCENTURE (UK) LTD",
-            "total_value": 485796348.37
-        },
-        {
-            "name": "RCDTS LTD",
-            "total_value": 413863974.95
+            "total_value": 362186551.67
         },
         {
             "name": "EQUAL EXPERTS UK LTD",
-            "total_value": 412207276.33
-        },
-        {
-            "name": "MAPELEY STEPS CONTRACTOR LTD",
-            "total_value": 409203999.29
+            "total_value": 314070521.59
         },
         {
             "name": "Amazon Web Services UK",
-            "total_value": 376310637.33
+            "total_value": 299962301.58
+        },
+        {
+            "name": "RCDTS LTD",
+            "total_value": 296524176.4
+        },
+        {
+            "name": "MAPELEY STEPS CONTRACTOR LTD",
+            "total_value": 272081854.18
         },
         {
             "name": "SPECIALIST COMPUTER CTR",
-            "total_value": 351445972.88
+            "total_value": 268771782.98
         },
         {
             "name": "NATIONAL SAVINGS & INVESTMENTS",
-            "total_value": 282189625.07
+            "total_value": 215523376.17
         },
         {
             "name": "NEWCASTLE ESTATE PARTNERSHIP",
-            "total_value": 269304554.21
+            "total_value": 201143518.02
         },
         {
             "name": "Royal Mail Group Ltd",
-            "total_value": 227108071.51
+            "total_value": 180926169.91
         },
         {
             "name": "ATOS IT SERVICES UK LTD",
-            "total_value": 192062444.01
-        },
-        {
-            "name": "CABINET OFFICE",
-            "total_value": 173427390.11
+            "total_value": 164619873.97
         },
         {
             "name": "Workman Holding Account",
-            "total_value": 173104143.23
+            "total_value": 151849903.04
         },
         {
             "name": "SOFTCAT LTD",
-            "total_value": 168937578.11
-        },
-        {
-            "name": "SODEXO LTD",
-            "total_value": 164246616.28
-        },
-        {
-            "name": "OVERBURY PLC",
-            "total_value": 152178738.79
-        },
-        {
-            "name": "COMPUTACENTER (UK) LTD",
-            "total_value": 151751325.94
-        },
-        {
-            "name": "PEGASYSTEMS LTD",
-            "total_value": 149703404.9
+            "total_value": 143979644.23
         },
         {
             "name": "DAC BEACHCROFT LLP - CLIENT ACCOUNT",
-            "total_value": 139785202.71
+            "total_value": 139339202.71
+        },
+        {
+            "name": "CABINET OFFICE",
+            "total_value": 132572060.64
+        },
+        {
+            "name": "SODEXO LTD",
+            "total_value": 127074828.91
         },
         {
             "name": "Wincanton Group PLC",
-            "total_value": 128940018.35
+            "total_value": 101511751.43
         },
         {
-            "name": "INTEGRATED DEBT SERVICES LTD T/AS",
-            "total_value": 123056015.76
-        },
-        {
-            "name": "COGNIZANT",
-            "total_value": 120910080.9
-        },
-        {
-            "name": "SAS SOFTWARE LTD",
-            "total_value": 114948999.21
-        },
-        {
-            "name": "Atos Holding UK 1 Ltd",
-            "total_value": 104020743.47
+            "name": "COMPUTACENTER (UK) LTD",
+            "total_value": 101368674.42
         },
         {
             "name": "BYTES SOFTWARE SERVICES LTD",
-            "total_value": 100830253.29
+            "total_value": 98862811.9
         },
         {
-            "name": "DELOITTE LLP (L)",
-            "total_value": 99726726.93
+            "name": "COGNIZANT",
+            "total_value": 95405448.05
+        },
+        {
+            "name": "SAS SOFTWARE LTD",
+            "total_value": 94533006.51
+        },
+        {
+            "name": "PEGASYSTEMS LTD",
+            "total_value": 92194535.77
         },
         {
             "name": "Mitie Limited",
-            "total_value": 98611737.38
+            "total_value": 90645667.79
+        },
+        {
+            "name": "INTEGRATED DEBT SERVICES LTD T/AS",
+            "total_value": 90537942.66
+        },
+        {
+            "name": "Atos Holding UK 1 Ltd",
+            "total_value": 88689239.17
+        },
+        {
+            "name": "OVERBURY PLC",
+            "total_value": 84245020.25
+        },
+        {
+            "name": "DELOITTE LLP (L)",
+            "total_value": 77524882.8
         },
         {
             "name": "IBM UNITED KINGDOM LTD",
-            "total_value": 93354494.48
+            "total_value": 74910611.79
         },
         {
             "name": "CDW LTD",
-            "total_value": 90123547.35
-        },
-        {
-            "name": "ISG Fit Out Ltd",
-            "total_value": 87608565.81
-        },
-        {
-            "name": "EXCHEQUER PARTNERSHIP No2 PLC",
-            "total_value": 82338601.35
+            "total_value": 69659581.57
         },
         {
             "name": "Inspired Energy plc",
-            "total_value": 82305734.8
-        },
-        {
-            "name": "ERNST & YOUNG LLP",
-            "total_value": 81471523.72
-        },
-        {
-            "name": "WATES CONSTRUCTION LTD",
-            "total_value": 81157181.88
-        },
-        {
-            "name": "PEOPLE SOURCE CONSULTING",
-            "total_value": 78435435.75
-        },
-        {
-            "name": "SERVEST GROUP LTD",
-            "total_value": 78124809.51
+            "total_value": 65535431.74
         },
         {
             "name": "Legal & General Assurance Society",
-            "total_value": 74253096.6
+            "total_value": 60265396.04
+        },
+        {
+            "name": "SERVEST GROUP LTD",
+            "total_value": 60126518.15
+        },
+        {
+            "name": "ISG Fit Out Ltd",
+            "total_value": 55138777.57
+        },
+        {
+            "name": "ERNST & YOUNG LLP",
+            "total_value": 54736364.57
         },
         {
             "name": "BARCLAYS BANK PLC T/A BARCLAYCARD",
-            "total_value": 69372075.89
+            "total_value": 54003609.47
         },
         {
             "name": "COGNIZANT Technology Solutions",
-            "total_value": 68746195.43
+            "total_value": 53464032.83
+        },
+        {
+            "name": "EXCHEQUER PARTNERSHIP No2 PLC",
+            "total_value": 53446201.36
+        },
+        {
+            "name": "PEOPLE SOURCE CONSULTING",
+            "total_value": 51573710.5
         },
         {
             "name": "GOVERNMENT PROPERTY AGENCY",
-            "total_value": 67160938.59
+            "total_value": 50251021.51
         },
         {
-            "name": "ROYAL MAIL WHOLESALE",
-            "total_value": 66931594.27
-        },
-        {
-            "name": "COMMUNISIS UK LTD",
-            "total_value": 65080240.44
-        },
-        {
-            "name": "KCOM GROUP PLC",
-            "total_value": 64908292.45
-        },
-        {
-            "name": "Mitie Security Limited",
-            "total_value": 63595820.54
+            "name": "WATES CONSTRUCTION LTD",
+            "total_value": 49095449.13
         },
         {
             "name": "TDX GROUP LTD",
-            "total_value": 62262575.15
+            "total_value": 47983797.08
+        },
+        {
+            "name": "COMMUNISIS UK LTD",
+            "total_value": 47329600.59
+        },
+        {
+            "name": "Mitie Security Limited",
+            "total_value": 47141077.16
         },
         {
             "name": "SAP (UK) LTD",
-            "total_value": 62069612.18
+            "total_value": 45688382.8
         },
         {
-            "name": "Legal & General Pensions Ltd",
-            "total_value": 61518368.48
+            "name": "ROYAL MAIL WHOLESALE",
+            "total_value": 43922673.6
         },
         {
-            "name": "CHG-MERIDIAN COMPUTER",
-            "total_value": 56112405.36
-        },
-        {
-            "name": "VALUATION OFFICE AGENCY",
-            "total_value": 48236898.12
+            "name": "KCOM GROUP PLC",
+            "total_value": 41215118.82
         },
         {
             "name": "BAM CONSTRUCTION LTD",
-            "total_value": 47044666.35
+            "total_value": 40297826.78
         },
         {
-            "name": "TECKNUOVO LTD",
-            "total_value": 45291078.35
+            "name": "CHG-MERIDIAN COMPUTER",
+            "total_value": 39318878.02
         },
         {
             "name": "CGI IT UK LTD",
-            "total_value": 44257156.79
+            "total_value": 35069092.65
         },
         {
-            "name": "INSIGHT DIRECT (UK) LTD",
-            "total_value": 42969549.38
+            "name": "VALUATION OFFICE AGENCY",
+            "total_value": 34811792.15
+        },
+        {
+            "name": "TECKNUOVO LTD",
+            "total_value": 34136639.31
+        },
+        {
+            "name": "Legal & General Pensions Ltd",
+            "total_value": 33889288.98
         },
         {
             "name": "VINCI CONSTRUCTION UK LTD",
-            "total_value": 41810305.95
-        },
-        {
-            "name": "Mastek UK Ltd",
-            "total_value": 41119416.67
-        },
-        {
-            "name": "OPENCAST SOFTWARE EUROPE LTD",
-            "total_value": 39788969.41
-        },
-        {
-            "name": "MACE LTD",
-            "total_value": 38056180.45
-        },
-        {
-            "name": "MERCATOR IT SOLUTIONS LTD",
-            "total_value": 35489922.31
+            "total_value": 32664402.26
         },
         {
             "name": "BOXXE LTD",
-            "total_value": 35300431.4
+            "total_value": 32257151.45
+        },
+        {
+            "name": "Mastek UK Ltd",
+            "total_value": 31599489.08
+        },
+        {
+            "name": "OPENCAST SOFTWARE EUROPE LTD",
+            "total_value": 29962165.15
+        },
+        {
+            "name": "MACE LTD",
+            "total_value": 29026214.29
+        },
+        {
+            "name": "INSIGHT DIRECT (UK) LTD",
+            "total_value": 28386383.56
         },
         {
             "name": "SES (Engineering Services) Ltd",
-            "total_value": 32401795.31
-        },
-        {
-            "name": "FOREIGN COMMONWEALTH & DEVELOPMENT",
-            "total_value": 32044352.99
-        },
-        {
-            "name": "TRUSTMARQUE SOLUTIONS LTD",
-            "total_value": 31407009.48
+            "total_value": 26973904.47
         },
         {
             "name": "RESTORE DIGITAL LTD",
-            "total_value": 31039599.16
-        },
-        {
-            "name": "Baringa Partners LLP",
-            "total_value": 31033078.83
-        },
-        {
-            "name": "ESYNERGY SOLUTIONS LTD",
-            "total_value": 30939655.73
-        },
-        {
-            "name": "CSL - KPMG LLP",
-            "total_value": 30335239.7
-        },
-        {
-            "name": "MICROSOFT LTD",
-            "total_value": 29912078.53
-        },
-        {
-            "name": "North Highland UK Limited",
-            "total_value": 29819019.96
-        },
-        {
-            "name": "BUREAU VAN DIJK ELECTRONIC",
-            "total_value": 29571886.8
-        },
-        {
-            "name": "NUANCE COMMUNICATIONS IRELAND LTD",
-            "total_value": 28935084.16
+            "total_value": 26330406.81
         },
         {
             "name": "CBRE Limited",
-            "total_value": 28250060.17
+            "total_value": 25955540.95
+        },
+        {
+            "name": "Baringa Partners LLP",
+            "total_value": 25765441.81
+        },
+        {
+            "name": "FOREIGN COMMONWEALTH & DEVELOPMENT",
+            "total_value": 24715972
+        },
+        {
+            "name": "CSL - KPMG LLP",
+            "total_value": 24587537.13
+        },
+        {
+            "name": "MERCATOR IT SOLUTIONS LTD",
+            "total_value": 23966154.69
         },
         {
             "name": "HITACHI SOLUTIONS EUROPE LTD",
-            "total_value": 27975409.85
+            "total_value": 23766473.79
         },
         {
-            "name": "LONDON BOROUGH OF NEWHAM",
-            "total_value": 27118310.48
+            "name": "TRUSTMARQUE SOLUTIONS LTD",
+            "total_value": 23657376.82
+        },
+        {
+            "name": "BUREAU VAN DIJK ELECTRONIC",
+            "total_value": 22769366.4
+        },
+        {
+            "name": "MICROSOFT LTD",
+            "total_value": 22358402.8
+        },
+        {
+            "name": "ESYNERGY SOLUTIONS LTD",
+            "total_value": 22286147.95
+        },
+        {
+            "name": "NUANCE COMMUNICATIONS IRELAND LTD",
+            "total_value": 22258639
+        },
+        {
+            "name": "North Highland UK Limited",
+            "total_value": 21267662.76
         },
         {
             "name": "PRICEWATERHOUSECOOPERS LLP",
-            "total_value": 26593403.25
+            "total_value": 20494973.64
         },
         {
             "name": "HIGHSPEED OFFICE LTD",
-            "total_value": 24943019.99
-        },
-        {
-            "name": "McKINSEY & COMPANY",
-            "total_value": 24896703.07
-        },
-        {
-            "name": "Senator International Ltd",
-            "total_value": 24880014.68
-        },
-        {
-            "name": "WAGSTAFF BROS LTD",
-            "total_value": 23498825.64
-        },
-        {
-            "name": "SoftwareOne UK Ltd",
-            "total_value": 23444867.58
+            "total_value": 19681083.63
         },
         {
             "name": "BSI CYBERSECURITY AND INFORMATION",
-            "total_value": 23310994.83
+            "total_value": 19288979.35
         },
         {
-            "name": "PEVERILL SECURITIES LTD",
-            "total_value": 22644422.85
+            "name": "Senator International Ltd",
+            "total_value": 18166418.31
+        },
+        {
+            "name": "LONDON BOROUGH OF NEWHAM",
+            "total_value": 17810425.48
         },
         {
             "name": "Wates Construction Ltd",
-            "total_value": 21586954.97
-        },
-        {
-            "name": "Wates Property Services Ltd",
-            "total_value": 19782622.19
-        },
-        {
-            "name": "BOOTLE PFI SOLUTIONS 1998 (2) LTD",
-            "total_value": 19477592.01
-        },
-        {
-            "name": "BELLROCK PROPERTY & FACILITIES",
-            "total_value": 18975151.77
-        },
-        {
-            "name": "Department for Work and Pensions",
-            "total_value": 18925506.71
-        },
-        {
-            "name": "ENGINE PARTNERS UK LLP",
-            "total_value": 18546078.33
-        },
-        {
-            "name": "Automation Logic",
-            "total_value": 18371331.03
-        },
-        {
-            "name": "EDM GROUP LTD",
-            "total_value": 17965812.48
-        },
-        {
-            "name": "NEWCASTLE CITY COUNCIL",
-            "total_value": 17952108.72
-        },
-        {
-            "name": "Mott MacDonald",
-            "total_value": 17914032.9
-        },
-        {
-            "name": "HOME OFFICE",
-            "total_value": 17867855.49
+            "total_value": 17179869.52
         },
         {
             "name": "LEEDS CITY COUNCIL",
-            "total_value": 17162683.88
+            "total_value": 16220615.46
         },
         {
-            "name": "Crown Hosting Data Centres Ltd",
-            "total_value": 16924144.85
+            "name": "BOOTLE PFI SOLUTIONS 1998 (2) LTD",
+            "total_value": 15776278.78
         },
         {
-            "name": "OCS UK&I LIMITED",
-            "total_value": 16842119.84
+            "name": "BELLROCK PROPERTY & FACILITIES",
+            "total_value": 15729623.47
         },
         {
-            "name": "BRITISH TELECOMMUNICATIONS PLC",
-            "total_value": 16747008.8
+            "name": "McKINSEY & COMPANY",
+            "total_value": 15726720.73
         },
         {
-            "name": "CROYDON COUNCIL",
-            "total_value": 16486296
+            "name": "WAGSTAFF BROS LTD",
+            "total_value": 15577852.56
+        },
+        {
+            "name": "Department for Work and Pensions",
+            "total_value": 15566388.75
+        },
+        {
+            "name": "NEWCASTLE CITY COUNCIL",
+            "total_value": 15518085.83
+        },
+        {
+            "name": "Automation Logic",
+            "total_value": 14708112.73
         },
         {
             "name": "GCI Network Solutions Limited",
-            "total_value": 16022390.95
+            "total_value": 14335469.03
         },
         {
-            "name": "HM TREASURY",
-            "total_value": 15768862.95
+            "name": "CROYDON COUNCIL",
+            "total_value": 14200440
         },
         {
-            "name": "Jones Lang LaSalle Common Receipts",
-            "total_value": 15610925.02
-        },
-        {
-            "name": "HS1 Limited",
-            "total_value": 15566708.11
-        },
-        {
-            "name": "SALFORD CITY COUNCIL",
-            "total_value": 15459124.97
-        },
-        {
-            "name": "CBRE NI LTD",
-            "total_value": 15365154.71
-        },
-        {
-            "name": "COLLIERS INT PROPERTY CONSULT LTD",
-            "total_value": 15331985.96
-        },
-        {
-            "name": "CLOUDERA INC",
-            "total_value": 15308207.45
-        },
-        {
-            "name": "BLOOM PROCUREMENT SERVICES LTD",
-            "total_value": 15203510.71
-        },
-        {
-            "name": "Phoenix Software",
-            "total_value": 15114843.98
-        },
-        {
-            "name": "MOORHOUSE CONSULTING LIMITED",
-            "total_value": 14361210.33
-        },
-        {
-            "name": "DAC Beachcroft Scotland LLP",
-            "total_value": 14280007.56
-        },
-        {
-            "name": "Callcredit Ltd",
-            "total_value": 14277067.82
-        },
-        {
-            "name": "WILLIAM ALEXANDER CONSULTING LTD",
-            "total_value": 14204094
-        },
-        {
-            "name": "Buckingham Group Contracting Ltd",
-            "total_value": 14152269.65
-        },
-        {
-            "name": "GLASGOW CITY COUNCIL",
-            "total_value": 14109067.23
+            "name": "Wates Property Services Ltd",
+            "total_value": 13959606.44
         },
         {
             "name": "Road King Ltd",
             "total_value": 13801020
         },
         {
-            "name": "IRON MOUNTAIN UK PLC",
-            "total_value": 13634339.23
+            "name": "HOME OFFICE",
+            "total_value": 13395972.85
+        },
+        {
+            "name": "OCS UK&I LIMITED",
+            "total_value": 13359961.04
+        },
+        {
+            "name": "Crown Hosting Data Centres Ltd",
+            "total_value": 13342687.41
+        },
+        {
+            "name": "SALFORD CITY COUNCIL",
+            "total_value": 13242641.91
+        },
+        {
+            "name": "ENGINE PARTNERS UK LLP",
+            "total_value": 13069674.01
+        },
+        {
+            "name": "MOORHOUSE CONSULTING LIMITED",
+            "total_value": 12981520.33
+        },
+        {
+            "name": "CLOUDERA INC",
+            "total_value": 12962938.32
+        },
+        {
+            "name": "EDM GROUP LTD",
+            "total_value": 12820408.55
+        },
+        {
+            "name": "COLLIERS INT PROPERTY CONSULT LTD",
+            "total_value": 12681716.92
+        },
+        {
+            "name": "SoftwareOne UK Ltd",
+            "total_value": 12639598.96
+        },
+        {
+            "name": "BRITISH TELECOMMUNICATIONS PLC",
+            "total_value": 12471800.24
+        },
+        {
+            "name": "HS1 Limited",
+            "total_value": 11871799.28
+        },
+        {
+            "name": "Jones Lang LaSalle Common Receipts",
+            "total_value": 11672570.45
+        },
+        {
+            "name": "WILLIAM ALEXANDER CONSULTING LTD",
+            "total_value": 11097906
         },
         {
             "name": "CARDIFF COUNTY COUNCIL",
-            "total_value": 12768704.1
-        },
-        {
-            "name": "FOREIGN AND COMMONWEALTH OFFICE",
-            "total_value": 12657822.2
-        },
-        {
-            "name": "GOVERNMENT LEGAL DEPARTMENT",
-            "total_value": 12643305.92
+            "total_value": 11056436.6
         },
         {
             "name": "Astral Towers Ltd",
-            "total_value": 12605827.36
+            "total_value": 11030098.94
         },
         {
-            "name": "GSE Truckstop Developments Limited",
-            "total_value": 12382200
+            "name": "CBRE NI LTD",
+            "total_value": 10943930.38
         },
         {
-            "name": "KINTO UK LIMITED",
-            "total_value": 12099662.65
+            "name": "Phoenix Software",
+            "total_value": 10711529.52
         },
         {
-            "name": "NOTTINGHAM CITY COUNCIL  RESOURCES",
-            "total_value": 12072960
-        },
-        {
-            "name": "JOHN GRAHAM CONSTRUCTION LTD",
-            "total_value": 11679507.54
-        },
-        {
-            "name": "BW INTERIORS LTD",
-            "total_value": 11588425.63
-        },
-        {
-            "name": "AMAZON WEB SERVICES",
-            "total_value": 11095245.75
-        },
-        {
-            "name": "Duradiamond Healthcare LTD",
-            "total_value": 11012000.92
-        },
-        {
-            "name": "GSE TRUCKSTOP DEVELOPMENTS LTD",
-            "total_value": 10941300.49
-        },
-        {
-            "name": "CHANNEL PORTS LTD",
-            "total_value": 10851409.44
+            "name": "BLOOM PROCUREMENT SERVICES LTD",
+            "total_value": 10685221.58
         },
         {
             "name": "BIRMINGHAM CITY COUNCIL",
-            "total_value": 10719608.3
+            "total_value": 10381688.3
         },
         {
-            "name": "Savills UK Ltd",
-            "total_value": 10626275.83
+            "name": "IRON MOUNTAIN UK PLC",
+            "total_value": 9943581.82
         },
         {
-            "name": "FINYX CONSULTING LTD",
-            "total_value": 10550190.27
-        },
-        {
-            "name": "Government Property Agency",
-            "total_value": 10184937.39
-        },
-        {
-            "name": "Motis Freight Services Limited",
-            "total_value": 10138032
-        },
-        {
-            "name": "MANNING GOTTLIEB OMD A DIVISION OF",
-            "total_value": 10134142.99
-        },
-        {
-            "name": "CAPITA CONSULTING",
-            "total_value": 9655045.81
-        },
-        {
-            "name": "TRANSUNION INTERNATIONAL UK LTD",
-            "total_value": 9649494.11
-        },
-        {
-            "name": "CB RICHARD ELLIS (CBRE)",
-            "total_value": 9591225.3
-        },
-        {
-            "name": "GARTNER UK LTD",
-            "total_value": 9565737.6
-        },
-        {
-            "name": "AECOM LTD",
-            "total_value": 9546689.56
-        },
-        {
-            "name": "GAMMA TELECOM LTD",
-            "total_value": 9360026.19
+            "name": "Mott MacDonald",
+            "total_value": 9383044.68
         },
         {
             "name": "DEPARTMENT FOR TRANSPORT (DFT)",
-            "total_value": 9348153
+            "total_value": 9315283.92
+        },
+        {
+            "name": "GOVERNMENT LEGAL DEPARTMENT",
+            "total_value": 9225179.86
+        },
+        {
+            "name": "Savills UK Ltd",
+            "total_value": 8942021.84
+        },
+        {
+            "name": "PEVERILL SECURITIES LTD",
+            "total_value": 8712660.43
+        },
+        {
+            "name": "Buckingham Group Contracting Ltd",
+            "total_value": 8700869.22
+        },
+        {
+            "name": "KINTO UK LIMITED",
+            "total_value": 8661871.34
+        },
+        {
+            "name": "CHANNEL PORTS LTD",
+            "total_value": 8475244.8
+        },
+        {
+            "name": "Duradiamond Healthcare LTD",
+            "total_value": 8414117.8
+        },
+        {
+            "name": "HM TREASURY",
+            "total_value": 8381655.33
+        },
+        {
+            "name": "FINYX CONSULTING LTD",
+            "total_value": 8277290.96
+        },
+        {
+            "name": "GLASGOW CITY COUNCIL",
+            "total_value": 8220509.23
+        },
+        {
+            "name": "JOHN GRAHAM CONSTRUCTION LTD",
+            "total_value": 8175353.48
+        },
+        {
+            "name": "FOREIGN AND COMMONWEALTH OFFICE",
+            "total_value": 7981717.58
+        },
+        {
+            "name": "CAPITA CONSULTING",
+            "total_value": 7951739.83
+        },
+        {
+            "name": "Motis Freight Services Limited",
+            "total_value": 7852416
+        },
+        {
+            "name": "GAMMA TELECOM LTD",
+            "total_value": 7407098.65
         },
         {
             "name": "Gleeds Building Surveying Ltd",
-            "total_value": 9050580.92
-        },
-        {
-            "name": "LAND & PROPERTY SERVICES",
-            "total_value": 9010205.93
-        },
-        {
-            "name": "ATALIAN SERVEST AMK LTD",
-            "total_value": 9004129.85
-        },
-        {
-            "name": "HERMAN MILLER LTD",
-            "total_value": 8775899.37
-        },
-        {
-            "name": "KAINOS SOFTWARE LTD",
-            "total_value": 8721903.34
-        },
-        {
-            "name": "ALEXANDER MANN SOLUTIONS LTD",
-            "total_value": 8668046
-        },
-        {
-            "name": "MMGRP LTD",
-            "total_value": 8596025.57
-        },
-        {
-            "name": "G3 WORLDWIDE (UK) LTD",
-            "total_value": 8345194.1
-        },
-        {
-            "name": "BAE SYSTEMS APPLIED INTELLIGENCE",
-            "total_value": 8149929.47
-        },
-        {
-            "name": "MODULE AR LTD",
-            "total_value": 8107943.62
-        },
-        {
-            "name": "Coforge",
-            "total_value": 8075507
-        },
-        {
-            "name": "BRISTOL CITY COUNCIL",
-            "total_value": 7999988.2
-        },
-        {
-            "name": "THE INSOLVENCY SERVICE",
-            "total_value": 7936570
-        },
-        {
-            "name": "Colliers International",
-            "total_value": 7915736.98
+            "total_value": 7354215.27
         },
         {
             "name": "Jones Lang LaSalle Property Acc",
-            "total_value": 7834948.12
+            "total_value": 7335711.79
         },
         {
-            "name": "TURNER & TOWNSEND PROJECT MANAGEMEN",
-            "total_value": 7739367.58
+            "name": "GSE Truckstop Developments Limited",
+            "total_value": 7297560
         },
         {
-            "name": "SOUTH LANARKSHIRE COUNCIL",
-            "total_value": 7497767.16
+            "name": "NOTTINGHAM CITY COUNCIL  RESOURCES",
+            "total_value": 7285760
+        },
+        {
+            "name": "Callcredit Ltd",
+            "total_value": 7138533.91
+        },
+        {
+            "name": "ALEXANDER MANN SOLUTIONS LTD",
+            "total_value": 7114393.17
+        },
+        {
+            "name": "MANNING GOTTLIEB OMD A DIVISION OF",
+            "total_value": 7094103.19
         },
         {
             "name": "CITY OF EDINBURGH COUNCIL",
-            "total_value": 7459021.25
+            "total_value": 6995336.25
         },
         {
-            "name": "BROOK STREET (UK) LTD",
-            "total_value": 7445170.55
+            "name": "TRANSUNION INTERNATIONAL UK LTD",
+            "total_value": 6966316.54
         },
         {
-            "name": "ENVA NORTHERN IRELAND LTD",
-            "total_value": 7393152
+            "name": "DAC Beachcroft Scotland LLP",
+            "total_value": 6955180.52
         },
         {
-            "name": "ORACLE CORPORATION (UK) LTD",
-            "total_value": 7358578.8
+            "name": "GARTNER UK LTD",
+            "total_value": 6951369.2
         },
         {
-            "name": "THE SCOTLAND OFFICE",
-            "total_value": 7169541.87
+            "name": "Coforge",
+            "total_value": 6883281
         },
         {
-            "name": "MADE TECH LTD",
-            "total_value": 7152348.02
+            "name": "BRISTOL CITY COUNCIL",
+            "total_value": 6871028.2
         },
         {
-            "name": "HP Inc",
-            "total_value": 6867165.24
+            "name": "THE INSOLVENCY SERVICE",
+            "total_value": 6854520
+        },
+        {
+            "name": "ATALIAN SERVEST AMK LTD",
+            "total_value": 6793332.25
+        },
+        {
+            "name": "AMAZON WEB SERVICES",
+            "total_value": 6624037.24
+        },
+        {
+            "name": "KAINOS SOFTWARE LTD",
+            "total_value": 6467348.62
+        },
+        {
+            "name": "Government Property Agency",
+            "total_value": 6197680.75
+        },
+        {
+            "name": "BW INTERIORS LTD",
+            "total_value": 6061036.32
         },
         {
             "name": "LIVERPOOL CITY COUNCIL",
-            "total_value": 6786846.45
+            "total_value": 6049269.95
         },
         {
-            "name": "CAPITA BUSINESS SERVICES LTD",
-            "total_value": 6736316.71
+            "name": "BAE SYSTEMS APPLIED INTELLIGENCE",
+            "total_value": 5989587.32
         },
         {
-            "name": "Cushman & Wakefield",
-            "total_value": 6721285.74
-        },
-        {
-            "name": "NewWorldTech Ltd",
-            "total_value": 6658999.6
-        },
-        {
-            "name": "Smarter Technologies",
-            "total_value": 6609522.15
-        },
-        {
-            "name": "BUTTERFLY PROJECTS LTD",
-            "total_value": 6329458.97
-        },
-        {
-            "name": "DELOITTE MCS LTD",
-            "total_value": 6213913.8
-        },
-        {
-            "name": "ASHFORD BOROUGH COUNCIL",
-            "total_value": 6082489.54
-        },
-        {
-            "name": "ADVENT IM LIMITED",
-            "total_value": 6066925
-        },
-        {
-            "name": "Mapledurham Properties Ltd",
-            "total_value": 6030000
-        },
-        {
-            "name": "LAMBERT SMITH HAMPTON",
-            "total_value": 5999488.39
-        },
-        {
-            "name": "Bet Crown Ltd",
-            "total_value": 5961404.28
+            "name": "G3 WORLDWIDE (UK) LTD",
+            "total_value": 5983907.24
         },
         {
             "name": "NETCOMPANY UK LTD",
             "total_value": 5948816
         },
         {
-            "name": "DYNATRACE LTD.",
-            "total_value": 5915594.86
+            "name": "AECOM LTD",
+            "total_value": 5917439.49
         },
         {
-            "name": "POST OFFICE LTD",
-            "total_value": 5773147.54
+            "name": "GSE TRUCKSTOP DEVELOPMENTS LTD",
+            "total_value": 5856660.49
         },
         {
-            "name": "LONDON BOROUGH OF CAMDEN",
-            "total_value": 5563656
+            "name": "CB RICHARD ELLIS (CBRE)",
+            "total_value": 5785859.33
         },
         {
-            "name": "CITY OF LONDON",
-            "total_value": 5367600
+            "name": "THE SCOTLAND OFFICE",
+            "total_value": 5768809.45
+        },
+        {
+            "name": "Colliers International",
+            "total_value": 5685707.64
+        },
+        {
+            "name": "ORACLE CORPORATION (UK) LTD",
+            "total_value": 5603208.37
+        },
+        {
+            "name": "ENVA NORTHERN IRELAND LTD",
+            "total_value": 5496192
+        },
+        {
+            "name": "MMGRP LTD",
+            "total_value": 5493240.99
+        },
+        {
+            "name": "NewWorldTech Ltd",
+            "total_value": 5446000
+        },
+        {
+            "name": "MADE TECH LTD",
+            "total_value": 5437487.31
         },
         {
             "name": "MITIE SECURITY LIMITED",
             "total_value": 5316863.93
         },
         {
+            "name": "BROOK STREET (UK) LTD",
+            "total_value": 5316449.77
+        },
+        {
+            "name": "HP Inc",
+            "total_value": 5286819.93
+        },
+        {
+            "name": "TURNER & TOWNSEND PROJECT MANAGEMEN",
+            "total_value": 5286180.01
+        },
+        {
+            "name": "Mapledurham Properties Ltd",
+            "total_value": 5226000
+        },
+        {
+            "name": "Smarter Technologies",
+            "total_value": 5166959.27
+        },
+        {
+            "name": "Cushman & Wakefield",
+            "total_value": 5145853.11
+        },
+        {
+            "name": "LAMBERT SMITH HAMPTON",
+            "total_value": 5071145.35
+        },
+        {
+            "name": "MODULE AR LTD",
+            "total_value": 4951214.33
+        },
+        {
+            "name": "BUTTERFLY PROJECTS LTD",
+            "total_value": 4942439.05
+        },
+        {
+            "name": "DYNATRACE LTD.",
+            "total_value": 4931428.66
+        },
+        {
+            "name": "LAND & PROPERTY SERVICES",
+            "total_value": 4929976.26
+        },
+        {
             "name": "Teville Gate House Ltd",
-            "total_value": 5246774.5
+            "total_value": 4837920.4
         },
         {
-            "name": "KNIGHT FRANK LLP",
-            "total_value": 5236307
+            "name": "SOUTH LANARKSHIRE COUNCIL",
+            "total_value": 4721261.68
         },
         {
-            "name": "People Asset Management Ltd",
-            "total_value": 5112952.8
+            "name": "Bet Crown Ltd",
+            "total_value": 4471053.21
         },
         {
-            "name": "Bottomline Technologies",
-            "total_value": 5103535.13
+            "name": "HERMAN MILLER LTD",
+            "total_value": 4442550.35
         },
         {
-            "name": "THE POLICE ICT COMPANY",
-            "total_value": 4990652.14
+            "name": "CAPITA BUSINESS SERVICES LTD",
+            "total_value": 4331566.58
         },
         {
-            "name": "EXELA TECHNOLOGIES LTD",
-            "total_value": 4982800.45
-        },
-        {
-            "name": "ORANGE BUS LTD",
-            "total_value": 4953957
-        },
-        {
-            "name": "FLEXIFORM LTD",
-            "total_value": 4937628.76
-        },
-        {
-            "name": "European Electronique",
-            "total_value": 4864947.17
-        },
-        {
-            "name": "BAM TCP Atlantic Square Limited",
-            "total_value": 4829351.95
-        },
-        {
-            "name": "ATELIER7 Ltd",
-            "total_value": 4801056.67
-        },
-        {
-            "name": "VERSION 1 SOLUTIONS LTD",
-            "total_value": 4713303.33
-        },
-        {
-            "name": "COCHRANE SQUARE SPV LTD",
-            "total_value": 4648046.64
-        },
-        {
-            "name": "SCOTTISH POLICE AUTHORITY",
-            "total_value": 4584234.56
-        },
-        {
-            "name": "Cancom UK Ltd (Formerly OCSL)",
-            "total_value": 4577564.09
-        },
-        {
-            "name": "UK MAIL",
-            "total_value": 4516313.71
-        },
-        {
-            "name": "SUNDERLAND COUNCIL",
-            "total_value": 4486300
-        },
-        {
-            "name": "RESTORE HARROW GREEN T/AS HARROW",
-            "total_value": 4417332.79
-        },
-        {
-            "name": "Speller Metcalfe Malvern Ltd",
-            "total_value": 4378452.71
-        },
-        {
-            "name": "CITY OF WESTMINSTER",
-            "total_value": 4358132
-        },
-        {
-            "name": "Hitachi Vantara Ltd.",
-            "total_value": 4316383.2
-        },
-        {
-            "name": "RED FROG HIRE LTD",
-            "total_value": 4313223.13
-        },
-        {
-            "name": "Elite Cask Limited t/a Legalinx Ltd",
-            "total_value": 4301297.6
-        },
-        {
-            "name": "CALDER CONFERENCES LTD",
-            "total_value": 4298016.06
-        },
-        {
-            "name": "UKCLOUD LTD",
-            "total_value": 4247349.28
-        },
-        {
-            "name": "EOL IT SERVICES LTD",
-            "total_value": 4222967.91
-        },
-        {
-            "name": "SYNYEGA LTD",
-            "total_value": 4220798
-        },
-        {
-            "name": "RELX (UK) LTD T/A LEXISNEXIS",
-            "total_value": 4206640.03
-        },
-        {
-            "name": "DVLA",
-            "total_value": 4175142.16
-        },
-        {
-            "name": "GB GROUP PLC",
-            "total_value": 4105195.52
-        },
-        {
-            "name": "PORTSMOUTH CITY COUNCIL",
-            "total_value": 4093638.66
-        },
-        {
-            "name": "XMA LTD",
-            "total_value": 4089186.39
+            "name": "ADVENT IM LIMITED",
+            "total_value": 4144646.5
         },
         {
             "name": "ESRI (UK) Ltd",
             "total_value": 4075000
         },
         {
-            "name": "GALLIFORD TRY CONSTRUCTION LTD",
-            "total_value": 4037520.35
+            "name": "DELOITTE MCS LTD",
+            "total_value": 4016981.8
         },
         {
-            "name": "KYNDRYL UK LTD",
-            "total_value": 4021563.98
+            "name": "VERSION 1 SOLUTIONS LTD",
+            "total_value": 3947229.84
         },
         {
-            "name": "ISG FIT OUT LTD",
-            "total_value": 3940465.1
+            "name": "POST OFFICE LTD",
+            "total_value": 3924620.91
         },
         {
-            "name": "PA CONSULTING GROUP",
-            "total_value": 3923322
+            "name": "Bottomline Technologies",
+            "total_value": 3862691.42
         },
         {
-            "name": "GOVERNMENT COMMUNICATIONS",
-            "total_value": 3886431.84
+            "name": "SUNDERLAND COUNCIL",
+            "total_value": 3851420
         },
         {
-            "name": "EUROFINS FORENSIC SERVICES LTD",
-            "total_value": 3881488.57
+            "name": "CITY OF LONDON",
+            "total_value": 3834000
         },
         {
-            "name": "MILTON KEYNES BOROUGH COUNCIL",
-            "total_value": 3871227.5
+            "name": "Elite Cask Limited t/a Legalinx Ltd",
+            "total_value": 3828334.4
         },
         {
-            "name": "SEFTON MBC",
-            "total_value": 3812864
+            "name": "DVLA",
+            "total_value": 3790795.68
         },
         {
-            "name": "SAVILLS COMMERCIAL LTD",
-            "total_value": 3557252.66
+            "name": "People Asset Management Ltd",
+            "total_value": 3707193.06
         },
         {
-            "name": "TELFORD PLAZA UK LTD",
-            "total_value": 3519058.11
+            "name": "SCOTTISH POLICE AUTHORITY",
+            "total_value": 3601808.89
         },
         {
-            "name": "IFF RESEARCH LTD",
-            "total_value": 3508652.36
+            "name": "SYNYEGA LTD",
+            "total_value": 3571598
         },
         {
-            "name": "Epping Forest District Council",
-            "total_value": 3471877.96
+            "name": "RED FROG HIRE LTD",
+            "total_value": 3565056.23
+        },
+        {
+            "name": "XMA LTD",
+            "total_value": 3507159.39
+        },
+        {
+            "name": "THE POLICE ICT COMPANY",
+            "total_value": 3497391.8
+        },
+        {
+            "name": "PORTSMOUTH CITY COUNCIL",
+            "total_value": 3477224.66
         },
         {
             "name": "AMAZON WEB SERVICES EMEA SARL",
             "total_value": 3465416.41
         },
         {
-            "name": "BRADFORD COUNCIL",
-            "total_value": 3431412.27
+            "name": "ATELIER7 Ltd",
+            "total_value": 3457890
         },
         {
-            "name": "INTRASOFT INTERNATIONAL SA",
-            "total_value": 3346865.42
+            "name": "ISG FIT OUT LTD",
+            "total_value": 3456940.06
+        },
+        {
+            "name": "EOL IT SERVICES LTD",
+            "total_value": 3433559.45
+        },
+        {
+            "name": "GALLIFORD TRY CONSTRUCTION LTD",
+            "total_value": 3408437.17
+        },
+        {
+            "name": "EXELA TECHNOLOGIES LTD",
+            "total_value": 3387561.42
+        },
+        {
+            "name": "Speller Metcalfe Malvern Ltd",
+            "total_value": 3373587.17
+        },
+        {
+            "name": "CALDER CONFERENCES LTD",
+            "total_value": 3368671.4
+        },
+        {
+            "name": "KNIGHT FRANK LLP",
+            "total_value": 3367400
+        },
+        {
+            "name": "UK MAIL",
+            "total_value": 3306993.87
+        },
+        {
+            "name": "FLEXIFORM LTD",
+            "total_value": 3298046.84
+        },
+        {
+            "name": "GOVERNMENT COMMUNICATIONS",
+            "total_value": 3257986.52
+        },
+        {
+            "name": "RESTORE HARROW GREEN T/AS HARROW",
+            "total_value": 3225787.7
+        },
+        {
+            "name": "KYNDRYL UK LTD",
+            "total_value": 3171326.99
+        },
+        {
+            "name": "CITY OF WESTMINSTER",
+            "total_value": 3128148
+        },
+        {
+            "name": "LONDON BOROUGH OF CAMDEN",
+            "total_value": 3090920
+        },
+        {
+            "name": "GB GROUP PLC",
+            "total_value": 3028395.52
+        },
+        {
+            "name": "EUROFINS FORENSIC SERVICES LTD",
+            "total_value": 2979784.86
         },
         {
             "name": "Associated Asphalt Contracting Ltd",
-            "total_value": 3295795.88
+            "total_value": 2928192.75
+        },
+        {
+            "name": "TELFORD PLAZA UK LTD",
+            "total_value": 2879620.43
+        },
+        {
+            "name": "MILTON KEYNES BOROUGH COUNCIL",
+            "total_value": 2852804
+        },
+        {
+            "name": "UKCLOUD LTD",
+            "total_value": 2838590.84
+        },
+        {
+            "name": "ORANGE BUS LTD",
+            "total_value": 2832626
+        },
+        {
+            "name": "BRADFORD COUNCIL",
+            "total_value": 2792514.27
         },
         {
             "name": "BIRMINGHAM INTERNATIONAL AIRPORT",
-            "total_value": 3294765.56
-        },
-        {
-            "name": "FIVIUM LTD",
-            "total_value": 3287930.69
-        },
-        {
-            "name": "LOGAN CONSTRUCTION SE LTD",
-            "total_value": 3271030.4
-        },
-        {
-            "name": "EDENRED (UK GROUP) LTD (CYCLE TO WO",
-            "total_value": 3257446.03
+            "total_value": 2773604.28
         },
         {
             "name": "Chartered Trading Standards",
-            "total_value": 3150000
+            "total_value": 2750000
         },
         {
             "name": "CAPITA CUSTOMER MANAGEMENT LTD",
-            "total_value": 3117948.81
+            "total_value": 2734037.47
         },
         {
-            "name": "CBRE Managed Services",
-            "total_value": 3116348.06
+            "name": "European Electronique",
+            "total_value": 2730091.26
         },
         {
-            "name": "RR Rainbow (North) Ltd",
-            "total_value": 3037405.67
+            "name": "PA CONSULTING GROUP",
+            "total_value": 2727963
         },
         {
-            "name": "WYG MANAGEMENT SERVICES LTD",
-            "total_value": 2967086.89
+            "name": "SEFTON MBC",
+            "total_value": 2708992
         },
         {
-            "name": "GSE TRUCKSTOP DEVELOPMENTS LIMITED",
-            "total_value": 2898720
+            "name": "EDENRED (UK GROUP) LTD (CYCLE TO WO",
+            "total_value": 2640163.96
         },
         {
-            "name": "CREDERA LTD",
-            "total_value": 2844058.73
+            "name": "COCHRANE SQUARE SPV LTD",
+            "total_value": 2570054.8
         },
         {
-            "name": "NORTH LANARKSHIRE COUNCIL",
-            "total_value": 2843344.38
+            "name": "IFF RESEARCH LTD",
+            "total_value": 2542416.8
         },
         {
-            "name": "WSP UK LTD",
-            "total_value": 2835316.31
-        },
-        {
-            "name": "VINE PROPERTY MANAGEMENT LLP",
-            "total_value": 2796480.96
-        },
-        {
-            "name": "WORLD CUSTOMS ORGANIZATION",
-            "total_value": 2795810.73
+            "name": "Epping Forest District Council",
+            "total_value": 2529092.95
         },
         {
             "name": "IMIMOBILE EUROPE LTD",
-            "total_value": 2775243.81
+            "total_value": 2519548.13
         },
         {
-            "name": "PCI Pal (UK) Ltd",
-            "total_value": 2751977.41
+            "name": "CREDERA LTD",
+            "total_value": 2470159.61
         },
         {
-            "name": "THE SCOTTISH GOVERNMENT",
-            "total_value": 2730414
+            "name": "RELX (UK) LTD T/A LEXISNEXIS",
+            "total_value": 2469118.72
         },
         {
-            "name": "IPSOS MORI UK LTD",
-            "total_value": 2727817.25
+            "name": "ASHFORD BOROUGH COUNCIL",
+            "total_value": 2457024.77
         },
         {
-            "name": "COMPASS GROUP (UK) LTD",
-            "total_value": 2706171.71
-        },
-        {
-            "name": "SCOTTISH WIDOWS PLC / JLL",
-            "total_value": 2683833.9
-        },
-        {
-            "name": "NATWEST- INTERNAL HMRC USE ONLY",
-            "total_value": 2672305.24
-        },
-        {
-            "name": "OPEN TEXT UK LTD",
-            "total_value": 2671031.7
-        },
-        {
-            "name": "Sol-Tec Ltd",
-            "total_value": 2603125.08
-        },
-        {
-            "name": "CELLEBRITE UK LTD",
-            "total_value": 2598898.8
-        },
-        {
-            "name": "DEPARTMENT FOR WORK & PENSIONS",
-            "total_value": 2579379.59
-        },
-        {
-            "name": "Q5 Partners LLP",
-            "total_value": 2510574
-        },
-        {
-            "name": "KANTAR PUBLIC UK LTD",
-            "total_value": 2487901.27
-        },
-        {
-            "name": "FI REAL ESTATE MANAGEMENT LTD",
-            "total_value": 2427596.47
+            "name": "NORTH LANARKSHIRE COUNCIL",
+            "total_value": 2424664.38
         },
         {
             "name": "Kong Inc",
             "total_value": 2418881
         },
         {
-            "name": "INCENDIUM CONSULTING LTD",
-            "total_value": 2418052.3
+            "name": "Cancom UK Ltd (Formerly OCSL)",
+            "total_value": 2392892.88
         },
         {
-            "name": "Aaseya Software Services (UK) Ltd",
-            "total_value": 2400710
+            "name": "SCOTTISH WIDOWS PLC / JLL",
+            "total_value": 2355647.33
         },
         {
-            "name": "QUALTRICS LLC",
-            "total_value": 2376974.45
+            "name": "KANTAR PUBLIC UK LTD",
+            "total_value": 2341980.27
         },
         {
-            "name": "INCHCAPE FLEET SOLUTIONS",
-            "total_value": 2371154.03
+            "name": "WSP UK LTD",
+            "total_value": 2321097.42
         },
         {
-            "name": "MOATBUILD PROPERTIES LTD",
-            "total_value": 2348400
+            "name": "LOGAN CONSTRUCTION SE LTD",
+            "total_value": 2289423.54
         },
         {
-            "name": "TAXAID",
-            "total_value": 2336839.36
+            "name": "BAM TCP Atlantic Square Limited",
+            "total_value": 2264270.04
         },
         {
-            "name": "ATKINS LTD",
-            "total_value": 2316374.7
+            "name": "FIVIUM LTD",
+            "total_value": 2253851.7
         },
         {
-            "name": "OFFICE FOR NATIONAL STATISTICS",
-            "total_value": 2286461.9
+            "name": "INTRASOFT INTERNATIONAL SA",
+            "total_value": 2252341.91
         },
         {
-            "name": "Credit Suisse c/o Slaughter & May",
-            "total_value": 2285000
+            "name": "WYG MANAGEMENT SERVICES LTD",
+            "total_value": 2250392.91
         },
         {
-            "name": "MITIE Security Limited",
-            "total_value": 2259397.4
+            "name": "SAVILLS COMMERCIAL LTD",
+            "total_value": 2249038.93
         },
         {
-            "name": "MANCHESTER CITY COUNCIL",
-            "total_value": 2256998.5
+            "name": "GSE TRUCKSTOP DEVELOPMENTS LIMITED",
+            "total_value": 2162160
         },
         {
-            "name": "NOTTINGHAM CITY COUNCIL",
-            "total_value": 2248704
-        },
-        {
-            "name": "POUL SCHMITH",
-            "total_value": 2241296.95
-        },
-        {
-            "name": "CA EUROPE SARL",
-            "total_value": 2218321.26
-        },
-        {
-            "name": "MUNROE K",
-            "total_value": 2209249.34
-        },
-        {
-            "name": "L & L BRAINES LIMITED",
-            "total_value": 2203794.5
-        },
-        {
-            "name": "BOROUGH OF TELFORD & WREKIN",
-            "total_value": 2198686
-        },
-        {
-            "name": "AMAS Ltd Cl Ac Common Rcpt No2",
-            "total_value": 2153225.12
-        },
-        {
-            "name": "BAM Construction Ltd",
-            "total_value": 2135473.48
-        },
-        {
-            "name": "CRONER-I LTD",
-            "total_value": 2123099.95
-        },
-        {
-            "name": "GXO LOGISTICS SERVICES UK LIMITED",
-            "total_value": 2120987.19
-        },
-        {
-            "name": "Teville Gate House Limited",
-            "total_value": 2105188.72
-        },
-        {
-            "name": "SOUTHEND BOROUGH COUNCIL",
-            "total_value": 2101765.22
+            "name": "Hitachi Vantara Ltd.",
+            "total_value": 2158191.6
         },
         {
             "name": "Ashford Borough Council",
             "total_value": 2094879.56
         },
         {
-            "name": "IPSOS (market research) Ltd",
-            "total_value": 2065337
+            "name": "BOROUGH OF TELFORD & WREKIN",
+            "total_value": 2086210
         },
         {
-            "name": "Spirit 120 Limited",
-            "total_value": 2034000
-        },
-        {
-            "name": "FCDO SERVICES",
-            "total_value": 1962891.32
-        },
-        {
-            "name": "CIVICA UK LTD",
-            "total_value": 1952489.34
-        },
-        {
-            "name": "Altius Consulting Limited",
-            "total_value": 1948911.84
+            "name": "RR Rainbow (North) Ltd",
+            "total_value": 1939552.65
         },
         {
             "name": "Equal Experts UK Ltd",
             "total_value": 1921202.5
         },
         {
-            "name": "Cobalt Data Centre c/o MacFarlanes LLP",
-            "total_value": 1920000
-        },
-        {
-            "name": "Pennant International Limited",
-            "total_value": 1916434.71
-        },
-        {
             "name": "SOFTWARE AG (UK) LTD",
             "total_value": 1910400
         },
         {
-            "name": "MITIE SEQURITY LIMITED",
-            "total_value": 1857836.46
+            "name": "THE SCOTTISH GOVERNMENT",
+            "total_value": 1871292
+        },
+        {
+            "name": "CBRE Managed Services",
+            "total_value": 1866051.64
+        },
+        {
+            "name": "IPSOS MORI UK LTD",
+            "total_value": 1857386.25
+        },
+        {
+            "name": "Sol-Tec Ltd",
+            "total_value": 1853532.54
+        },
+        {
+            "name": "WORLD CUSTOMS ORGANIZATION",
+            "total_value": 1850875.99
+        },
+        {
+            "name": "Aaseya Software Services (UK) Ltd",
+            "total_value": 1847770
+        },
+        {
+            "name": "ATKINS LTD",
+            "total_value": 1840453.72
         },
         {
             "name": "MONGODB LTD",
             "total_value": 1834897.52
         },
         {
-            "name": "AVANADE UK LTD",
-            "total_value": 1833409.95
+            "name": "PCI Pal (UK) Ltd",
+            "total_value": 1834651.61
         },
         {
-            "name": "Barbican Trust Ltd",
-            "total_value": 1818207.65
+            "name": "FI REAL ESTATE MANAGEMENT LTD",
+            "total_value": 1833333.97
         },
         {
-            "name": "2T Security",
-            "total_value": 1809093.5
+            "name": "FCDO SERVICES",
+            "total_value": 1830603.32
         },
         {
-            "name": "NATIONAL RECORDS OF SCOTLAND",
-            "total_value": 1800000
+            "name": "IPSOS (market research) Ltd",
+            "total_value": 1811092
         },
         {
-            "name": "Ashfield Land (Glasgow) Ltd",
-            "total_value": 1800000
+            "name": "QUALTRICS LLC",
+            "total_value": 1803540.41
         },
         {
-            "name": "Whistl Ltd",
-            "total_value": 1780363.97
+            "name": "DEPARTMENT FOR WORK & PENSIONS",
+            "total_value": 1785433.18
         },
         {
-            "name": "LINKEDIN IRELAND LTD",
-            "total_value": 1774999.31
+            "name": "MANCHESTER CITY COUNCIL",
+            "total_value": 1781862.5
         },
         {
-            "name": "Styles & Wood Ltd",
-            "total_value": 1755104.42
+            "name": "COMPASS GROUP (UK) LTD",
+            "total_value": 1780779.71
         },
         {
-            "name": "AMERICAN EXPRESS SERVICES EUROPE LTD",
-            "total_value": 1750000
+            "name": "INCHCAPE FLEET SOLUTIONS",
+            "total_value": 1774201.01
         },
         {
-            "name": "Ipsos MORI",
-            "total_value": 1735718.67
+            "name": "Pennant International Limited",
+            "total_value": 1773039.78
         },
         {
-            "name": "Reply Limited",
-            "total_value": 1708201.46
+            "name": "SOUTHEND BOROUGH COUNCIL",
+            "total_value": 1714693.22
         },
         {
-            "name": "SKILLSOFT UK LTD",
-            "total_value": 1704720
+            "name": "GXO LOGISTICS SERVICES UK LIMITED",
+            "total_value": 1708417.68
         },
         {
-            "name": "ASPECT SOFTWARE UK LTD",
-            "total_value": 1693718
+            "name": "Spirit 120 Limited",
+            "total_value": 1695000
         },
         {
-            "name": "Finchley Land Limited",
-            "total_value": 1691379.35
+            "name": "POUL SCHMITH",
+            "total_value": 1694264.64
+        },
+        {
+            "name": "TAXAID",
+            "total_value": 1692821.36
         },
         {
             "name": "MIDOS PROPERTIES MANAGEMENT LIMITED",
             "total_value": 1690280.16
         },
         {
-            "name": "ALLSTAR BUSINESS SOLUTIONS LTD",
-            "total_value": 1683380
+            "name": "OFFICE FOR NATIONAL STATISTICS",
+            "total_value": 1674308.32
         },
         {
-            "name": "Posterity Milestone Consortium",
-            "total_value": 1673821.7
+            "name": "INCENDIUM CONSULTING LTD",
+            "total_value": 1645205.35
         },
         {
-            "name": "FM SYSTEMS EUROPE LTD",
-            "total_value": 1669406
+            "name": "NATWEST- INTERNAL HMRC USE ONLY",
+            "total_value": 1624529.23
         },
         {
-            "name": "TAX VOLUNTEERS",
-            "total_value": 1659822
+            "name": "MUNROE K",
+            "total_value": 1621575.78
         },
         {
-            "name": "COLLIERS INT PROPERTY  CONSULT LTD",
-            "total_value": 1656615.6
+            "name": "Q5 Partners LLP",
+            "total_value": 1599696
         },
         {
-            "name": "WORTHING BOROUGH COUNCIL",
-            "total_value": 1653437.65
+            "name": "Credit Suisse c/o Slaughter & May",
+            "total_value": 1585000
+        },
+        {
+            "name": "L & L BRAINES LIMITED",
+            "total_value": 1584102.85
+        },
+        {
+            "name": "CRONER-I LTD",
+            "total_value": 1583099.95
+        },
+        {
+            "name": "VINE PROPERTY MANAGEMENT LLP",
+            "total_value": 1556338.62
         },
         {
             "name": "VMWARE UK LTD",
-            "total_value": 1639672.11
-        },
-        {
-            "name": "GOOD THINGS FOUNDATION",
-            "total_value": 1568290.25
-        },
-        {
-            "name": "DMT SOLUTIONS UK LTD",
-            "total_value": 1561612.5
-        },
-        {
-            "name": "AKHTER COMPUTERS LTD",
-            "total_value": 1555101.86
-        },
-        {
-            "name": "KANTAR UK LIMITED",
-            "total_value": 1531037.43
-        },
-        {
-            "name": "Kainos Software Limited",
-            "total_value": 1523256
-        },
-        {
-            "name": "ES GLOBAL LTD",
-            "total_value": 1519219.96
-        },
-        {
-            "name": "STREEVA LTD",
-            "total_value": 1509925.99
-        },
-        {
-            "name": "DESKPRO LTD",
-            "total_value": 1503015.29
+            "total_value": 1543985.27
         },
         {
             "name": "Bluecrest Capital Management (UK)  LLP c/o Slaughter & May",
             "total_value": 1500000
         },
         {
-            "name": "WATERFRONT PROPERTY INVESTMENT LLP",
-            "total_value": 1432584.88
+            "name": "ALLSTAR BUSINESS SOLUTIONS LTD",
+            "total_value": 1487218.77
         },
         {
-            "name": "Digital Unlimited Group Ltd",
-            "total_value": 1430560.94
+            "name": "CA EUROPE SARL",
+            "total_value": 1472800.42
         },
         {
-            "name": "HISL t/a Ashurst LLP",
-            "total_value": 1421000
+            "name": "ASPECT SOFTWARE UK LTD",
+            "total_value": 1460973
         },
         {
-            "name": "IBISWORLD LTD",
-            "total_value": 1418936.4
+            "name": "CELLEBRITE UK LTD",
+            "total_value": 1458837.54
+        },
+        {
+            "name": "Reply Limited",
+            "total_value": 1445394.36
+        },
+        {
+            "name": "AKHTER COMPUTERS LTD",
+            "total_value": 1444586.06
+        },
+        {
+            "name": "Posterity Milestone Consortium",
+            "total_value": 1408683.03
         },
         {
             "name": "GSE Truckstop Developments Ltd",
             "total_value": 1401840
         },
         {
-            "name": "Universal Security Systems Ltd",
-            "total_value": 1392305.81
+            "name": "WORTHING BOROUGH COUNCIL",
+            "total_value": 1400253.65
         },
         {
-            "name": "DUNDEE CITY COUNCIL",
-            "total_value": 1379124.58
+            "name": "Ipsos MORI",
+            "total_value": 1375272.67
         },
         {
-            "name": "Morris and Spottiswood Limited",
-            "total_value": 1374966.68
+            "name": "Whistl Ltd",
+            "total_value": 1373035.94
         },
         {
-            "name": "Scottish Widows Plc",
-            "total_value": 1371759.28
+            "name": "Teville Gate House Limited",
+            "total_value": 1370788.72
         },
         {
-            "name": "DELOITTE",
-            "total_value": 1369118.86
+            "name": "GOOD THINGS FOUNDATION",
+            "total_value": 1301129
         },
         {
-            "name": "FISCHER GERMAN PROPERTY MANAGEMENT",
-            "total_value": 1364699.55
+            "name": "KANTAR UK LIMITED",
+            "total_value": 1285823.53
         },
         {
-            "name": "CAM MANAGEMENT SOLUTIONS LTD",
-            "total_value": 1351855.6
+            "name": "Digital Unlimited Group Ltd",
+            "total_value": 1257547.94
         },
         {
-            "name": "RESTORE DATASHRED LTD",
-            "total_value": 1347531.68
+            "name": "STREEVA LTD",
+            "total_value": 1255714.69
         },
         {
-            "name": "LARMER BROWN LTD",
-            "total_value": 1342920
+            "name": "NOTTINGHAM CITY COUNCIL",
+            "total_value": 1249280
         },
         {
-            "name": "Manpower Direct UK Ltd",
-            "total_value": 1338810.64
+            "name": "AVANADE UK LTD",
+            "total_value": 1240414.46
         },
         {
-            "name": "Avolution (UK) Ltd",
-            "total_value": 1336450
-        },
-        {
-            "name": "EQUIFAX PLC",
-            "total_value": 1298851.2
-        },
-        {
-            "name": "IPSWICH BOROUGH COUNCIL",
-            "total_value": 1270513.06
-        },
-        {
-            "name": "Identity E2E",
-            "total_value": 1269195
-        },
-        {
-            "name": "CBRE NI LIMITED",
-            "total_value": 1268743.96
-        },
-        {
-            "name": "HOGAN LOVELLS LLP",
-            "total_value": 1242955.26
-        },
-        {
-            "name": "DTZ",
-            "total_value": 1233716.07
-        },
-        {
-            "name": "FINANCIAL TIMES LTD",
-            "total_value": 1226262
-        },
-        {
-            "name": "TMP (UK) LTD",
-            "total_value": 1225772.45
-        },
-        {
-            "name": "BUYINGTEAM LTD t/a Proxima",
-            "total_value": 1220654
-        },
-        {
-            "name": "DEPARTMENT FOR EDUCATION",
-            "total_value": 1215906.7
-        },
-        {
-            "name": "MICRO FOCUS LTD",
-            "total_value": 1212656.99
-        },
-        {
-            "name": "Stratford City Car Park Limited",
-            "total_value": 1212120
+            "name": "CIVICA UK LTD",
+            "total_value": 1231694.67
         },
         {
             "name": "Convergint Technologies Uk Limited",
             "total_value": 1211680.54
         },
         {
-            "name": "SAVILLS - KAMES PROPERTY INCOME",
-            "total_value": 1202813.1
-        },
-        {
             "name": "ECF (General Partner) Limited",
             "total_value": 1202075.14
         },
         {
-            "name": "PEOPLESCOUT LIMITED",
-            "total_value": 1195762.49
+            "name": "Kainos Software Limited",
+            "total_value": 1199108.5
         },
         {
-            "name": "GE Capital Investments & Ors",
-            "total_value": 1180000
+            "name": "WATERFRONT PROPERTY INVESTMENT LLP",
+            "total_value": 1189568.71
         },
         {
-            "name": "TNT UK LTD",
-            "total_value": 1177823.8
+            "name": "TAX VOLUNTEERS",
+            "total_value": 1187322
         },
         {
-            "name": "ENGIE BUILDINGS LTD",
-            "total_value": 1175279.72
+            "name": "LINKEDIN IRELAND LTD",
+            "total_value": 1184524.01
         },
         {
-            "name": "DWP",
-            "total_value": 1162748.2
+            "name": "MOATBUILD PROPERTIES LTD",
+            "total_value": 1174200
         },
         {
-            "name": "Invamed Group C/O Field Fisher",
-            "total_value": 1135000
+            "name": "DESKPRO LTD",
+            "total_value": 1166542.1
         },
         {
-            "name": "Autumn Properties Limited",
-            "total_value": 1124443.64
+            "name": "DEPARTMENT FOR EDUCATION",
+            "total_value": 1157306.7
+        },
+        {
+            "name": "Styles & Wood Ltd",
+            "total_value": 1139510.41
+        },
+        {
+            "name": "MITIE Security Limited",
+            "total_value": 1129698.7
+        },
+        {
+            "name": "NATIONAL RECORDS OF SCOTLAND",
+            "total_value": 1125000
         },
         {
             "name": "KALLIDUS LTD",
             "total_value": 1120320
         },
         {
-            "name": "RED HAT LTD",
-            "total_value": 1109553
+            "name": "Morris and Spottiswood Limited",
+            "total_value": 1111969.45
+        },
+        {
+            "name": "OPEN TEXT UK LTD",
+            "total_value": 1108343.86
         },
         {
             "name": "Phoenix Group Holdings Ltd c/o PWC",
             "total_value": 1100000
         },
         {
+            "name": "Altius Consulting Limited",
+            "total_value": 1095011.92
+        },
+        {
+            "name": "LARMER BROWN LTD",
+            "total_value": 1091640
+        },
+        {
+            "name": "Barbican Trust Ltd",
+            "total_value": 1090924.59
+        },
+        {
+            "name": "FISCHER GERMAN PROPERTY MANAGEMENT",
+            "total_value": 1079102.13
+        },
+        {
+            "name": "AMAS Ltd Cl Ac Common Rcpt No2",
+            "total_value": 1076612.56
+        },
+        {
+            "name": "2T Security",
+            "total_value": 1075765.5
+        },
+        {
             "name": "HOME OFFICE IMMIGRATION & NATIONALI",
             "total_value": 1071890.48
         },
         {
-            "name": "MAPELEY STEPS CONTRACTOR LTD COMPO",
-            "total_value": 1067811.63
+            "name": "BAM Construction Ltd",
+            "total_value": 1067736.74
         },
         {
-            "name": "CROWN PROSECUTION SERVICE",
-            "total_value": 1059625.14
+            "name": "IPSWICH BOROUGH COUNCIL",
+            "total_value": 1055473.06
+        },
+        {
+            "name": "PEOPLESCOUT LIMITED",
+            "total_value": 1055307.49
         },
         {
             "name": "Test Cases in the Post-Prudential Closure No C/O Joseph Hage Aaronson LLP",
             "total_value": 1054589.04
         },
         {
-            "name": "READING BOROUGH COUNCIL",
-            "total_value": 1050850.67
+            "name": "Avolution (UK) Ltd",
+            "total_value": 1038850
         },
         {
-            "name": "DLA PIPER",
-            "total_value": 1022730
+            "name": "Stratford City Car Park Limited",
+            "total_value": 1025640
         },
         {
-            "name": "Automated Intelligence Ltd",
-            "total_value": 1017742.55
-        },
-        {
-            "name": "Dropbox International Unlimited",
-            "total_value": 1015306.18
-        },
-        {
-            "name": "MuleSoft LLC",
-            "total_value": 1010874.7
-        },
-        {
-            "name": "VALE EUROPE LTD",
-            "total_value": 1000000
+            "name": "IBISWORLD LTD",
+            "total_value": 1013996.4
         },
         {
             "name": "Guardian Assurance c/o Herbert Smith Freehills LLP",
             "total_value": 1000000
         },
         {
+            "name": "FM SYSTEMS EUROPE LTD",
+            "total_value": 999536
+        },
+        {
             "name": "MATRIX BOOKING LTD",
             "total_value": 996173.2
         },
         {
-            "name": "HERO HOSPITALITY VENTURES",
-            "total_value": 962525.52
+            "name": "Manpower Direct UK Ltd",
+            "total_value": 992812.87
         },
         {
-            "name": "HERO CATALYST HOSPITALITY VENTURES",
-            "total_value": 962525.52
+            "name": "ES GLOBAL LTD",
+            "total_value": 988583.92
+        },
+        {
+            "name": "RESTORE DATASHRED LTD",
+            "total_value": 986455.14
+        },
+        {
+            "name": "TMP (UK) LTD",
+            "total_value": 979946
+        },
+        {
+            "name": "Cobalt Data Centre c/o MacFarlanes LLP",
+            "total_value": 960000
+        },
+        {
+            "name": "Universal Security Systems Ltd",
+            "total_value": 954633.93
+        },
+        {
+            "name": "DMT SOLUTIONS UK LTD",
+            "total_value": 953624.05
         },
         {
             "name": "Test Claimants in FII Group Income ",
             "total_value": 950000
         },
         {
-            "name": "PRESTON BOROUGH COUNCIL",
-            "total_value": 942841.23
-        },
-        {
             "name": "Jones Lang LaSalle",
             "total_value": 941643.5
         },
         {
-            "name": "TURNER & TOWNSEND",
-            "total_value": 932361.94
+            "name": "Finchley Land Limited",
+            "total_value": 940438.96
         },
         {
-            "name": "LEICESTER CITY COUNCIL",
-            "total_value": 931840
+            "name": "RED HAT LTD",
+            "total_value": 935498
         },
         {
-            "name": "Eversheds Sutherland LLP",
-            "total_value": 917866.77
+            "name": "MITIE SEQURITY LIMITED",
+            "total_value": 928918.23
         },
         {
-            "name": "BAM CONSTRUCTION LTD SCOTLAND",
-            "total_value": 916572
+            "name": "MICRO FOCUS LTD",
+            "total_value": 927314.74
         },
         {
-            "name": "GINGERBREAD",
-            "total_value": 901344.4
+            "name": "Ashfield Land (Glasgow) Ltd",
+            "total_value": 900000
         },
         {
-            "name": "Irwin Mitchell C/O HSBC Bank Plc",
+            "name": "HISL t/a Ashurst LLP",
             "total_value": 895000
+        },
+        {
+            "name": "FINANCIAL TIMES LTD",
+            "total_value": 893308
         },
         {
             "name": "GOVERNMENT COMMUNICATIONS BUREAU",
@@ -1581,88 +1433,84 @@
             "total_value": 885201.83
         },
         {
-            "name": "ADLER AND ALLAN LTD",
-            "total_value": 884391.8
+            "name": "AMERICAN EXPRESS SERVICES EUROPE LTD",
+            "total_value": 875000
         },
         {
-            "name": "INSPIRED ENERGY SOLUTIONS LTD",
-            "total_value": 881257.08
-        },
-        {
-            "name": "INTERSERVE FACILITIES MANAGEMENT",
-            "total_value": 880970.36
-        },
-        {
-            "name": "Europa Technologies Ltd",
-            "total_value": 880380
-        },
-        {
-            "name": "G4S INTEGRATED SERVICES (UK) LTD",
-            "total_value": 878242.06
-        },
-        {
-            "name": "COLLIERS INTERNATIONAL",
-            "total_value": 877907.86
-        },
-        {
-            "name": "Total E&P North Sea Ltd. c/o VE Law",
-            "total_value": 876901.11
-        },
-        {
-            "name": "WESTMORELAND INVESTMENTS LTD",
-            "total_value": 871500
-        },
-        {
-            "name": "NETBUILDER LTD",
-            "total_value": 862666.89
-        },
-        {
-            "name": "DEMYS LTD",
-            "total_value": 850782.32
+            "name": "DUNDEE CITY COUNCIL",
+            "total_value": 872700.58
         },
         {
             "name": "GE Financial Investments",
             "total_value": 847283.87
         },
         {
-            "name": "Tetra Tech Limited",
-            "total_value": 846166.05
-        },
-        {
             "name": "Overbury PLC",
             "total_value": 845943.33
         },
         {
-            "name": "PricewaterhouseCoopers LLP",
-            "total_value": 845856
+            "name": "CROWN PROSECUTION SERVICE",
+            "total_value": 835772.55
         },
         {
-            "name": "SHRED STATION LTD",
-            "total_value": 840244.39
+            "name": "COLLIERS INT PROPERTY  CONSULT LTD",
+            "total_value": 828307.8
         },
         {
-            "name": "ENGAGE ESM LTD",
-            "total_value": 833895.48
+            "name": "Tetra Tech Limited",
+            "total_value": 817955.25
+        },
+        {
+            "name": "READING BOROUGH COUNCIL",
+            "total_value": 816610.67
         },
         {
             "name": "SCC Specialist Computer Centres",
             "total_value": 816044.18
         },
         {
-            "name": "BCS",
-            "total_value": 801520
+            "name": "BUYINGTEAM LTD t/a Proxima",
+            "total_value": 808202
         },
         {
-            "name": "Silobreaker Ltd",
-            "total_value": 794880
+            "name": "DTZ",
+            "total_value": 805204.43
         },
         {
-            "name": "Overbury plc",
-            "total_value": 793995.24
+            "name": "ENGAGE ESM LTD",
+            "total_value": 799268.48
         },
         {
-            "name": "LEGAT OWEN",
-            "total_value": 776859.34
+            "name": "Identity E2E",
+            "total_value": 798735
+        },
+        {
+            "name": "PRESTON BOROUGH COUNCIL",
+            "total_value": 797741.49
+        },
+        {
+            "name": "SKILLSOFT UK LTD",
+            "total_value": 796320
+        },
+        {
+            "name": "HOGAN LOVELLS LLP",
+            "total_value": 794898.82
+        },
+        {
+            "name": "EQUIFAX PLC",
+            "total_value": 794851.2
+        },
+        {
+            "name": "CAM MANAGEMENT SOLUTIONS LTD",
+            "total_value": 792965.2
+        },
+        {
+            "name": "ENGIE BUILDINGS LTD",
+            "total_value": 789386.51
+        },
+        {
+            "name": "DWP",
+            "total_value": 774387.84
         },
         {
             "name": "METHODS BUSINESS & DIGITAL",
@@ -1673,124 +1521,124 @@
             "total_value": 770665.21
         },
         {
-            "name": "ZYLPHA LTD",
-            "total_value": 770360
+            "name": "Invamed Group C/O Field Fisher",
+            "total_value": 760000
         },
         {
             "name": "Dartford Borough Council",
             "total_value": 759162.74
         },
         {
-            "name": "ASHFORD INTERNATIONAL TRUCKSTOP LTD",
-            "total_value": 755083.88
+            "name": "Autumn Properties Limited",
+            "total_value": 748543.64
         },
         {
-            "name": "Hiscox PLC c/o KPMG LLP",
-            "total_value": 750000
-        },
-        {
-            "name": "Elliot Group Ltd",
-            "total_value": 748600.78
-        },
-        {
-            "name": "SOFTWARE BOX LTD",
-            "total_value": 748551.42
-        },
-        {
-            "name": "DARTFORD BOROUGH COUNCIL",
-            "total_value": 747520
-        },
-        {
-            "name": "MINISTRY OF JUSTICE",
-            "total_value": 736834.81
-        },
-        {
-            "name": "People for Research Ltd",
-            "total_value": 735240.24
+            "name": "TNT UK LTD",
+            "total_value": 741211.39
         },
         {
             "name": "EBUYER (UK) LTD",
             "total_value": 734000
         },
         {
+            "name": "GINGERBREAD",
+            "total_value": 731312.4
+        },
+        {
+            "name": "Eversheds Sutherland LLP",
+            "total_value": 720825.54
+        },
+        {
+            "name": "COLLIERS INTERNATIONAL",
+            "total_value": 715909.96
+        },
+        {
+            "name": "DLA PIPER",
+            "total_value": 703789.14
+        },
+        {
+            "name": "Dropbox International Unlimited",
+            "total_value": 701308.09
+        },
+        {
+            "name": "Automated Intelligence Ltd",
+            "total_value": 694397.54
+        },
+        {
+            "name": "NETBUILDER LTD",
+            "total_value": 691038.87
+        },
+        {
             "name": "WARRINGTON BOROUGH COUNCIL",
-            "total_value": 714994.41
+            "total_value": 688114.41
         },
         {
-            "name": "Clowes Developments Limited",
-            "total_value": 704157
+            "name": "Scottish Widows Plc",
+            "total_value": 685879.64
         },
         {
-            "name": "Dolphin Driling Ltd.",
-            "total_value": 700000
+            "name": "DELOITTE",
+            "total_value": 684559.43
         },
         {
-            "name": "NATIONAL CENTRE FOR SOCIAL RESEARCH",
-            "total_value": 693015.4
+            "name": "MuleSoft LLC",
+            "total_value": 681398.07
         },
         {
-            "name": "SIGHT AND SOUND TECHNOLOGY LTD",
-            "total_value": 690617.88
+            "name": "MAPELEY STEPS CONTRACTOR LTD COMPO",
+            "total_value": 667813.76
         },
         {
-            "name": "Metropolitan Police",
-            "total_value": 689528.28
+            "name": "LEICESTER CITY COUNCIL",
+            "total_value": 665600
         },
         {
-            "name": "Arena Central Development Ltd",
-            "total_value": 682283.44
+            "name": "BCS",
+            "total_value": 656960
         },
         {
-            "name": "INFORMATICA SOFTWARE LTD",
-            "total_value": 679938.56
+            "name": "ZYLPHA LTD",
+            "total_value": 653240
         },
         {
-            "name": "MINTEL GROUP LTD",
-            "total_value": 678869.43
+            "name": "G4S INTEGRATED SERVICES (UK) LTD",
+            "total_value": 650904.32
         },
         {
-            "name": "LONDON BOROUGH OF HILLINGDON",
-            "total_value": 676970
+            "name": "ADLER AND ALLAN LTD",
+            "total_value": 648173
         },
         {
-            "name": "Burlington Loan Management DAC",
-            "total_value": 659018
-        },
-        {
-            "name": "Fiat Autos c/o Masters",
-            "total_value": 650000
+            "name": "SHRED STATION LTD",
+            "total_value": 645304.39
         },
         {
             "name": "ECOSPEND TECHNOLOGIES LIMITED",
             "total_value": 641921.46
         },
         {
-            "name": "Quantexa Ltd",
-            "total_value": 631860
+            "name": "HERO HOSPITALITY VENTURES",
+            "total_value": 641683.68
         },
         {
-            "name": "VODAFONE",
-            "total_value": 629425.64
+            "name": "HERO CATALYST HOSPITALITY VENTURES",
+            "total_value": 641683.68
         },
         {
-            "name": "EXCELPOINT LTD",
-            "total_value": 628786.29
+            "name": "NATIONAL CENTRE FOR SOCIAL RESEARCH",
+            "total_value": 638951.88
         },
         {
-            "name": "NOMINET UK",
-            "total_value": 625585.09
+            "name": "INFORMATICA SOFTWARE LTD",
+            "total_value": 635244.56
         },
         {
-            "name": "MONEY ADVICE TRUST",
-            "total_value": 624176.5
+            "name": "CBRE NI LIMITED",
+            "total_value": 634371.98
         },
         {
-            "name": "TRUSTWAVE LTD",
-            "total_value": 621782.34
-        },
-        {
-            "name": "KANTAR UK LTD",
-            "total_value": 619038
+            "name": "WESTMORELAND INVESTMENTS LTD",
+            "total_value": 622500
         },
         {
             "name": "HOME OFFICE SHARED SERVICE CENTRE",
@@ -1801,40 +1649,24 @@
             "total_value": 617312.13
         },
         {
-            "name": "BIFFA WASTE SERVICES LTD",
-            "total_value": 612899.65
+            "name": "INTERSERVE FACILITIES MANAGEMENT",
+            "total_value": 611703.88
         },
         {
-            "name": "NICHOLS GROUP LTD",
-            "total_value": 607380
-        },
-        {
-            "name": "BMG Research",
-            "total_value": 599338
+            "name": "SAVILLS - KAMES PROPERTY INCOME",
+            "total_value": 601406.55
         },
         {
             "name": "Creative Risk Solutions Ltd",
             "total_value": 590408.32
         },
         {
-            "name": "DAVID EWART KC",
-            "total_value": 586700.57
-        },
-        {
-            "name": "FINANCIAL REPORTING COUNCIL",
-            "total_value": 586456.31
+            "name": "GE Capital Investments & Ors",
+            "total_value": 590000
         },
         {
             "name": "COMPUTER ASSOCIATES UK LTD",
             "total_value": 582967
-        },
-        {
-            "name": "WEST LINDSEY DISTRICT COUNCIL",
-            "total_value": 580608
-        },
-        {
-            "name": "CPC Project Services LLP",
-            "total_value": 579129.03
         },
         {
             "name": "Bluecrest Capital Management c/o Slaughter & May",
@@ -1845,36 +1677,40 @@
             "total_value": 575948.71
         },
         {
-            "name": "Proceed Data Migration",
-            "total_value": 574900
-        },
-        {
-            "name": "KPMG",
-            "total_value": 571460
-        },
-        {
             "name": "PROTEGRITY USA INC",
             "total_value": 570000
         },
         {
-            "name": "GEOFF SMITH ASSOCIATES LTD",
-            "total_value": 563376.95
+            "name": "People for Research Ltd",
+            "total_value": 568970.25
+        },
+        {
+            "name": "Irwin Mitchell C/O HSBC Bank Plc",
+            "total_value": 565000
+        },
+        {
+            "name": "Clowes Developments Limited",
+            "total_value": 563325.6
+        },
+        {
+            "name": "Quantexa Ltd",
+            "total_value": 558930
+        },
+        {
+            "name": "Arena Central Development Ltd",
+            "total_value": 557552.79
+        },
+        {
+            "name": "SIGHT AND SOUND TECHNOLOGY LTD",
+            "total_value": 550221.28
         },
         {
             "name": "West Burton Property Ltd",
             "total_value": 550000
         },
         {
-            "name": "PAYMTotal E&P North Sea Ltd. c/o VE Law",
-            "total_value": 548529.54
-        },
-        {
-            "name": "FMP Global",
-            "total_value": 545245.39
-        },
-        {
-            "name": "EUROPEAN COMMISSION",
-            "total_value": 539904.03
+            "name": "Hiscox PLC c/o KPMG LLP",
+            "total_value": 550000
         },
         {
             "name": "Overbury",
@@ -1885,64 +1721,56 @@
             "total_value": 537248.68
         },
         {
-            "name": "DAC Beachcroft LLP - Office Account",
-            "total_value": 536527.48
-        },
-        {
-            "name": "FUJITSU SERVICES LIMITED",
-            "total_value": 534265.52
+            "name": "MONEY ADVICE TRUST",
+            "total_value": 534082
         },
         {
             "name": "CXM QUADIENT UK",
             "total_value": 530421.18
         },
         {
-            "name": "Concentra Consulting Ltd",
-            "total_value": 525600
-        },
-        {
             "name": "JOSEPH HAGE AARONSON LLP GBP",
             "total_value": 522000
         },
         {
-            "name": "BELFAST HARBOUR COMMISSIONERS",
-            "total_value": 519120
+            "name": "LEGAT OWEN",
+            "total_value": 519343.92
         },
         {
-            "name": "Ingenious Games LLP & Ors",
-            "total_value": 515000
+            "name": "NOMINET UK",
+            "total_value": 519092.2
         },
         {
-            "name": "ONE IDENTITY SOFTWARE",
-            "total_value": 514458.6
+            "name": "LONDON BOROUGH OF HILLINGDON",
+            "total_value": 518700
         },
         {
-            "name": "DIGI2AL LTD",
-            "total_value": 509115
+            "name": "FINANCIAL REPORTING COUNCIL",
+            "total_value": 517273.19
+        },
+        {
+            "name": "MINISTRY OF JUSTICE",
+            "total_value": 514821.1
         },
         {
             "name": "Spirit 120 Ltd",
             "total_value": 508500
         },
         {
-            "name": "ATALIAN SERVEST",
-            "total_value": 506592.56
+            "name": "ASHFORD INTERNATIONAL TRUCKSTOP LTD",
+            "total_value": 508310.44
         },
         {
-            "name": "CLEARVISION",
-            "total_value": 506511.74
+            "name": "NICHOLS GROUP LTD",
+            "total_value": 507540
         },
         {
-            "name": "DAVID EWART QC",
-            "total_value": 505020
+            "name": "BIFFA WASTE SERVICES LTD",
+            "total_value": 504071.55
         },
         {
-            "name": "DURHAM COUNTY COUNCIL",
-            "total_value": 503486.09
-        },
-        {
-            "name": "FIREBRAND TRAINING LTD",
-            "total_value": 500850
+            "name": "VALE EUROPE LTD",
+            "total_value": 500000
         },
         {
             "name": "V Ltd. c/o TT Tax",
@@ -1953,52 +1781,28 @@
             "total_value": 500000
         },
         {
-            "name": "Guardian Assurance c/o Herbert Smith Frehills LLP",
-            "total_value": 500000
-        },
-        {
             "name": "European Dynamics UK Ltd",
             "total_value": 497738.93
-        },
-        {
-            "name": "THE NATIONAL CRIME AGENCY",
-            "total_value": 496632.4
-        },
-        {
-            "name": "Ministry of Defence",
-            "total_value": 495862
         },
         {
             "name": "FAIRPLAY ESTATES LTD",
             "total_value": 495415.9
         },
         {
-            "name": "VODAFONE LTD",
-            "total_value": 491713.84
-        },
-        {
-            "name": "ATKINSREALIS UK LIMITED",
-            "total_value": 491613.34
-        },
-        {
-            "name": "Volkeswagan Financial Services Ltd",
-            "total_value": 490000
-        },
-        {
-            "name": "Outcome Services for",
-            "total_value": 487520
+            "name": "DEMYS LTD",
+            "total_value": 489329.77
         },
         {
             "name": "Verint Systems UK Ltd",
             "total_value": 485965.67
         },
         {
-            "name": "FCO SERVICES",
-            "total_value": 485044
-        },
-        {
             "name": "Vale Europe Ltd c/o Ernst & Young LLP",
             "total_value": 485000
+        },
+        {
+            "name": "KPMG",
+            "total_value": 479800
         },
         {
             "name": "BAE SYSTEMS",
@@ -2009,88 +1813,88 @@
             "total_value": 475000
         },
         {
-            "name": "Pegasystems Limited",
-            "total_value": 474266.18
+            "name": "BMG Research",
+            "total_value": 474688
         },
         {
-            "name": "YONDER CONSULTING LTD",
-            "total_value": 474169.75
+            "name": "Burlington Loan Management DAC",
+            "total_value": 474509
         },
         {
-            "name": "Frank Knight LLP",
-            "total_value": 473209.55
+            "name": "TURNER & TOWNSEND",
+            "total_value": 466180.97
         },
         {
-            "name": "Korn Ferry (UK) Ltd",
-            "total_value": 472915.16
-        },
-        {
-            "name": "COVENTRY CITY COUNCIL",
-            "total_value": 472645.94
-        },
-        {
-            "name": "HSBC BANK PLC",
-            "total_value": 466230
-        },
-        {
-            "name": "COPYRIGHT LICENSING AGENCY",
-            "total_value": 465069.02
+            "name": "DAVID EWART KC",
+            "total_value": 464300.57
         },
         {
             "name": "Euromoney Institutional Investor PLC",
             "total_value": 462600
         },
         {
-            "name": "PWC LLP (HMRC GRANTS)",
-            "total_value": 462432
+            "name": "CPC Project Services LLP",
+            "total_value": 462530.52
         },
         {
-            "name": "KENT POLICE",
-            "total_value": 461808
+            "name": "MINTEL GROUP LTD",
+            "total_value": 458469.43
         },
         {
-            "name": "SAMARITAN ENTERPRISES LTD",
-            "total_value": 459737.5
+            "name": "BAM CONSTRUCTION LTD SCOTLAND",
+            "total_value": 458286
+        },
+        {
+            "name": "Outcome Services for",
+            "total_value": 451040
+        },
+        {
+            "name": "Ministry of Defence",
+            "total_value": 445862
         },
         {
             "name": "7112-Arena Central Developments LLP",
             "total_value": 445656.79
         },
         {
-            "name": "DELOITTE LLP",
-            "total_value": 444731.26
-        },
-        {
-            "name": "SIMMONS & SIMMONS LLP",
-            "total_value": 444197.36
+            "name": "THE NATIONAL CRIME AGENCY",
+            "total_value": 444557.99
         },
         {
             "name": "AUDITWARE SYSTEMS LTD",
             "total_value": 444000
         },
         {
-            "name": "BERKLEY ESTATES LONDON LTD",
-            "total_value": 441500
+            "name": "Proceed Data Migration",
+            "total_value": 440800
         },
         {
-            "name": "NatWest Group Ltd",
-            "total_value": 440000
+            "name": "INSPIRED ENERGY SOLUTIONS LTD",
+            "total_value": 440628.54
         },
         {
-            "name": "TOTAL COMPUTER NETWORKS LTD",
-            "total_value": 432310
+            "name": "Europa Technologies Ltd",
+            "total_value": 440190
         },
         {
-            "name": "Turner & Townsend",
-            "total_value": 429345.86
+            "name": "EXCELPOINT LTD",
+            "total_value": 440029.28
+        },
+        {
+            "name": "Frank Knight LLP",
+            "total_value": 435849.01
+        },
+        {
+            "name": "GEOFF SMITH ASSOCIATES LTD",
+            "total_value": 435024.65
         },
         {
             "name": "Reuben Brothers (Newcastle) Limited",
             "total_value": 427862.4
         },
         {
-            "name": "NLA MEDIA ACCESS LTD",
-            "total_value": 427150.39
+            "name": "PricewaterhouseCoopers LLP",
+            "total_value": 422928
         },
         {
             "name": "DOW SILICONES UK LIMITED",
@@ -2101,20 +1905,12 @@
             "total_value": 421980
         },
         {
-            "name": "Episerver AB",
-            "total_value": 420860
-        },
-        {
-            "name": "EE Ltd Airtime Contract",
-            "total_value": 414583.48
+            "name": "Elliot Group Ltd",
+            "total_value": 414351.79
         },
         {
             "name": "Alder King LLP",
             "total_value": 410730.54
-        },
-        {
-            "name": "FMP GLOBAL",
-            "total_value": 408004.34
         },
         {
             "name": "CMA GAZELEY UK LTD",
@@ -2125,112 +1921,124 @@
             "total_value": 405192.52
         },
         {
-            "name": "TREBLE 5 TREBLE 1 LTD",
-            "total_value": 401703.6
+            "name": "DURHAM COUNTY COUNCIL",
+            "total_value": 404670.09
         },
         {
-            "name": "LONDON BOROUGH OF EALING COUNCIL",
-            "total_value": 400596
+            "name": "TRUSTWAVE LTD",
+            "total_value": 403644.93
         },
         {
             "name": "Ingenious Games LLP & Ors C/O Freeshire Ltd",
             "total_value": 400000
         },
         {
-            "name": "Iceland Foods Ltd c/o TLT LLP",
-            "total_value": 398000
+            "name": "Silobreaker Ltd",
+            "total_value": 397440
         },
         {
             "name": "Hogan Lovells",
             "total_value": 397179.92
         },
         {
+            "name": "Overbury plc",
+            "total_value": 396997.62
+        },
+        {
+            "name": "SOFTWARE BOX LTD",
+            "total_value": 394346.64
+        },
+        {
+            "name": "YONDER CONSULTING LTD",
+            "total_value": 393686
+        },
+        {
+            "name": "Volkeswagan Financial Services Ltd",
+            "total_value": 390000
+        },
+        {
             "name": "GENERAL REGISTER OFFICE",
             "total_value": 390000
         },
         {
-            "name": "Lynton Exports (Alsager) Ltd",
-            "total_value": 385000
+            "name": "Concentra Consulting Ltd",
+            "total_value": 387600
         },
         {
-            "name": "RUNTIME COLLECTIVE T/A BRANDWATCH",
-            "total_value": 382391.52
+            "name": "ATKINSREALIS UK LIMITED",
+            "total_value": 381003.34
         },
         {
-            "name": "AXIOM STONE SOLICITORS CLIENT ACCOUNT",
-            "total_value": 378394.02
+            "name": "KENT POLICE",
+            "total_value": 378426
         },
         {
-            "name": "PITNEY BOWES FINANCE LTD (PURCH)",
-            "total_value": 370084.28
+            "name": "DARTFORD BOROUGH COUNCIL",
+            "total_value": 373760
         },
         {
-            "name": "PA Consulting Services Limited",
-            "total_value": 368450
+            "name": "Metropolitan Police",
+            "total_value": 365254.92
         },
         {
-            "name": "CARTER ACCOMMODATION LTD",
-            "total_value": 363895.18
+            "name": "Ingenious Games LLP & Ors",
+            "total_value": 365000
         },
         {
-            "name": "The Valuation Office Agency",
-            "total_value": 361617.8
+            "name": "DAC Beachcroft LLP - Office Account",
+            "total_value": 364608.81
+        },
+        {
+            "name": "KANTAR UK LTD",
+            "total_value": 364087
         },
         {
             "name": "Oracle Corporation UK Limited",
             "total_value": 360951.38
         },
         {
-            "name": "ALTIA SOLUTIONS LTD",
-            "total_value": 358977.4
-        },
-        {
             "name": "Salesforce UK Ltd",
             "total_value": 358598.16
+        },
+        {
+            "name": "VODAFONE LTD",
+            "total_value": 350940.84
         },
         {
             "name": "NUIX TECHNOLOGY UK LTD",
             "total_value": 350628
         },
         {
-            "name": "Cushman and Wakefield Debenham Tie Leung Ltd",
-            "total_value": 350087.6
-        },
-        {
-            "name": "Smith & Nephew Finance Holding Ltd",
+            "name": "Dolphin Driling Ltd.",
             "total_value": 350000
         },
         {
-            "name": "ASIA ONLINE PTE LTD T/AS OMNISCIEN",
-            "total_value": 346560
+            "name": "SAMARITAN ENTERPRISES LTD",
+            "total_value": 349912.5
         },
         {
             "name": "DEPARTMENT FOR ENVIRONMENT FOOD",
             "total_value": 346525.58
         },
         {
-            "name": "Coinstar Ltd",
-            "total_value": 345000
+            "name": "EE Ltd Airtime Contract",
+            "total_value": 345994.99
         },
         {
-            "name": "Aganto Ltd",
-            "total_value": 343983.74
+            "name": "Coinstar Ltd",
+            "total_value": 345000
         },
         {
             "name": "E-Zec Medical Transport Services Ltd c/o Pinsent Masons LLP",
             "total_value": 342000
         },
         {
-            "name": "QUEST SOFTWARE INTERNATIONAL LTD",
-            "total_value": 341188.5
+            "name": "DAVID EWART QC",
+            "total_value": 337590
         },
         {
-            "name": "Golden Lane Propeties Ltd",
-            "total_value": 331989.12
-        },
-        {
-            "name": "GOWLING WLG (UK) LLP",
-            "total_value": 331225.47
+            "name": "BELFAST HARBOUR COMMISSIONERS",
+            "total_value": 333720
         },
         {
             "name": "Tesco Stores Ltd",
@@ -2241,60 +2049,48 @@
             "total_value": 328851.49
         },
         {
-            "name": "RPB c/o JMW Solicitors",
-            "total_value": 328000
+            "name": "Fiat Autos c/o Masters",
+            "total_value": 325000
         },
         {
-            "name": "AXA Services Ltd Disbursement A/c",
-            "total_value": 327695.12
-        },
-        {
-            "name": "HEMPSALL CONSULTANCIES LTD",
-            "total_value": 326662.51
+            "name": "WEST LINDSEY DISTRICT COUNCIL",
+            "total_value": 322560
         },
         {
             "name": "Turner & Townsend Project",
             "total_value": 320527.22
         },
         {
-            "name": "Northumbria Healthcare",
-            "total_value": 320000
+            "name": "NLA MEDIA ACCESS LTD",
+            "total_value": 320185.77
         },
         {
             "name": "MINISTRY OF DEFENCE",
             "total_value": 317839.71
         },
         {
-            "name": "PAGERDUTY",
-            "total_value": 316255.78
+            "name": "Aganto Ltd",
+            "total_value": 317775.74
         },
         {
-            "name": "JS&Co LLP",
-            "total_value": 315000
+            "name": "FMP Global",
+            "total_value": 316006.05
         },
         {
-            "name": "Crown Solicitors Client Account",
-            "total_value": 312878.34
+            "name": "ONE IDENTITY SOFTWARE",
+            "total_value": 315274.9
         },
         {
             "name": "Wates Property Services Limited",
             "total_value": 312194.63
         },
         {
-            "name": "Mapeley STEPS Contractor Limited",
-            "total_value": 311724.29
+            "name": "PA Consulting Services Limited",
+            "total_value": 311030
         },
         {
-            "name": "Biffa Waste Services Ltd",
-            "total_value": 310700
-        },
-        {
-            "name": "SONIC COMMUNICATIONS (INT) LTD",
-            "total_value": 310198
-        },
-        {
-            "name": "LEARNING POOL LTD",
-            "total_value": 309918
+            "name": "CARTER ACCOMMODATION LTD",
+            "total_value": 310892.14
         },
         {
             "name": "Kantar Public UK Limited",
@@ -2305,12 +2101,12 @@
             "total_value": 308708
         },
         {
-            "name": "ANEXSYS LTD",
-            "total_value": 307047
+            "name": "SIMMONS & SIMMONS LLP",
+            "total_value": 307542.48
         },
         {
-            "name": "THEBIGWORD INTERPRETING",
-            "total_value": 305859.75
+            "name": "Korn Ferry (UK) Ltd",
+            "total_value": 305253.58
         },
         {
             "name": "Hero Catalyst Hospitality Venture Ltd",
@@ -2321,11 +2117,19 @@
             "total_value": 304375.69
         },
         {
-            "name": "St. George's University  c/o PWC",
-            "total_value": 300000
+            "name": "VODAFONE",
+            "total_value": 302304.5
         },
         {
-            "name": "London Gateway Port Ltd",
+            "name": "QUEST SOFTWARE INTERNATIONAL LTD",
+            "total_value": 300358.5
+        },
+        {
+            "name": "COPYRIGHT LICENSING AGENCY",
+            "total_value": 300122.1
+        },
+        {
+            "name": "St. George's University  c/o PWC",
             "total_value": 300000
         },
         {
@@ -2341,32 +2145,36 @@
             "total_value": 297221.8
         },
         {
-            "name": "DELL CORPORATION LTD",
-            "total_value": 296384.69
-        },
-        {
             "name": "Delinian Ltd c/o KPMG Law",
             "total_value": 296255
-        },
-        {
-            "name": "BESA PUBLICATIONS LTD",
-            "total_value": 295419.6
         },
         {
             "name": "Content+Cloud Limited",
             "total_value": 294000
         },
         {
+            "name": "Total E&P North Sea Ltd. c/o VE Law",
+            "total_value": 292300.37
+        },
+        {
+            "name": "Episerver AB",
+            "total_value": 288860
+        },
+        {
             "name": "ERNST & YOUNG",
             "total_value": 288000
         },
         {
-            "name": "LINGUISTIC LANDSCAPES",
-            "total_value": 283192
+            "name": "DIGI2AL LTD",
+            "total_value": 282047.5
         },
         {
             "name": "GRANT THORNTON",
             "total_value": 281227.35
+        },
+        {
+            "name": "FIREBRAND TRAINING LTD",
+            "total_value": 278350
         },
         {
             "name": "LAUNCHPAD RECRUITS LTD",
@@ -2381,84 +2189,64 @@
             "total_value": 276323.75
         },
         {
-            "name": "NDI TECHNOLOGIES LTD",
-            "total_value": 275960.27
-        },
-        {
             "name": "GREEN PARK INTERIM & EXECUTIVE LTD",
             "total_value": 274597.37
-        },
-        {
-            "name": "New Waverely 10 Ltd ? Estate",
-            "total_value": 273950.54
-        },
-        {
-            "name": "PRENAX UK",
-            "total_value": 273275.31
         },
         {
             "name": "HS1 LIMITED",
             "total_value": 273123.56
         },
         {
-            "name": "European Commission",
-            "total_value": 268986.14
+            "name": "AXA Services Ltd Disbursement A/c",
+            "total_value": 272337.16
         },
         {
-            "name": "THOMSON REUTERS UK LTD",
-            "total_value": 266341.58
+            "name": "BERKLEY ESTATES LONDON LTD",
+            "total_value": 271000
         },
         {
-            "name": "GPA c/o CBRE",
-            "total_value": 265529.02
+            "name": "DELL CORPORATION LTD",
+            "total_value": 269256.63
         },
         {
-            "name": "ELENI MITROPHANOUS QC",
-            "total_value": 263448
+            "name": "FUJITSU SERVICES LIMITED",
+            "total_value": 267132.76
         },
         {
             "name": "CBRE LTD CLIENT A/C",
             "total_value": 263339.34
         },
         {
-            "name": "CARE QUALITY COMMISSION",
-            "total_value": 262916.8
-        },
-        {
-            "name": "ENGENEUM LTD",
-            "total_value": 262172.07
+            "name": "FMP GLOBAL",
+            "total_value": 261809.89
         },
         {
             "name": "Medical Defence Union Ltd c/o Baker & MacKenzie LLP",
             "total_value": 260000
         },
         {
+            "name": "HEMPSALL CONSULTANCIES LTD",
+            "total_value": 259550
+        },
+        {
             "name": "Brook Street (UK) Ltd",
             "total_value": 258733.2
         },
         {
-            "name": "RICHARD ATKINS QC",
-            "total_value": 258476.3
+            "name": "RUNTIME COLLECTIVE T/A BRANDWATCH",
+            "total_value": 258119.76
         },
         {
-            "name": "Pilkington Group Ltd",
-            "total_value": 258000
+            "name": "HSBC BANK PLC",
+            "total_value": 258050
         },
         {
-            "name": "FCINET SECRETARIAT",
-            "total_value": 257025.36
+            "name": "PWC LLP (HMRC GRANTS)",
+            "total_value": 255966
         },
         {
-            "name": "CABLE-TALK",
-            "total_value": 256990.41
-        },
-        {
-            "name": "CONTROL-F LIMITED",
-            "total_value": 254895.84
-        },
-        {
-            "name": "SPECIALIST COMPUTER CENTRES",
-            "total_value": 252455.42
+            "name": "ATALIAN SERVEST",
+            "total_value": 253296.28
         },
         {
             "name": "Algeco UK Ltd",
@@ -2469,7 +2257,7 @@
             "total_value": 250000
         },
         {
-            "name": "London Clubs Managament Ltd",
+            "name": "Guardian Assurance c/o Herbert Smith Frehills LLP",
             "total_value": 250000
         },
         {
@@ -2481,12 +2269,8 @@
             "total_value": 250000
         },
         {
-            "name": "ILX GROUP PLC",
-            "total_value": 249600
-        },
-        {
-            "name": "TES-AMM UK LTD",
-            "total_value": 248791.74
+            "name": "TREBLE 5 TREBLE 1 LTD",
+            "total_value": 248802
         },
         {
             "name": "Turner & Townsend Finance Department",
@@ -2501,64 +2285,72 @@
             "total_value": 247911.73
         },
         {
-            "name": "UBDS IT Consulting Limited",
-            "total_value": 247058.64
-        },
-        {
-            "name": "HASTINGS & CO",
-            "total_value": 246555.44
-        },
-        {
             "name": "CBRE LTD A/C",
             "total_value": 246413
         },
         {
-            "name": "Valuation Office Agency",
-            "total_value": 246069.5
+            "name": "Crown Solicitors Client Account",
+            "total_value": 245138.42
         },
         {
-            "name": "Workspace Design Global Ltd",
-            "total_value": 242910
+            "name": "Mapeley STEPS Contractor Limited",
+            "total_value": 244384.34
         },
         {
             "name": "Lifetime Training Group Ltd",
             "total_value": 242827.95
         },
         {
+            "name": "FCO SERVICES",
+            "total_value": 242522
+        },
+        {
             "name": "Worldpay (UK) c/o PWC LLP",
             "total_value": 240989.8
         },
         {
-            "name": "INFORMATION SERVICES GROUP",
-            "total_value": 240000
-        },
-        {
-            "name": "CHAINALYSIS UK LTD",
-            "total_value": 240000
-        },
-        {
-            "name": "WMC GLOBAL LTD",
-            "total_value": 239940
+            "name": "CLEARVISION",
+            "total_value": 239696.69
         },
         {
             "name": "UserZoom Limited",
             "total_value": 238080
         },
         {
-            "name": "ISS FACILITY SERVICES LTD",
-            "total_value": 238064.56
+            "name": "GOWLING WLG (UK) LLP",
+            "total_value": 237643.89
+        },
+        {
+            "name": "Pegasystems Limited",
+            "total_value": 237133.09
+        },
+        {
+            "name": "THEBIGWORD INTERPRETING",
+            "total_value": 236959.31
         },
         {
             "name": "CLSH MANAGEMENT LTD",
             "total_value": 236481.6
         },
         {
+            "name": "COVENTRY CITY COUNCIL",
+            "total_value": 236322.97
+        },
+        {
             "name": "INCE GORDON DADDS LLP",
             "total_value": 236293.86
         },
         {
+            "name": "EUROPEAN COMMISSION",
+            "total_value": 236122.38
+        },
+        {
             "name": "KCOM GROUP LIMITED",
             "total_value": 235509.03
+        },
+        {
+            "name": "PITNEY BOWES FINANCE LTD (PURCH)",
+            "total_value": 235047.92
         },
         {
             "name": "Turner & Townsend Project Management Ltd",
@@ -2573,64 +2365,60 @@
             "total_value": 231985
         },
         {
-            "name": "Accenture (UK) Limited",
+            "name": "Turner & Townsend",
+            "total_value": 230006.83
+        },
+        {
+            "name": "RPB c/o JMW Solicitors",
             "total_value": 230000
         },
         {
-            "name": "RUPERT BALDRY KC",
-            "total_value": 229323.6
+            "name": "Accenture (UK) Limited",
+            "total_value": 230000
         },
         {
             "name": "The Insolvency Service",
             "total_value": 228620
         },
         {
-            "name": "MAYORS OFFICE FOR POLICING & CRIME",
-            "total_value": 227802.83
+            "name": "SPECIALIST COMPUTER CENTRES",
+            "total_value": 227857.88
         },
         {
-            "name": "Crown Solicitors Professional Fees",
-            "total_value": 227769.29
+            "name": "MAYORS OFFICE FOR POLICING & CRIME",
+            "total_value": 227802.83
         },
         {
             "name": "TRAMS LIMITED",
             "total_value": 226966.31
         },
         {
-            "name": "BEN HAYHURST",
-            "total_value": 226459.61
+            "name": "LEARNING POOL LTD",
+            "total_value": 224490
         },
         {
             "name": "ELENI MITROPHANOUS KC",
             "total_value": 224064
         },
         {
-            "name": "BMC CABLE-TALK LIMTED",
-            "total_value": 222881.02
+            "name": "SONIC COMMUNICATIONS (INT) LTD",
+            "total_value": 222809
+        },
+        {
+            "name": "DELOITTE LLP",
+            "total_value": 222365.63
         },
         {
             "name": "CASEWARE UK LTD",
             "total_value": 222000
         },
         {
-            "name": "Mazaru Ltd",
-            "total_value": 221100
+            "name": "NDI TECHNOLOGIES LTD",
+            "total_value": 220780.13
         },
         {
-            "name": "Chelmsford City Council",
+            "name": "NatWest Group Ltd",
             "total_value": 220000
-        },
-        {
-            "name": "SOLIHULL MBC",
-            "total_value": 219648
-        },
-        {
-            "name": "Amazon Web Services EMEA SARL",
-            "total_value": 219427.94
-        },
-        {
-            "name": "ARISTI LTD",
-            "total_value": 218846.5
         },
         {
             "name": "MOBILE MARKETING GROUP. MMGRP LIMITED",
@@ -2641,24 +2429,8 @@
             "total_value": 216192
         },
         {
-            "name": "JOANNA VICARY",
-            "total_value": 212187.27
-        },
-        {
-            "name": "IAN ROGERS QC",
-            "total_value": 210762
-        },
-        {
-            "name": "DIGICERT INC",
-            "total_value": 210380
-        },
-        {
-            "name": "Deloitte LLP",
-            "total_value": 210302.71
-        },
-        {
-            "name": "DP Publicity & Ors c/o Jeremy Giles",
-            "total_value": 210000
+            "name": "TOTAL COMPUTER NETWORKS LTD",
+            "total_value": 215330
         },
         {
             "name": "CUSHMAN & WAKEFIELD DEBENHAM TIELEUNG LIMITED",
@@ -2677,16 +2449,16 @@
             "total_value": 208333.33
         },
         {
-            "name": "CLEAR REVIEW LTD",
-            "total_value": 203102.4
+            "name": "GPA c/o CBRE",
+            "total_value": 208172.62
         },
         {
-            "name": "APEX SECURITY ENGINEERING LTD",
-            "total_value": 202224
+            "name": "PAGERDUTY",
+            "total_value": 207726.97
         },
         {
-            "name": "Vale Europe Ltd.",
-            "total_value": 200000
+            "name": "LONDON BOROUGH OF EALING COUNCIL",
+            "total_value": 200298
         },
         {
             "name": "Laing O'Rourke Services Ltd",
@@ -2701,12 +2473,12 @@
             "total_value": 200000
         },
         {
-            "name": "GLASS'S INFORMATION SERVICES LTD",
-            "total_value": 198823.1
+            "name": "Iceland Foods Ltd c/o TLT LLP",
+            "total_value": 199000
         },
         {
-            "name": "HUI LING MCCARTHY QC",
-            "total_value": 197710.38
+            "name": "BESA PUBLICATIONS LTD",
+            "total_value": 198738
         },
         {
             "name": "MUNROE K LUXEMBOURG SA",
@@ -2717,76 +2489,48 @@
             "total_value": 196694.4
         },
         {
-            "name": "CACI LTD",
-            "total_value": 196007.38
+            "name": "PRENAX UK",
+            "total_value": 196217.53
         },
         {
             "name": "DEPT FOR INTERNATIONAL DEVELOPMENT",
             "total_value": 194946.39
         },
         {
-            "name": "ADVICE NI LTD",
-            "total_value": 194696.8
+            "name": "ARISTI LTD",
+            "total_value": 194764
         },
         {
             "name": "GOV LEGAL DEPT CASH",
             "total_value": 193284
         },
         {
-            "name": "MR RUPERT BALDRY",
-            "total_value": 191184
+            "name": "Lynton Exports (Alsager) Ltd",
+            "total_value": 192500
         },
         {
-            "name": "FORENSIC SCIENCE NORTHERN IRELAND",
-            "total_value": 189849
+            "name": "RUPERT BALDRY KC",
+            "total_value": 192231.6
+        },
+        {
+            "name": "AXIOM STONE SOLICITORS CLIENT ACCOUNT",
+            "total_value": 189197.01
         },
         {
             "name": "SSE PLC",
             "total_value": 188000
         },
         {
-            "name": "Rhodia C/O Joseph Hage Aaronson",
-            "total_value": 188000
+            "name": "SOLIHULL MBC",
+            "total_value": 184824
         },
         {
-            "name": "Connect Internet Solutions Ltd",
-            "total_value": 187947.72
+            "name": "THOMSON REUTERS UK LTD",
+            "total_value": 183749.16
         },
         {
-            "name": "LOGMEIN TECHNOLOGIES UK LTD",
-            "total_value": 187704
-        },
-        {
-            "name": "THE STATIONERY OFFICE LTD",
-            "total_value": 187025.27
-        },
-        {
-            "name": "KINGSTON UPON HULL CC",
-            "total_value": 184881
-        },
-        {
-            "name": "GRAFTON MERCHANTING GB",
-            "total_value": 184720.32
-        },
-        {
-            "name": "EACS LTD",
-            "total_value": 184203.6
-        },
-        {
-            "name": "GLOBAL RESOURCING LTD",
-            "total_value": 184131.68
-        },
-        {
-            "name": "PROACTIVE UK LTD",
-            "total_value": 183999
-        },
-        {
-            "name": "HEALIX INTERNATIONAL LTD",
-            "total_value": 183247.42
-        },
-        {
-            "name": "ASSOCIATION FOR PROJECT MANAGEMENT",
-            "total_value": 183217.76
+            "name": "PAYMTotal E&P North Sea Ltd. c/o VE Law",
+            "total_value": 182843.18
         },
         {
             "name": "UserLab Ltd",
@@ -2797,8 +2541,16 @@
             "total_value": 181532.28
         },
         {
+            "name": "European Commission",
+            "total_value": 181219.52
+        },
+        {
             "name": "PINSENT MASONS SOLICITORS",
             "total_value": 180948.7
+        },
+        {
+            "name": "The Valuation Office Agency",
+            "total_value": 180808.9
         },
         {
             "name": "Talend Limited",
@@ -2809,32 +2561,40 @@
             "total_value": 180000
         },
         {
-            "name": "JFROG LTD",
-            "total_value": 179700.59
+            "name": "ALTIA SOLUTIONS LTD",
+            "total_value": 179488.7
         },
         {
-            "name": "Mr Rory Keene",
-            "total_value": 179064
+            "name": "Mazaru Ltd",
+            "total_value": 179400
         },
         {
-            "name": "BMC SOFTWARE DISTRIBUTION BV",
-            "total_value": 178914.64
+            "name": "Cushman and Wakefield Debenham Tie Leung Ltd",
+            "total_value": 175043.8
         },
         {
-            "name": "THURROCK COUNCIL",
-            "total_value": 178176
-        },
-        {
-            "name": "OXFORD SAID BUSINESS SCHOOL LTD",
-            "total_value": 178157
+            "name": "Smith & Nephew Finance Holding Ltd",
+            "total_value": 175000
         },
         {
             "name": "Granicus-Firmstep Ltd",
-            "total_value": 174757.18
+            "total_value": 174757.19
         },
         {
-            "name": "BIT ZESTY LIMITED",
-            "total_value": 174257.55
+            "name": "DIGICERT INC",
+            "total_value": 174299
+        },
+        {
+            "name": "LINGUISTIC LANDSCAPES",
+            "total_value": 173480
+        },
+        {
+            "name": "ASIA ONLINE PTE LTD T/AS OMNISCIEN",
+            "total_value": 173280
+        },
+        {
+            "name": "BEN HAYHURST",
+            "total_value": 172843.61
         },
         {
             "name": "EMI",
@@ -2845,20 +2605,8 @@
             "total_value": 171352.8
         },
         {
-            "name": "Wincanton Holdings Ltd.",
-            "total_value": 170000
-        },
-        {
-            "name": "K INTERNATIONAL PLC",
-            "total_value": 169108.62
-        },
-        {
-            "name": "SAADIAN TECHNOLOGIES UK LTD",
-            "total_value": 168585
-        },
-        {
-            "name": "MOZAIC-SERVICES LIMITED",
-            "total_value": 168311.4
+            "name": "JOANNA VICARY",
+            "total_value": 168184.83
         },
         {
             "name": "AMAS LTD/COMMON RECEIPTS ACCOUNT",
@@ -2869,32 +2617,28 @@
             "total_value": 167861.11
         },
         {
-            "name": "Fieldfisher LLP",
-            "total_value": 167500
+            "name": "Golden Lane Propeties Ltd",
+            "total_value": 165994.56
         },
         {
-            "name": "Bloom Procurement Services",
-            "total_value": 167050
+            "name": "ADVICE NI LTD",
+            "total_value": 165946.8
         },
         {
-            "name": "PLYMOUTH CITY COUNCIL",
-            "total_value": 166912
-        },
-        {
-            "name": "Delta Ltd. & Ors  c/o Joseph Hage Aaronson",
-            "total_value": 165700
+            "name": "MR RUPERT BALDRY",
+            "total_value": 165840
         },
         {
             "name": "Orgvue Limited",
             "total_value": 165600
         },
         {
-            "name": "ECA INTERNATIONAL",
-            "total_value": 165553.6
-        },
-        {
             "name": "STIRLING JEWELLERS (DUDLEY) LTD",
             "total_value": 165000
+        },
+        {
+            "name": "ELENI MITROPHANOUS QC",
+            "total_value": 164988
         },
         {
             "name": "Phoenix Safe Company Ltd",
@@ -2905,22 +2649,6 @@
             "total_value": 164523.6
         },
         {
-            "name": "BINARY VISION",
-            "total_value": 164400
-        },
-        {
-            "name": "BABCOCK VEHICLE ENGINEERING LTD",
-            "total_value": 164238.11
-        },
-        {
-            "name": "ADAMANDEVE DDB",
-            "total_value": 164197.76
-        },
-        {
-            "name": "JOHN BRINSMEAD-STOCKHAM KC",
-            "total_value": 163356
-        },
-        {
             "name": "SCOTTISH WIDOWS C/O JONES LANG",
             "total_value": 163008.6
         },
@@ -2929,59 +2657,47 @@
             "total_value": 162103.2
         },
         {
-            "name": "LM INFORMATION DELIVERY",
-            "total_value": 161973.04
+            "name": "Deloitte LLP",
+            "total_value": 161858.81
         },
         {
-            "name": "DATA SOLUTIONS 2016 LTD",
-            "total_value": 161043.57
-        },
-        {
-            "name": "TOTALJOBS GROUP LTD",
+            "name": "INFORMATION SERVICES GROUP",
             "total_value": 161000
         },
         {
-            "name": "Fenix Media Ltd Trading",
-            "total_value": 158154.4
+            "name": "Northumbria Healthcare",
+            "total_value": 160000
         },
         {
-            "name": "EDF ENERGY",
-            "total_value": 157161.6
+            "name": "ENGENEUM LTD",
+            "total_value": 159175.9
+        },
+        {
+            "name": "ASSOCIATION FOR PROJECT MANAGEMENT",
+            "total_value": 157354.76
+        },
+        {
+            "name": "RICHARD ATKINS QC",
+            "total_value": 156876.3
         },
         {
             "name": "Perkins Food Ltd",
             "total_value": 156317
         },
         {
-            "name": "MR PHILIP JONES QC",
-            "total_value": 156096
-        },
-        {
-            "name": "Isle of Angelsey County Council",
-            "total_value": 155955
-        },
-        {
-            "name": "GOVERNMENT RECRUITMENT SERVICE",
-            "total_value": 154658.18
-        },
-        {
-            "name": "BCS LEARNING & DEVELOPMENT",
-            "total_value": 152400
+            "name": "Biffa Waste Services Ltd",
+            "total_value": 155350
         },
         {
             "name": "Balhousie Holdings Ltd. c/o Brodies",
             "total_value": 152386.47
         },
         {
-            "name": "Akzo Nobel & Ors c/o Joseph Hage Aaronson",
-            "total_value": 152000
-        },
-        {
-            "name": "Urenco",
+            "name": "London Gateway Port Ltd",
             "total_value": 150000
         },
         {
-            "name": "Tax Returned Ltd c/o Hill Dickinson LLP",
+            "name": "London Clubs Managament Ltd",
             "total_value": 150000
         },
         {
@@ -2989,68 +2705,36 @@
             "total_value": 150000
         },
         {
-            "name": "Bryan Cave Leighton Paisner LLP",
-            "total_value": 149868
+            "name": "Workspace Design Global Ltd",
+            "total_value": 149793.6
+        },
+        {
+            "name": "UBDS IT Consulting Limited",
+            "total_value": 149732.51
         },
         {
             "name": "BEMROSEBOOTH PARAGON LTD",
             "total_value": 149713.36
         },
         {
-            "name": "BT Mobile",
-            "total_value": 148910.08
-        },
-        {
-            "name": "Baillie Signs",
-            "total_value": 148810.4
-        },
-        {
-            "name": "EXETER CITY COUNCIL",
-            "total_value": 148409.86
-        },
-        {
-            "name": "Module-AR Limited",
-            "total_value": 147684.7
-        },
-        {
-            "name": "PENDRAGON",
-            "total_value": 147640
-        },
-        {
-            "name": "MELANIE HALL QC",
-            "total_value": 147484
-        },
-        {
-            "name": "IOTA",
-            "total_value": 146447.08
+            "name": "CLEAR REVIEW LTD",
+            "total_value": 148562.4
         },
         {
             "name": "BCS THE CHARTERED INSTITUTE FOR IT",
             "total_value": 144560
         },
         {
+            "name": "HASTINGS & CO",
+            "total_value": 144555.44
+        },
+        {
             "name": "Maritime Insights & Intelligence",
             "total_value": 143773.2
         },
         {
-            "name": "PEMARI CONSULTING LTD",
-            "total_value": 143650
-        },
-        {
-            "name": "Chartered Institute of",
-            "total_value": 143348
-        },
-        {
             "name": "CARBON TRUST ADVISORY LTD",
             "total_value": 142800
-        },
-        {
-            "name": "The Copyright Licensing Agency Ltd",
-            "total_value": 142632
-        },
-        {
-            "name": "THE CORPORATE IT FORUM LTD",
-            "total_value": 141678
         },
         {
             "name": "NCL Investments Ltd C/O TS&W Services Limited",
@@ -3061,24 +2745,40 @@
             "total_value": 140975.54
         },
         {
+            "name": "ECA INTERNATIONAL",
+            "total_value": 140833.6
+        },
+        {
             "name": "PORTAKABIN LTD",
             "total_value": 140447.16
         },
         {
-            "name": "ASCERTIA LTD",
-            "total_value": 140004
+            "name": "EACS LTD",
+            "total_value": 140345.6
         },
         {
-            "name": "Everest Group Consulting Limited",
-            "total_value": 140000
+            "name": "FORENSIC SCIENCE NORTHERN IRELAND",
+            "total_value": 139605
         },
         {
             "name": "INFORMA UK LTD",
             "total_value": 139020
         },
         {
-            "name": "INFORMA PLC",
-            "total_value": 137640
+            "name": "ADAMANDEVE DDB",
+            "total_value": 138425.92
+        },
+        {
+            "name": "CONTROL-F LIMITED",
+            "total_value": 137895.84
+        },
+        {
+            "name": "New Waverely 10 Ltd ? Estate",
+            "total_value": 136975.27
+        },
+        {
+            "name": "Crown Solicitors Professional Fees",
+            "total_value": 136788.54
         },
         {
             "name": "Pye Tait Ltd",
@@ -3089,48 +2789,40 @@
             "total_value": 136020
         },
         {
+            "name": "SAADIAN TECHNOLOGIES UK LTD",
+            "total_value": 135185
+        },
+        {
+            "name": "JFROG LTD",
+            "total_value": 135179.21
+        },
+        {
+            "name": "THE STATIONERY OFFICE LTD",
+            "total_value": 134651.45
+        },
+        {
             "name": "CYBANETIX",
             "total_value": 134622.19
-        },
-        {
-            "name": "SUMMIT LAW LLP",
-            "total_value": 133694.74
-        },
-        {
-            "name": "MICHAEL GIBBON",
-            "total_value": 133095
         },
         {
             "name": "AXA INSURANCE UK PLC C/O Joseph Hage Aaronson",
             "total_value": 133000
         },
         {
-            "name": "HARPERCOLLINS PUBLISHERS LTD",
-            "total_value": 132307.2
-        },
-        {
             "name": "Wazoku",
             "total_value": 131467.2
+        },
+        {
+            "name": "CARE QUALITY COMMISSION",
+            "total_value": 131458.4
         },
         {
             "name": "City of Westminster",
             "total_value": 130580.49
         },
         {
-            "name": "CBRE",
-            "total_value": 130579.56
-        },
-        {
-            "name": "MICRO FOCUS SOFTWARE UK LTD",
-            "total_value": 130500
-        },
-        {
             "name": "Baring Asset Management Ltd c/o PWC",
             "total_value": 130371.95
-        },
-        {
-            "name": "Repertoire Culinaire Ltd",
-            "total_value": 130000
         },
         {
             "name": "Poundland Ltd. c/o KPMG Law",
@@ -3141,24 +2833,24 @@
             "total_value": 129318.7
         },
         {
-            "name": "WILSONS AUCTIONS",
-            "total_value": 128742.57
+            "name": "Pilkington Group Ltd",
+            "total_value": 129000
         },
         {
-            "name": "MR MALCOLM GAMMIE QC",
-            "total_value": 128700
+            "name": "FCINET SECRETARIAT",
+            "total_value": 128512.68
         },
         {
             "name": "GERWYN WISE",
             "total_value": 128349.6
         },
         {
-            "name": "GatenbySanderson Ltd",
-            "total_value": 127930
+            "name": "TOTALJOBS GROUP LTD",
+            "total_value": 128000
         },
         {
-            "name": "MORPHO UK LTD",
-            "total_value": 127144.8
+            "name": "Fenix Media Ltd Trading",
+            "total_value": 126654.4
         },
         {
             "name": "KWB Property Management Ltd",
@@ -3169,12 +2861,8 @@
             "total_value": 126318.8
         },
         {
-            "name": "CRITICAL SIMULATIONS LTD",
-            "total_value": 126130.15
-        },
-        {
-            "name": "AMR CYBER SECURITY LTD",
-            "total_value": 125550
+            "name": "IAN ROGERS QC",
+            "total_value": 126252
         },
         {
             "name": "Quinn (London) Ltd. c/o Stewarts",
@@ -3185,23 +2873,55 @@
             "total_value": 125000
         },
         {
-            "name": "Slack Technologies Limited",
-            "total_value": 124772.98
+            "name": "ILX GROUP PLC",
+            "total_value": 124800
+        },
+        {
+            "name": "TES-AMM UK LTD",
+            "total_value": 124395.87
+        },
+        {
+            "name": "K INTERNATIONAL PLC",
+            "total_value": 124275.17
         },
         {
             "name": "Done Bros (Cash Betting Ltd.)",
             "total_value": 123666
         },
         {
+            "name": "BABCOCK VEHICLE ENGINEERING LTD",
+            "total_value": 123288.11
+        },
+        {
+            "name": "Baillie Signs",
+            "total_value": 123082.4
+        },
+        {
+            "name": "Valuation Office Agency",
+            "total_value": 123034.75
+        },
+        {
+            "name": "GLOBAL RESOURCING LTD",
+            "total_value": 121815.84
+        },
+        {
+            "name": "EXETER CITY COUNCIL",
+            "total_value": 121308.93
+        },
+        {
+            "name": "WMC GLOBAL LTD",
+            "total_value": 120420
+        },
+        {
+            "name": "MOZAIC-SERVICES LIMITED",
+            "total_value": 120311.4
+        },
+        {
             "name": "BP",
             "total_value": 120306
         },
         {
-            "name": "Bunhill Limited",
-            "total_value": 120004
-        },
-        {
-            "name": "Standard Life Investment Co c/o Joseph Hage Aaronson LLP",
+            "name": "CHAINALYSIS UK LTD",
             "total_value": 120000
         },
         {
@@ -3213,12 +2933,20 @@
             "total_value": 119500
         },
         {
-            "name": "ARCO LTD",
-            "total_value": 118832.4
+            "name": "MR PHILIP JONES QC",
+            "total_value": 119136
         },
         {
-            "name": "MR RUPERT BALDRY QC",
-            "total_value": 118008
+            "name": "ISS FACILITY SERVICES LTD",
+            "total_value": 119032.28
+        },
+        {
+            "name": "IOTA",
+            "total_value": 118147.71
+        },
+        {
+            "name": "ANEXSYS LTD",
+            "total_value": 118063.5
         },
         {
             "name": "Harston Post Office & Village Stores c/o Lex Law",
@@ -3239,10 +2967,6 @@
         {
             "name": "Tyne & Wear Museum Services c/o Stuart Ward Solicitors",
             "total_value": 117000
-        },
-        {
-            "name": "SIMON PRITCHARD",
-            "total_value": 116098
         },
         {
             "name": "Ebbsfleet Development Corporation",
@@ -3269,48 +2993,64 @@
             "total_value": 114400
         },
         {
-            "name": "STATISTA LTD",
-            "total_value": 112638
+            "name": "Rhodia C/O Joseph Hage Aaronson",
+            "total_value": 114000
         },
         {
             "name": "LG Park HT1 Ltd & Ors  c/o Norton Rose Fulbright LLP",
             "total_value": 112500
         },
         {
+            "name": "BIT ZESTY LIMITED",
+            "total_value": 112025.65
+        },
+        {
+            "name": "ASCERTIA LTD",
+            "total_value": 112003.2
+        },
+        {
             "name": "Rank Group PLC c/o Deloittes",
             "total_value": 111892
         },
         {
-            "name": "SIDLEY AUSTIN LLP",
-            "total_value": 111864
+            "name": "BT Mobile",
+            "total_value": 111858.84
         },
         {
-            "name": "Leathwaite Human Capital Limited",
+            "name": "BMC CABLE-TALK LIMTED",
+            "total_value": 111440.51
+        },
+        {
+            "name": "Chelmsford City Council",
             "total_value": 110000
         },
         {
-            "name": "Chainvine Limited",
-            "total_value": 110000
+            "name": "Amazon Web Services EMEA SARL",
+            "total_value": 109713.97
         },
         {
-            "name": "CCA GLOBAL LTD",
-            "total_value": 110000
-        },
-        {
-            "name": "LexisNexis Risk Solutions Ltd",
-            "total_value": 109500
-        },
-        {
-            "name": "HORNBECK LTD T/AS LANDMARK",
-            "total_value": 108139.13
+            "name": "BINARY VISION",
+            "total_value": 109100
         },
         {
             "name": "AKASH NAWBATT KC",
             "total_value": 107730
         },
         {
+            "name": "THE CORPORATE IT FORUM LTD",
+            "total_value": 107678
+        },
+        {
             "name": "CPS",
             "total_value": 107651.41
+        },
+        {
+            "name": "OXFORD SAID BUSINESS SCHOOL LTD",
+            "total_value": 107613
+        },
+        {
+            "name": "DATA SOLUTIONS 2016 LTD",
+            "total_value": 106922.34
         },
         {
             "name": "JLL on behalf of Legal & General Pensions Limited - Annuity Fund",
@@ -3321,16 +3061,12 @@
             "total_value": 105877.32
         },
         {
-            "name": "KEEP IT SIMPLE LTD",
-            "total_value": 105478
-        },
-        {
-            "name": "Tendrel International Trade",
-            "total_value": 105030
-        },
-        {
             "name": "Court Enforcement Services Ltd",
             "total_value": 105021.02
+        },
+        {
+            "name": "JS&Co LLP",
+            "total_value": 105000
         },
         {
             "name": "GOTO TECHNOLOGIES UK LTD",
@@ -3341,8 +3077,8 @@
             "total_value": 103202
         },
         {
-            "name": "Landwood Commercial (Manchester) Ltd",
-            "total_value": 102676.84
+            "name": "HEALIX INTERNATIONAL LTD",
+            "total_value": 103147.25
         },
         {
             "name": "GSPL-Unicorn Shipping",
@@ -3353,6 +3089,14 @@
             "total_value": 102000
         },
         {
+            "name": "CABLE-TALK",
+            "total_value": 101824.71
+        },
+        {
+            "name": "SUMMIT LAW LLP",
+            "total_value": 101777.28
+        },
+        {
             "name": "Oliver and Co Solicitors",
             "total_value": 101746.2
         },
@@ -3361,16 +3105,20 @@
             "total_value": 101541.13
         },
         {
+            "name": "APEX SECURITY ENGINEERING LTD",
+            "total_value": 101112
+        },
+        {
             "name": "ORGVUE LIMITED",
             "total_value": 100800
         },
         {
-            "name": "Bottomline Technologies Limited",
-            "total_value": 100466.66
+            "name": "WILSONS AUCTIONS",
+            "total_value": 100411
         },
         {
-            "name": "CMC PARTNERSHIP GLOBAL LTD",
-            "total_value": 100215
+            "name": "MICHAEL GIBBON",
+            "total_value": 100145
         },
         {
             "name": "Wincanton Holdings Ltd c/o RPC",
@@ -3381,44 +3129,52 @@
             "total_value": 100000
         },
         {
+            "name": "Vale Europe Ltd.",
+            "total_value": 100000
+        },
+        {
             "name": "INVAMED GROUP",
             "total_value": 100000
         },
         {
-            "name": "Demys Limited",
-            "total_value": 100000
+            "name": "HUI LING MCCARTHY QC",
+            "total_value": 99653.46
         },
         {
-            "name": "Air Berlin PLC",
-            "total_value": 100000
+            "name": "Module-AR Limited",
+            "total_value": 99460.3
         },
         {
             "name": "New World Tech Ltd",
             "total_value": 99430.8
         },
         {
-            "name": "Softcat Plc",
-            "total_value": 98191.62
+            "name": "GLASS'S INFORMATION SERVICES LTD",
+            "total_value": 99411.55
+        },
+        {
+            "name": "PEMARI CONSULTING LTD",
+            "total_value": 98325
+        },
+        {
+            "name": "CACI LTD",
+            "total_value": 98003.69
         },
         {
             "name": "GSPL - UNICORN SHIPPING",
             "total_value": 98000
         },
         {
-            "name": "Ampleaward Ltd.",
-            "total_value": 98000
+            "name": "LM INFORMATION DELIVERY",
+            "total_value": 97899.02
         },
         {
-            "name": "Dods Group Ltd",
-            "total_value": 97944.56
+            "name": "Fieldfisher LLP",
+            "total_value": 97500
         },
         {
-            "name": "SHEFFIELD CITY COUNCIL",
-            "total_value": 97161.96
-        },
-        {
-            "name": "GBS Re Treas Sol Client Monies",
-            "total_value": 96300
+            "name": "CRITICAL SIMULATIONS LTD",
+            "total_value": 97000.87
         },
         {
             "name": "WE ARE FUTURES",
@@ -3429,20 +3185,12 @@
             "total_value": 95550
         },
         {
-            "name": "MR AYUB RAZVI T/AS UBE",
-            "total_value": 95164
-        },
-        {
             "name": "Corporate Project Solutions Ltd",
             "total_value": 95070
         },
         {
             "name": "Wm Morrisons Supermarkets PLC c/o Deloitte LLP",
             "total_value": 95000
-        },
-        {
-            "name": "TIMOTHY BRENNAN",
-            "total_value": 94850
         },
         {
             "name": "SLACK TECHNOLOGIES LIMITED",
@@ -3453,8 +3201,16 @@
             "total_value": 94207
         },
         {
-            "name": "YOUGOV PLC",
-            "total_value": 93750
+            "name": "KINGSTON UPON HULL CC",
+            "total_value": 93883
+        },
+        {
+            "name": "LOGMEIN TECHNOLOGIES UK LTD",
+            "total_value": 93852
+        },
+        {
+            "name": "Connect Internet Solutions Ltd",
+            "total_value": 93556.72
         },
         {
             "name": "EBSCO INTERNATIONAL PLC",
@@ -3465,12 +3221,28 @@
             "total_value": 92822.5
         },
         {
-            "name": "UNITED NATIONS OFFICE ON DRUGS AND CRIME",
-            "total_value": 91290.86
+            "name": "ARCO LTD",
+            "total_value": 92462.4
+        },
+        {
+            "name": "GRAFTON MERCHANTING GB",
+            "total_value": 92360.16
+        },
+        {
+            "name": "PROACTIVE UK LTD",
+            "total_value": 91999.5
         },
         {
             "name": "Womble Bond Dickinson (UK) LLP",
             "total_value": 91250
+        },
+        {
+            "name": "MELANIE HALL QC",
+            "total_value": 91157
+        },
+        {
+            "name": "JOHN BRINSMEAD-STOCKHAM KC",
+            "total_value": 90996
         },
         {
             "name": "Sheehan Haulage & Plant Hire Ltd c/o Clyde & Co.",
@@ -3481,52 +3253,32 @@
             "total_value": 90000
         },
         {
-            "name": "Ashtons Legal",
-            "total_value": 90000
+            "name": "Mr Rory Keene",
+            "total_value": 89532
         },
         {
-            "name": "AMK Distribution Ltd",
-            "total_value": 90000
+            "name": "BMC SOFTWARE DISTRIBUTION BV",
+            "total_value": 89457.32
         },
         {
-            "name": "MS Storage Equipment Limited",
-            "total_value": 89949.6
+            "name": "THURROCK COUNCIL",
+            "total_value": 89088
         },
         {
-            "name": "JENNY GOLDRING",
-            "total_value": 89880.01
+            "name": "MR MALCOLM GAMMIE QC",
+            "total_value": 88200
         },
         {
-            "name": "SEPURA LTD",
-            "total_value": 88440
-        },
-        {
-            "name": "APARNA NATHAN QC",
-            "total_value": 87732
+            "name": "Chartered Institute of",
+            "total_value": 88044
         },
         {
             "name": "NQC LTD",
             "total_value": 87500
         },
         {
-            "name": "OFCOM",
-            "total_value": 87450
-        },
-        {
-            "name": "Atos IT Services UK Limited",
-            "total_value": 87207.48
-        },
-        {
             "name": "PRINCE'S TRUST",
             "total_value": 87000
-        },
-        {
-            "name": "IWFM LTD",
-            "total_value": 86786.76
-        },
-        {
-            "name": "ODGERS BERNDTSON",
-            "total_value": 86500
         },
         {
             "name": "Stocks Golf Club LLP",
@@ -3541,6 +3293,14 @@
             "total_value": 85282
         },
         {
+            "name": "Wincanton Holdings Ltd.",
+            "total_value": 85000
+        },
+        {
+            "name": "CCA GLOBAL LTD",
+            "total_value": 85000
+        },
+        {
             "name": "Purcell Consulting Limited",
             "total_value": 84480
         },
@@ -3553,16 +3313,28 @@
             "total_value": 84000
         },
         {
+            "name": "HORNBECK LTD T/AS LANDMARK",
+            "total_value": 83534.13
+        },
+        {
+            "name": "Bloom Procurement Services",
+            "total_value": 83525
+        },
+        {
+            "name": "PLYMOUTH CITY COUNCIL",
+            "total_value": 83456
+        },
+        {
             "name": "XL Insurance c/o AXA XL",
             "total_value": 83250
         },
         {
-            "name": " Version 1 Solutions Limited",
-            "total_value": 82327.9
+            "name": "Delta Ltd. & Ors  c/o Joseph Hage Aaronson",
+            "total_value": 82850
         },
         {
-            "name": "NIGEL PLEMING QC",
-            "total_value": 82269.6
+            "name": "LexisNexis Risk Solutions Ltd",
+            "total_value": 82500
         },
         {
             "name": "NORTHERN LIGHTS LEARNING &",
@@ -3573,31 +3345,11 @@
             "total_value": 81306
         },
         {
-            "name": "LexisNexis Risk Solutions UK Ltd",
-            "total_value": 81000
-        },
-        {
-            "name": "DIGITAL ACCESSIBILITY CENTRE LTD",
-            "total_value": 81000
-        },
-        {
-            "name": "TIM MORSHEAD",
-            "total_value": 80877.6
-        },
-        {
             "name": "E.ON UK PLC",
             "total_value": 80823.5
         },
         {
-            "name": "SAYARI ANALYTICS",
-            "total_value": 80000
-        },
-        {
             "name": "Royal Surrey NHS Foundation Trust C/O Hempsons Solicitors",
-            "total_value": 80000
-        },
-        {
-            "name": "Praesto Consltancy c/o RG Legal",
             "total_value": 80000
         },
         {
@@ -3605,59 +3357,43 @@
             "total_value": 80000
         },
         {
-            "name": "ICAEW",
-            "total_value": 80000
-        },
-        {
             "name": "CODA Group International/BDO LLP",
             "total_value": 80000
-        },
-        {
-            "name": "BOBS BUSINESS LTD",
-            "total_value": 79092
         },
         {
             "name": "CAPGEMINI UK PLC - PEOPLEPOINT",
             "total_value": 78600.26
         },
         {
+            "name": "EDF ENERGY",
+            "total_value": 78580.8
+        },
+        {
             "name": "ELIZABETH WILSON QC",
             "total_value": 78570
         },
         {
-            "name": "Cognitas Global Ltd",
-            "total_value": 78152
+            "name": "GatenbySanderson Ltd",
+            "total_value": 77930
         },
         {
-            "name": "Push Energy Ltd c/o Bird & Bird LLP",
-            "total_value": 78000
+            "name": "GOVERNMENT RECRUITMENT SERVICE",
+            "total_value": 77329.09
         },
         {
-            "name": "WORLDPAY (UK) LTD",
-            "total_value": 77838.24
-        },
-        {
-            "name": "Boss Design LTD",
-            "total_value": 77400
-        },
-        {
-            "name": "RUSSELL REYNOLDS ASSOCIATES LTD",
-            "total_value": 77002
+            "name": "BCS LEARNING & DEVELOPMENT",
+            "total_value": 76200
         },
         {
             "name": "MICHAEL JONES QC",
             "total_value": 76086
         },
         {
-            "name": "JAMES HENDERSON",
-            "total_value": 75600
+            "name": "Akzo Nobel & Ors c/o Joseph Hage Aaronson",
+            "total_value": 76000
         },
         {
-            "name": "JENOPTIK TRAFFIC SOLUTIONS",
-            "total_value": 75456
-        },
-        {
-            "name": "VISUAL MEANING LTD",
+            "name": "Urenco",
             "total_value": 75000
         },
         {
@@ -3705,32 +3441,24 @@
             "total_value": 75000
         },
         {
-            "name": "MR MICHAEL JONES",
-            "total_value": 74736
+            "name": "Dods Group Ltd",
+            "total_value": 74944.56
+        },
+        {
+            "name": "Bryan Cave Leighton Paisner LLP",
+            "total_value": 74934
+        },
+        {
+            "name": "CBRE",
+            "total_value": 74612.02
         },
         {
             "name": "Capgemini UK plc",
             "total_value": 74345.6
         },
         {
-            "name": "VOCALINK LTD",
-            "total_value": 74000
-        },
-        {
-            "name": "LM PRENAX UK",
-            "total_value": 73926
-        },
-        {
-            "name": "Institute of Export",
-            "total_value": 73360
-        },
-        {
-            "name": "XCHANGE TRAINING UK LTD",
-            "total_value": 72800
-        },
-        {
-            "name": "Precisely Europe Software",
-            "total_value": 72449.08
+            "name": "PENDRAGON",
+            "total_value": 73820
         },
         {
             "name": "CORNWALL COUNCIL",
@@ -3745,16 +3473,12 @@
             "total_value": 72240
         },
         {
-            "name": "Accruent UK Ltd",
-            "total_value": 71359.86
+            "name": "The Copyright Licensing Agency Ltd",
+            "total_value": 71316
         },
         {
-            "name": "THAMES VALLEY POLICE",
-            "total_value": 71280
-        },
-        {
-            "name": "Somerford Associates Limited",
-            "total_value": 71280
+            "name": "STATISTA LTD",
+            "total_value": 70398
         },
         {
             "name": "PTGI Intl Carriers Ltd  c/o CTM Tax Litigation Ltd",
@@ -3762,6 +3486,14 @@
         },
         {
             "name": "Octagon Green Solutions Ltd",
+            "total_value": 70000
+        },
+        {
+            "name": "Everest Group Consulting Limited",
+            "total_value": 70000
+        },
+        {
+            "name": "DP Publicity & Ors c/o Jeremy Giles",
             "total_value": 70000
         },
         {
@@ -3777,6 +3509,10 @@
             "total_value": 68855.69
         },
         {
+            "name": "INFORMA PLC",
+            "total_value": 68820
+        },
+        {
             "name": "Centrica Overseas Holdings Ltd",
             "total_value": 68500
         },
@@ -3785,24 +3521,12 @@
             "total_value": 68367.6
         },
         {
-            "name": "MR ADAM TOLLEY",
-            "total_value": 68292
-        },
-        {
             "name": "LAMBERT SMITH HAMPTON GROUP LTD",
             "total_value": 68253.23
         },
         {
-            "name": "British Dental Association",
-            "total_value": 68239.22
-        },
-        {
-            "name": "LIFECYCLE MARKETING (MOTHER & BABY)",
+            "name": "Ampleaward Ltd.",
             "total_value": 68000
-        },
-        {
-            "name": "E&C INDIVIDUAL & SMALL BUSINESS",
-            "total_value": 67912
         },
         {
             "name": "Fridays Ltd ",
@@ -3817,24 +3541,12 @@
             "total_value": 67078.1
         },
         {
-            "name": "AIAL Ltd c/o Pinsent Masons",
-            "total_value": 66874.62
-        },
-        {
-            "name": "TIER 1 ASSET MANAGEMENT LIMITED",
-            "total_value": 66477.63
-        },
-        {
             "name": "KCOM",
             "total_value": 66176.4
         },
         {
-            "name": "CUSHMAN & WAKEFIELD LLP",
-            "total_value": 66135.57
-        },
-        {
-            "name": "EOL IT Services Limited",
-            "total_value": 66107.28
+            "name": "HARPERCOLLINS PUBLISHERS LTD",
+            "total_value": 66153.6
         },
         {
             "name": "MR JONATHAN DAVEY",
@@ -3857,6 +3569,10 @@
             "total_value": 65180.88
         },
         {
+            "name": "Repertoire Culinaire Ltd",
+            "total_value": 65000
+        },
+        {
             "name": "NWM Solutions Ltd c/o David Kirk & Co Ltd",
             "total_value": 65000
         },
@@ -3867,10 +3583,6 @@
         {
             "name": "JOHN BRINSMEAD-STOCKHAM",
             "total_value": 64908
-        },
-        {
-            "name": "Law Officers Dept of the Jersey Gov",
-            "total_value": 64800
         },
         {
             "name": "DAC Beachcroft LLP",
@@ -3889,28 +3601,16 @@
             "total_value": 63617.7
         },
         {
-            "name": "Gartner U.K. Limited",
-            "total_value": 63600
-        },
-        {
-            "name": "Cundall Johnston & Partners LLP",
-            "total_value": 63600
-        },
-        {
             "name": "Morpho UK Ltd",
             "total_value": 63572.4
         },
         {
-            "name": "MR CHRISTOPHER FOULKES",
-            "total_value": 63494.4
+            "name": "MORPHO UK LTD",
+            "total_value": 63572.4
         },
         {
-            "name": "HOOTSUITE ENTERPRISE",
-            "total_value": 63385
-        },
-        {
-            "name": "THE BRITISH SCHOOL OF BRUSSELS",
-            "total_value": 63347.9
+            "name": "ODGERS BERNDTSON",
+            "total_value": 63500
         },
         {
             "name": "CHRISTOPHER TIDMARSH KC",
@@ -3925,8 +3625,16 @@
             "total_value": 62640
         },
         {
-            "name": "KCOM GOUP LTD",
-            "total_value": 62342.4
+            "name": "APARNA NATHAN QC",
+            "total_value": 62460
+        },
+        {
+            "name": "Slack Technologies Limited",
+            "total_value": 62386.49
+        },
+        {
+            "name": "MR AYUB RAZVI T/AS UBE",
+            "total_value": 62364
         },
         {
             "name": "EDDISONS",
@@ -3937,12 +3645,16 @@
             "total_value": 61767.6
         },
         {
-            "name": "Critical Simulations Ltd",
-            "total_value": 61681.82
+            "name": "JENNY GOLDRING",
+            "total_value": 61320.01
         },
         {
             "name": "BALHOUSIE HOLDINGS LIMITED C/O Brodies LLP",
             "total_value": 61225.65
+        },
+        {
+            "name": "IWFM LTD",
+            "total_value": 60948.38
         },
         {
             "name": "Inchcape Fleet Solutions Ltd",
@@ -3953,19 +3665,15 @@
             "total_value": 60078
         },
         {
+            "name": "Bunhill Limited",
+            "total_value": 60002
+        },
+        {
             "name": "The Portable Venues Group (Ltd) t/a",
             "total_value": 60000
         },
         {
-            "name": "MR DAVID MILNE QC",
-            "total_value": 60000
-        },
-        {
-            "name": "Kingsley Napley LLP",
-            "total_value": 60000
-        },
-        {
-            "name": "John Copeland & Son",
+            "name": "Standard Life Investment Co c/o Joseph Hage Aaronson LLP",
             "total_value": 60000
         },
         {
@@ -3981,48 +3689,24 @@
             "total_value": 59964
         },
         {
-            "name": "CANFORD AUDIO PLC",
-            "total_value": 59802.22
+            "name": "AMR CYBER SECURITY LTD",
+            "total_value": 59850
         },
         {
-            "name": "CARTUS RELOCATION",
-            "total_value": 59759.96
+            "name": "MR RUPERT BALDRY QC",
+            "total_value": 59004
         },
         {
-            "name": "GOVERNMENT ACTUARY'S DEPARTMENT",
-            "total_value": 59405.44
-        },
-        {
-            "name": "Minstrell Recruitment Ltd.",
-            "total_value": 58791.2
-        },
-        {
-            "name": "Vodafone Ltd",
-            "total_value": 58767.8
+            "name": "Atos IT Services UK Limited",
+            "total_value": 58548.12
         },
         {
             "name": "PPL PRS Ltd",
             "total_value": 58499.32
         },
         {
-            "name": "MR IMRAN AFZAL",
-            "total_value": 58359.98
-        },
-        {
-            "name": "INCHCAPE FLEET SOLUTIONS LTD",
-            "total_value": 57912.4
-        },
-        {
-            "name": "COSTSDRAGON LTD",
-            "total_value": 57706
-        },
-        {
-            "name": "MR JONATHAN KINNEAR QC",
-            "total_value": 57672
-        },
-        {
-            "name": "Slater Gordon Lawyers",
-            "total_value": 57500
+            "name": "SEPURA LTD",
+            "total_value": 57480
         },
         {
             "name": "Crown Hosting Data Centres Limited",
@@ -4037,20 +3721,28 @@
             "total_value": 56941.2
         },
         {
+            "name": "NIGEL PLEMING QC",
+            "total_value": 56548.8
+        },
+        {
             "name": "LAURA POOTS",
             "total_value": 56376
         },
         {
-            "name": "Wickford Development Co. Ltd",
-            "total_value": 56000
+            "name": "RUSSELL REYNOLDS ASSOCIATES LTD",
+            "total_value": 56168
         },
         {
             "name": "ALMA ECONOMICS LIMITED",
             "total_value": 55980
         },
         {
-            "name": "REFINITIV LTD",
-            "total_value": 55526.4
+            "name": "SIDLEY AUSTIN LLP",
+            "total_value": 55932
+        },
+        {
+            "name": "SIMON PRITCHARD",
+            "total_value": 55498
         },
         {
             "name": "Crime Stoppers",
@@ -4061,24 +3753,20 @@
             "total_value": 55039.4
         },
         {
+            "name": "Leathwaite Human Capital Limited",
+            "total_value": 55000
+        },
+        {
             "name": "GB Fleet Hire Limited",
             "total_value": 55000
         },
         {
-            "name": "RAJENDRA DESAI",
-            "total_value": 54528
+            "name": "Chainvine Limited",
+            "total_value": 55000
         },
         {
             "name": "TOPSCORE TECHNOLOGIES LTD",
             "total_value": 54450
-        },
-        {
-            "name": "HH ASSOCIATES LTD",
-            "total_value": 54439.96
-        },
-        {
-            "name": "ENVIRONMENT AGENCY",
-            "total_value": 54300
         },
         {
             "name": "Greycourt Software Ltd",
@@ -4097,8 +3785,8 @@
             "total_value": 53566.78
         },
         {
-            "name": "RIGHTACRES PROPERTY CO LTD",
-            "total_value": 53304
+            "name": "KEEP IT SIMPLE LTD",
+            "total_value": 52739
         },
         {
             "name": "RR RAINBOW (NORTH) LTD SC ",
@@ -4117,6 +3805,10 @@
             "total_value": 52600
         },
         {
+            "name": "Tendrel International Trade",
+            "total_value": 52515
+        },
+        {
             "name": "KCOM Group Ltd",
             "total_value": 52340.4
         },
@@ -4125,28 +3817,24 @@
             "total_value": 52004
         },
         {
-            "name": "WILLIAMS LEA LTD",
-            "total_value": 51855.26
-        },
-        {
-            "name": "BANK OF ENGLAND",
-            "total_value": 51767.3
+            "name": "Isle of Angelsey County Council",
+            "total_value": 51985
         },
         {
             "name": "CAPITA RESOURCING T/AS VEREDUS",
             "total_value": 51520
         },
         {
-            "name": "MR JONATHAN DAVEY QC",
-            "total_value": 51228
+            "name": "Landwood Commercial (Manchester) Ltd",
+            "total_value": 51338.42
         },
         {
-            "name": "NCFE",
-            "total_value": 51220
+            "name": "CMC PARTNERSHIP GLOBAL LTD",
+            "total_value": 50805
         },
         {
-            "name": "Telectica Ltd",
-            "total_value": 51120
+            "name": "JAMES HENDERSON",
+            "total_value": 50400
         },
         {
             "name": "AVATU",
@@ -4155,6 +3843,10 @@
         {
             "name": "Specialist Computer Centres plc",
             "total_value": 50358.41
+        },
+        {
+            "name": "Bottomline Technologies Limited",
+            "total_value": 50233.33
         },
         {
             "name": "UNIVERSITY OF TEESSIDE ENTERPRISES LTD (UTEL)",
@@ -4169,12 +3861,32 @@
             "total_value": 50000
         },
         {
+            "name": "Tax Returned Ltd c/o Hill Dickinson LLP",
+            "total_value": 50000
+        },
+        {
             "name": "London Luton Ltd  c/o DWF Law",
             "total_value": 50000
         },
         {
+            "name": "Demys Limited",
+            "total_value": 50000
+        },
+        {
+            "name": "Air Berlin PLC",
+            "total_value": 50000
+        },
+        {
+            "name": "Softcat Plc",
+            "total_value": 49095.81
+        },
+        {
             "name": "BMR Compass Ltd",
             "total_value": 49000
+        },
+        {
+            "name": "SHEFFIELD CITY COUNCIL",
+            "total_value": 48580.98
         },
         {
             "name": "COMPUTACENTER UK PLC",
@@ -4189,8 +3901,16 @@
             "total_value": 47500
         },
         {
+            "name": "TIMOTHY BRENNAN",
+            "total_value": 47425
+        },
+        {
             "name": "Bit Zesty Ltd",
             "total_value": 47327.5
+        },
+        {
+            "name": "YOUGOV PLC",
+            "total_value": 46875
         },
         {
             "name": "Willis Limited",
@@ -4201,8 +3921,8 @@
             "total_value": 46672
         },
         {
-            "name": "BUSINESS IN THE COMMUNITY",
-            "total_value": 46000
+            "name": "UNITED NATIONS OFFICE ON DRUGS AND CRIME",
+            "total_value": 45645.43
         },
         {
             "name": "SynApps Solutions Ltd",
@@ -4237,28 +3957,32 @@
             "total_value": 45000
         },
         {
-            "name": "ARC Window Films Ltd",
-            "total_value": 44861
+            "name": "Ashtons Legal",
+            "total_value": 45000
+        },
+        {
+            "name": "AMK Distribution Ltd",
+            "total_value": 45000
+        },
+        {
+            "name": "MS Storage Equipment Limited",
+            "total_value": 44974.8
         },
         {
             "name": "FOX SYSTEMS SOFTWARE LTD",
             "total_value": 44602.88
         },
         {
-            "name": "POPULUS 2014 LTD T/AS POPULUS GROUP",
-            "total_value": 44556
-        },
-        {
-            "name": "SALMON HARVESTER PROPERTIES LTD",
-            "total_value": 43965.26
-        },
-        {
-            "name": "Russell Reynold Associates Ltd",
-            "total_value": 43961.94
-        },
-        {
             "name": "MICHAEL JONES KC",
             "total_value": 43848
+        },
+        {
+            "name": "OFCOM",
+            "total_value": 43725
+        },
+        {
+            "name": "MICRO FOCUS SOFTWARE UK LTD",
+            "total_value": 43500
         },
         {
             "name": "THE BOC GROUP LIMITED",
@@ -4305,12 +4029,24 @@
             "total_value": 41570
         },
         {
+            "name": " Version 1 Solutions Limited",
+            "total_value": 41163.95
+        },
+        {
             "name": "BLOOM PROCUREMENT SERVICES",
             "total_value": 40844
         },
         {
             "name": "Prudential PLC",
             "total_value": 40500
+        },
+        {
+            "name": "DIGITAL ACCESSIBILITY CENTRE LTD",
+            "total_value": 40500
+        },
+        {
+            "name": "TIM MORSHEAD",
+            "total_value": 40438.8
         },
         {
             "name": "Yell Studios",
@@ -4321,11 +4057,23 @@
             "total_value": 40000
         },
         {
+            "name": "SAYARI ANALYTICS",
+            "total_value": 40000
+        },
+        {
+            "name": "Praesto Consltancy c/o RG Legal",
+            "total_value": 40000
+        },
+        {
             "name": "Pertemps Ltd.",
             "total_value": 40000
         },
         {
             "name": "Norton Rose Fulbright LLP",
+            "total_value": 40000
+        },
+        {
+            "name": "ICAEW",
             "total_value": 40000
         },
         {
@@ -4349,8 +4097,24 @@
             "total_value": 39600
         },
         {
+            "name": "BOBS BUSINESS LTD",
+            "total_value": 39546
+        },
+        {
+            "name": "Cognitas Global Ltd",
+            "total_value": 39076
+        },
+        {
+            "name": "Push Energy Ltd c/o Bird & Bird LLP",
+            "total_value": 39000
+        },
+        {
             "name": "ELIZABETH WILSON KC",
             "total_value": 38934
+        },
+        {
+            "name": "WORLDPAY (UK) LTD",
+            "total_value": 38919.12
         },
         {
             "name": "Mace Macro Ltd",
@@ -4359,6 +4123,10 @@
         {
             "name": "CHRIS WOOD",
             "total_value": 38849.12
+        },
+        {
+            "name": "Boss Design LTD",
+            "total_value": 38700
         },
         {
             "name": "One Touch Apps Limited",
@@ -4393,12 +4161,20 @@
             "total_value": 37854.72
         },
         {
+            "name": "JENOPTIK TRAFFIC SOLUTIONS",
+            "total_value": 37728
+        },
+        {
             "name": "JONATHAN BREMNER KC",
             "total_value": 37692
         },
         {
             "name": "KEYTREE LTD",
             "total_value": 37680
+        },
+        {
+            "name": "MR MICHAEL JONES",
+            "total_value": 37368
         },
         {
             "name": "Mott MacDonald Limited",
@@ -4413,6 +4189,10 @@
             "total_value": 37176.05
         },
         {
+            "name": "VOCALINK LTD",
+            "total_value": 37000
+        },
+        {
             "name": "The Learning and Performance Instit",
             "total_value": 37000
         },
@@ -4421,8 +4201,20 @@
             "total_value": 37000
         },
         {
+            "name": "LM PRENAX UK",
+            "total_value": 36963
+        },
+        {
+            "name": "Institute of Export",
+            "total_value": 36680
+        },
+        {
             "name": "Qubic Advisory Services Ltd",
             "total_value": 36671
+        },
+        {
+            "name": "XCHANGE TRAINING UK LTD",
+            "total_value": 36400
         },
         {
             "name": "CITY OF LONDON POLICE",
@@ -4431,6 +4223,10 @@
         {
             "name": "DAVID YATES QC",
             "total_value": 36300
+        },
+        {
+            "name": "Precisely Europe Software",
+            "total_value": 36224.54
         },
         {
             "name": "PICKFORDS MOVE MANAGEMENT LTD",
@@ -4455,6 +4251,18 @@
         {
             "name": "KEVIN PROSSER QC",
             "total_value": 35700
+        },
+        {
+            "name": "Accruent UK Ltd",
+            "total_value": 35679.93
+        },
+        {
+            "name": "THAMES VALLEY POLICE",
+            "total_value": 35640
+        },
+        {
+            "name": "Somerford Associates Limited",
+            "total_value": 35640
         },
         {
             "name": "S&S Consulting Services Ltd c/o Chartergates",
@@ -4485,8 +4293,24 @@
             "total_value": 34200
         },
         {
+            "name": "MR ADAM TOLLEY",
+            "total_value": 34146
+        },
+        {
+            "name": "British Dental Association",
+            "total_value": 34119.61
+        },
+        {
             "name": "THOMAS CHACKO",
             "total_value": 34008
+        },
+        {
+            "name": "LIFECYCLE MARKETING (MOTHER & BABY)",
+            "total_value": 34000
+        },
+        {
+            "name": "E&C INDIVIDUAL & SMALL BUSINESS",
+            "total_value": 33956
         },
         {
             "name": "MR SAM GRODZINSKI QC",
@@ -4495,6 +4319,14 @@
         {
             "name": "THE NATIONAL EXHIBITION CENTRE",
             "total_value": 33600
+        },
+        {
+            "name": "AIAL Ltd c/o Pinsent Masons",
+            "total_value": 33437.31
+        },
+        {
+            "name": "EOL IT Services Limited",
+            "total_value": 33053.64
         },
         {
             "name": "N D & P Solicitors",
@@ -4517,6 +4349,10 @@
             "total_value": 32520
         },
         {
+            "name": "Law Officers Dept of the Jersey Gov",
+            "total_value": 32400
+        },
+        {
             "name": "FAITHFUL GOULD",
             "total_value": 32400
         },
@@ -4533,12 +4369,36 @@
             "total_value": 32257.7
         },
         {
+            "name": "GBS Re Treas Sol Client Monies",
+            "total_value": 32100
+        },
+        {
             "name": "JONATHAN BREMNER QC",
             "total_value": 32022
         },
         {
+            "name": "Gartner U.K. Limited",
+            "total_value": 31800
+        },
+        {
+            "name": "Cundall Johnston & Partners LLP",
+            "total_value": 31800
+        },
+        {
+            "name": "MR CHRISTOPHER FOULKES",
+            "total_value": 31747.2
+        },
+        {
             "name": "CERTES COMPUTING LTD",
             "total_value": 31743.42
+        },
+        {
+            "name": "HOOTSUITE ENTERPRISE",
+            "total_value": 31692.5
+        },
+        {
+            "name": "THE BRITISH SCHOOL OF BRUSSELS",
+            "total_value": 31673.95
         },
         {
             "name": "Wilmer Cutler Pickering",
@@ -4561,6 +4421,10 @@
             "total_value": 31337.98
         },
         {
+            "name": "KCOM GOUP LTD",
+            "total_value": 31171.2
+        },
+        {
             "name": "SCHEIDT&BACHMANN",
             "total_value": 31127.06
         },
@@ -4579,6 +4443,10 @@
         {
             "name": "Ebrit Fire Protection c/o Neil Clifford & Co",
             "total_value": 30865.3
+        },
+        {
+            "name": "Critical Simulations Ltd",
+            "total_value": 30840.91
         },
         {
             "name": "RUPERT BALDRY QC",
@@ -4605,11 +4473,23 @@
             "total_value": 30000
         },
         {
+            "name": "MR DAVID MILNE QC",
+            "total_value": 30000
+        },
+        {
             "name": "MAYVIN LIMITED",
             "total_value": 30000
         },
         {
             "name": "London Irish Holdings Ltd & Ors C/O Laytons LLP",
+            "total_value": 30000
+        },
+        {
+            "name": "Kingsley Napley LLP",
+            "total_value": 30000
+        },
+        {
+            "name": "John Copeland & Son",
             "total_value": 30000
         },
         {
@@ -4629,8 +4509,16 @@
             "total_value": 29918.7
         },
         {
+            "name": "CANFORD AUDIO PLC",
+            "total_value": 29901.11
+        },
+        {
             "name": "REACT ACTING FOR BUSINESS LTD",
             "total_value": 29880
+        },
+        {
+            "name": "CARTUS RELOCATION",
+            "total_value": 29879.98
         },
         {
             "name": "BALDERTECH LTD",
@@ -4641,12 +4529,28 @@
             "total_value": 29799.5
         },
         {
+            "name": "GOVERNMENT ACTUARY'S DEPARTMENT",
+            "total_value": 29702.72
+        },
+        {
             "name": "AM BEST EUROPE INFORMATION SERVICES LTD",
             "total_value": 29538
         },
         {
+            "name": "Minstrell Recruitment Ltd.",
+            "total_value": 29395.6
+        },
+        {
+            "name": "Vodafone Ltd",
+            "total_value": 29383.9
+        },
+        {
             "name": "HUMAN WORKSPACE LTD",
             "total_value": 29277.78
+        },
+        {
+            "name": "MR IMRAN AFZAL",
+            "total_value": 29179.99
         },
         {
             "name": "The Conygar Investment Company PLC",
@@ -4657,12 +4561,28 @@
             "total_value": 29100
         },
         {
+            "name": "INCHCAPE FLEET SOLUTIONS LTD",
+            "total_value": 28956.2
+        },
+        {
             "name": "PETER MANTLE",
             "total_value": 28936.8
         },
         {
             "name": "REMARK GLOBAL LTD",
             "total_value": 28882.42
+        },
+        {
+            "name": "COSTSDRAGON LTD",
+            "total_value": 28853
+        },
+        {
+            "name": "MR JONATHAN KINNEAR QC",
+            "total_value": 28836
+        },
+        {
+            "name": "Slater Gordon Lawyers",
+            "total_value": 28750
         },
         {
             "name": "Simon Alexander Consulting Limited",
@@ -4685,6 +4605,10 @@
             "total_value": 28178.4
         },
         {
+            "name": "Wickford Development Co. Ltd",
+            "total_value": 28000
+        },
+        {
             "name": "THINK DIFFERENT EVENTS LTD",
             "total_value": 28000
         },
@@ -4701,8 +4625,24 @@
             "total_value": 27774.8
         },
         {
+            "name": "REFINITIV LTD",
+            "total_value": 27763.2
+        },
+        {
             "name": "CPR Commercials Ltd",
             "total_value": 27500
+        },
+        {
+            "name": "RAJENDRA DESAI",
+            "total_value": 27264
+        },
+        {
+            "name": "HH ASSOCIATES LTD",
+            "total_value": 27219.98
+        },
+        {
+            "name": "ENVIRONMENT AGENCY",
+            "total_value": 27150
         },
         {
             "name": "Silvergrow Ltd. c/o ARC Costs",
@@ -4717,6 +4657,14 @@
             "total_value": 27000
         },
         {
+            "name": "LexisNexis Risk Solutions UK Ltd",
+            "total_value": 27000
+        },
+        {
+            "name": "RIGHTACRES PROPERTY CO LTD",
+            "total_value": 26652
+        },
+        {
             "name": "OWAIN THOMAS QC",
             "total_value": 26568
         },
@@ -4729,12 +4677,20 @@
             "total_value": 26000
         },
         {
+            "name": "WILLIAMS LEA LTD",
+            "total_value": 25927.63
+        },
+        {
             "name": "Inchcape Fleet Solutions Limited",
             "total_value": 25926.7
         },
         {
             "name": "NCC Filetab Limited",
             "total_value": 25920
+        },
+        {
+            "name": "BANK OF ENGLAND",
+            "total_value": 25883.65
         },
         {
             "name": "ANDREW MacNAB",
@@ -4745,8 +4701,20 @@
             "total_value": 25641
         },
         {
+            "name": "MR JONATHAN DAVEY QC",
+            "total_value": 25614
+        },
+        {
+            "name": "NCFE",
+            "total_value": 25610
+        },
+        {
             "name": "HEWLETT PACKARD LTD",
             "total_value": 25600
+        },
+        {
+            "name": "Telectica Ltd",
+            "total_value": 25560
         },
         {
             "name": "Roland DG (UK) Ltd",
@@ -4769,6 +4737,10 @@
             "total_value": 25182
         },
         {
+            "name": "VISUAL MEANING LTD",
+            "total_value": 25000
+        },
+        {
             "name": "AVISON YOUNG (GVA)",
             "total_value": 25000
         },
@@ -4789,8 +4761,36 @@
             "total_value": 23000
         },
         {
+            "name": "BUSINESS IN THE COMMUNITY",
+            "total_value": 23000
+        },
+        {
             "name": "VERIAN GROUP UK LTD",
             "total_value": 22572
+        },
+        {
+            "name": "ARC Window Films Ltd",
+            "total_value": 22430.5
+        },
+        {
+            "name": "POPULUS 2014 LTD T/AS POPULUS GROUP",
+            "total_value": 22278
+        },
+        {
+            "name": "TIER 1 ASSET MANAGEMENT LIMITED",
+            "total_value": 22159.21
+        },
+        {
+            "name": "CUSHMAN & WAKEFIELD LLP",
+            "total_value": 22045.19
+        },
+        {
+            "name": "SALMON HARVESTER PROPERTIES LTD",
+            "total_value": 21982.63
+        },
+        {
+            "name": "Russell Reynold Associates Ltd",
+            "total_value": 21980.97
         },
         {
             "name": "Eurofins Forensic Services Limited",
