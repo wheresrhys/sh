@@ -1,6 +1,7 @@
 import express, { NextFunction, Request, Response } from "express";
-import { getDBConnection } from "./db";
+import { getDBConnection } from "./lib/db";
 import knex from "knex";
+import moment from "moment";
 
 /**
  * This file has little structure and doesn't represent production quality code.
@@ -9,6 +10,10 @@ import knex from "knex";
  * Feel free to use knex's query builder or just plain sql using `knexDb.raw()`.
  *
  */
+
+function isValidDateTime(input: string) {
+  return moment(input, moment.ISO_8601, true).isValid();
+}
 
 const app = express();
 
@@ -32,6 +37,8 @@ app.get("/", (_req, res) => {
   `);
 });
 
+// To productionise I woudl split this into a /controllers directory
+
 /**
  * This operation exposes basic high level stats of the transaction database.
  */
@@ -41,7 +48,7 @@ app.get("/api/stats", async (_req, res) => {
   const result = await knexDb("spend_transactions").select(
     knexDb.raw("COUNT(*) AS transaction_count"),
     knexDb.raw("COUNT(DISTINCT supplier_name) as unique_suppliers"),
-    knexDb.raw("COUNT(DISTINCT buyer_name) as unique_buyers")
+    knexDb.raw("COUNT(DISTINCT buyer_name) as unique_buyers"),
   );
 
   const response: SpendStatsResponse = {
@@ -79,7 +86,7 @@ app.post("/api/supplier_stats", async (req, res, next) => {
       .select(
         knexDb.raw("COUNT(*) AS transaction_count"),
         knexDb.raw("SUM(amount) as total_value"),
-        knexDb.raw("COUNT(DISTINCT buyer_name) as unique_buyers")
+        knexDb.raw("COUNT(DISTINCT buyer_name) as unique_buyers"),
       );
 
     console.log(JSON.stringify(result));
@@ -95,10 +102,62 @@ app.post("/api/supplier_stats", async (req, res, next) => {
   }
 });
 
-app.post("/api/top_suppliers", async (_req, _res, next) => {
+type TopSuppliersRequest = {
+  buyer_name: string;
+  // would be good to use the ISO check as a type guard and have a new type
+  // ISO that extends string
+  from_date: string;
+  to_date: string;
+};
+
+type TopSuppliersResponse = {
+  top_suppliers: {
+    name: string;
+    total_amount: number;
+  }[];
+};
+
+app.post("/api/top_suppliers", async (req, res, next) => {
   try {
-    // TODO: Implement top suppliers API
-    throw new Error("Not implemented");
+    const knexDb = await getDBConnection();
+    const requestPayload = req.body as TopSuppliersRequest;
+    // In prod I'd probably use a schema based validator such as zod to
+    // avoid having to write repetitive validation code
+    if (!requestPayload.buyer_name) {
+      throw new Error("`buyer_name` must be specified.");
+    }
+
+    if (
+      !requestPayload.from_date ||
+      !isValidDateTime(requestPayload.from_date)
+    ) {
+      throw new Error(
+        "`from_date` must be specified using a valid ISO string.",
+      );
+    }
+
+    if (!requestPayload.to_date || !isValidDateTime(requestPayload.from_date)) {
+      throw new Error(
+        "`from_date` must be specified using a valid ISO string.",
+      );
+    }
+
+    const result = await knexDb("spend_transactions")
+      .where({ buyer_name: requestPayload.buyer_name })
+      .select(
+        knexDb.raw("supplier_name as name"),
+        knexDb.raw("SUM(amount) as total_value"),
+      )
+      .groupBy("supplier_name")
+      .orderBy("total_value", "desc");
+
+    // this avoids ugly repeating 99999's as a result of some calculations
+    result.forEach((result) => {
+      result.total_value = Math.round(100 * result.total_value) / 100;
+    });
+    res.json({
+      top_suppliers: result,
+    });
   } catch (err) {
     next(err);
   }

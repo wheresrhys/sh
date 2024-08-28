@@ -99,4 +99,19 @@ If you just want to disable strict type checking, modify `tsconfig.json` accordi
 
 # Candidate's notes
 
-TODO: Add your notes here
+- I've left quite a few comments in the code
+- Final data result for the exercise saved as result.json - I sorted it from highest to lowest (the task didn't explicitly ask for this, but it seemed sensible)
+
+## Notes on testing
+
+As mentioned a couple of times in the code I'd favour using some kind of schema based validation that's linked to types (zod looks decent, though I can't say I've used it). This would give some pretty robust mechanisms for dealing with bad input and reduce the need for hand crafting lots and lots of tests for each case. So other than a handful of integration tests to cover some example happy and error paths through the code, I would focus attention on testing things where types are less helpful. The existing tests for dealing with different date formats (all strings, so types don't help) are a good example of this. 
+
+More important for this application - which is going to encounter more and more different data formats - is to make sure logging and monitoring is informative enough. The logs I've added are not particularly good, and I would put a lot more effort into structuring the logs when a failure is encountered e.g. 
+
+```
+{
+   err: Error,
+   record: object,//the json object currently being worked on
+   url: String
+}
+```
